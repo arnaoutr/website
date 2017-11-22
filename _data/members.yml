@@ -11,18 +11,19 @@
 Bio'
 
 
-- name: 
-  image: 
-  altimage: 
-  position: 
-  email: name (at) ucsf.edu
-  scholar: 5kUDcJ0AAAAJ
-  website: "website"
-  twitter: "handle"
-  orcid: "orcid.org"
-  description: "Bio"
+
+#- name: 
+#  image: 
+#  altimage: 
+#  position: 
+#  email: name (at) ucsf.edu
+#  scholar: 5kUDcJ0AAAAJ
+#  website: "website"
+#  twitter: "handle"
+#  orcid: "orcid.org"
+#  description: "Bio"
   
-   has been supported by '
+#   has been supported by '
 
 # Rotation Students
 
