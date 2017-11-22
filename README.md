@@ -1,4 +1,4 @@
-# fraser-lab.github.io
+# arnaoutr.github.io
 ====================
 
 Technologies this website uses:  
@@ -12,5 +12,5 @@ Before pushing changes, please check that they will work on your system first wi
     sudo gem install bundler
     bundle install
     bundle exec jekyll serve
-    
-for specific instructions about making changes to the website, please check the wiki. It will (eventually) be populated with specific instructions for any changes you might want to make. If it isn't there, try to solve it but if you can't, ask Ben.
+
+this website is under construction, being adapted from open-source code kindly provided on github from the Fraser lab.
