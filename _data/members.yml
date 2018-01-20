@@ -1,35 +1,100 @@
-- name: Rima Arnaout
+- name: Rima Arnaout, MD
   image: /static/img/members/headshot_pic_rima.jpg
-  # altimage: /static/img/members/photobomb/FRASER.jpg
+  # altimage: 
   position: Principal Investigator
   email: rima.arnaout (at) ucsf.edu
   # scholar: j3iaoR8AAAAJ
-  # twitter: "fraser_lab"
+  # twitter: "arnaoutlab"
+  # website: http://profiles.ucsf.edu/rima.arnaout
   # orcid: "orcid.org/0000-0002-5080-2859"
-  # description: 'worked in the lab of [Francois Fagotto](http://biology.mcgill.ca/faculty/fagotto/) on [Xenopus developmental biology](/publications#20974811). Bio'
+  # description: 'Rima Arnaout is an Assistant Professor in Medicine (Cardiology) and a member of the UCSF Institute for Computational Health Sciences (ICHS). She is a physician-scientist with a background in genetics, clinical research and programming, and a practicing cardiologist board-certified in multi-modality cardiovascular imaging.'
+  # grants: ''
 
-
-
-#- name: 
+#- name: Erin Chinn, MS
 #  image: 
 #  altimage: 
-#  position: 
-#  email: name (at) ucsf.edu
-#  scholar: 5kUDcJ0AAAAJ
+#  position: Data Science Researcher
+#  email: erin.chinn (at) ucsf.edu
+#  github: github.com/emchinn
+#  linkedin: linkedin.com/in/erinchinn
+#  scholar: "scholar"
 #  website: "website"
 #  twitter: "handle"
 #  orcid: "orcid.org"
-#  description: "Bio"
+#  description: "Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master's Degree in Analytics from the University of San Francisco."
+#  has been supported by '
+
+
+# - name: Lara Curran, MD
+#  image: 
+#  position: Research Affiliate
+#  email: lara.groom (at) ucsf.edu
+#  github: 
+#  linkedin: 
+#  scholar: 
+#  website: 
+#  twitter: 
+#  orcid: 
+#  description: ""
+
+# - name: Claudia Portillo, BS
+#  image: 
+#  position: Research Affiliate
+#  email: claudia.portillo (at) ucsf.edu
+#  github: 
+#  linkedin: 
+#  scholar: 
+#  website: 
+#  twitter: 
+#  orcid: 
+#  description: "Claudia graduated from Vassar College with a Bachelor's degree in Biochemistry and is currently in the UC Berkeley post-Baccalaureate program. Claudia's interests include bench research and community health care. She is applying to medical school in the fall."
+
+# - name: Jon Renslo, BS
+#  image: 
+#  position: Research Affiliate
+#  email: jon.renslo (at) ucsf.edu
+#  github: 
+#  linkedin: 
+#  scholar: 
+#  website: 
+#  twitter: 
+#  orcid: 
+#  description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
+
+# Collaborators
+
+  # name: Ramy Arnaout, MD DPhil 
+  # image: 
+  # altimage: 
+  # position: 
+  # email:  (at) 
+  #  github: 
+  #  linkedin: 
+  # scholar: 
+  # twitter: ""
+  # website: http://arnaoutlab.org/
+  # orcid: ""
+  # description: 'Ramy is Assistant Professor of Pathology at BIDMC and Harvard Medical School. An alumnus of MIT, he received his doctorate in mathematical (systems) biology from Oxford University on a Marshall Scholarship and his MD from Harvard Medical School as a Soros Fellow. He completed residency in pathology at Brigham and Women's Hospital and postdoctoral work at the Broad Institute of MIT and Harvard.'
   
-#   has been supported by '
-
-# Rotation Students
-
-# Summer Students
-# - name: Andrew VanBenschoten
-#   image: /static/img/members/avanbenschoten.jpg
-#   position: Graduate Student
-#   email: andrew.vanbenschoten (at) ucsf.edu
-#   scholar: 6YlS0rQAAAAJ
-#   twitter: "vanben11"
-#   description: "Andrew completed his undergraduate studies in biology at MIT. While there, he worked with Cathy Drennan on determining the structure of metalloenzymes via X-ray crystallography. Andrew started at UCSF in the fall of 2011 and is investigating the features of diffuse X-ray scatter in several model protein systems and molecular machines."
+  # name: Anita Moon-Grady, MD
+  # image: 
+  # altimage: 
+  # position: Professor of Pediatrics
+  # email:  anita.grady (at) ucsf.edu
+  # scholar: 
+  # twitter: ""
+  # website: http://profiles.ucsf.edu/anita.moon-grady
+  # orcid: ""
+  # description: 'Dr. Anita Moon-Grady, director of the Fetal Cardiovascular Program at UCSF Benioff Children's Hospital, specializes in pediatric cardiology and neonatal and perinatal medicine. She has expertise in pediatric and fetal echocardiography, with research interests in diastolic dysfunction and fetal cardiovascular assessment.'
+  
+  # name: Lorraine James
+  # image: 
+  # altimage: 
+  # position: Research Affiliate
+  # email:  (at) ucsf.edu
+  # scholar: 
+  # twitter: ""
+  # website: http://profiles.ucsf.edu/
+  # orcid: ""
+  # description: 'Lorraine is a medical student at UT Southwestern currently on a research rotation at UCSF.'
+ 
