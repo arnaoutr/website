@@ -86,17 +86,17 @@
   # website: http://profiles.ucsf.edu/anita.moon-grady
   # orcid: ""
   # description: 'Dr. Anita Moon-Grady, director of the Fetal Cardiovascular Program at UCSF Benioff Children's Hospital, specializes in pediatric cardiology and neonatal and perinatal medicine. She has expertise in pediatric and fetal echocardiography, with research interests in diastolic dysfunction and fetal cardiovascular assessment.'
-  
-  # name: Nisha I. Parikh, MD MPH
+
+  # name: Brian Delisle, PhD
   # image: 
   # altimage: 
-  # position: Assistant Professor
-  # email: nisha.parikh (at) ucsf.edu
+  # position: Associate Professor
+  # email: brian.delisle (at) uky.edu
   # scholar: 
   # twitter: ""
-  # website: http://profiles.ucsf.edu/nisha.parikh
+  # website: https://physiology.med.uky.edu/users/bpdeli00#profileTab1
   # orcid: ""
-  # description: 'Dr. Parikh is a cardiovascular epidemiologist and population scientist. She has an MPH in epidemiology and biostatistics from the U.C. Berkeley School of Public Health and did her post-doctoral research fellowship at the Framingham Heart Study. Dr Parikh is devleoping risk stratification tools using pregnancy and childbirth as a 'cardiometabolic stress test' to predict later cardiovascular disease risk factors and overt cardiovascular disease in women.'
+  # description: 'Dr. Delisle's laboratory studies mechanisms that underlie the loss of function for different LQT1 and LQT2 missense mutations. His long-term goal is to identify strategies that improve the treatment of LQT-related arrhythmias.'
   
   # name: Jiandong Liu, PhD
   # image: 
@@ -108,6 +108,18 @@
   # website: http://liulab.web.unc.edu/
   # orcid: ""
   # description: 'Dr Liu's Lab combines genetics, molecular and cell biology to study cardiac development and function, focusing on the molecular mechanisms that link mechanical forces and genetic factors to cardiac morphogenesis. Their studies using zebrafish as a model system serve as the basic foundation to address the key questions in cardiac development and function, and could provide novel therapeutics for cardiac diseases.' 
+  
+  # name: Nisha I. Parikh, MD MPH
+  # image: 
+  # altimage: 
+  # position: Assistant Professor
+  # email: nisha.parikh (at) ucsf.edu
+  # scholar: 
+  # twitter: ""
+  # website: http://profiles.ucsf.edu/nisha.parikh
+  # orcid: ""
+  # description: 'Dr. Parikh is a cardiovascular epidemiologist and population scientist. She has an MPH in epidemiology and biostatistics from the U.C. Berkeley School of Public Health and did her post-doctoral research fellowship at the Framingham Heart Study. Dr Parikh is devleoping risk stratification tools using pregnancy and childbirth as a 'cardiometabolic stress test' to predict later cardiovascular disease risk factors and overt cardiovascular disease in women.'
+
   
   # name: Lorraine James
   # image: 
