@@ -1,16 +1,11 @@
-{% include header.html %}
+---
+layout: splash
+---
 
-<img class="img-responsive center-block" src="/static/img/color_doppler_cropped.jpg" alt="Fraser at UCSF, in molecular form">
-<div class="row-fluid">
-    <div class="col-sm-8">
-    	
-    	<div class="jumbotron">
-        	{{ content }}
-        </div>
-    </div>
-    <div class="col-sm-4">
-        {% include sidebar.html %}
-    </div>
-</div>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent News" }}</h3>
 
-{% include footer.html %}
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}

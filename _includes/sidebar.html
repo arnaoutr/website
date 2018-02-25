@@ -1,18 +1,23 @@
-<p><h3>Contact Us</h3>
-Rima Arnaout, MD <br>
-Assistant Professor <br>
-Division of Cardiology, Department of Medicine <br>
-University of California, San Francisco <br>
-<br>
-email: rima.arnaout (#!) ucsf.edu <br>
-<br>
-555 Mission Bay Blvd South Rm 484 <br>
-San Francisco, CA 94158 <br>
-</p>
-
-<h3> Recent Posts </h3>
-<ul>
-  {% for post in site.posts limit: 5 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | absolute_url }}"
+        {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+  </div>
+{% endif %}

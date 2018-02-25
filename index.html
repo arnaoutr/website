@@ -1,0 +1,64 @@
+---
+layout: splash
+author_profile: false
+title: ""
+#header:
+#  image: /assets/image/color_doppler_cropped.jpg
+---
+<style>
+/*@media (min-width: 769px) {
+    .jumbotron{
+    margin-left:28%;
+    }
+}
+    
+@media (max-width: 768px) {
+    .w3-sidebar {
+        display: none;
+    }
+    .jumbotron{
+        margin-left: 0%;
+        float: left;
+    }
+}*/
+
+/*h1{
+  font-family: 'PT Sans', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+#news a{
+  color: black;
+style="padding-bottom:50px; height:300px; width:100%;"
+}*/
+</style>
+
+
+<div class="jumbotron">
+  <center><img src="{{ site.baseurl }}/assets/image/heart_graphic_white.png" alt=""></center>
+  <br>
+  <center><h1 style="font-size:230%">Welcome to the Arnaout Lab!</h1></center>
+</div>
+
+<br>
+<br>
+<div id="news" style="float:left;">
+<h1> Recent News </h1>
+<hr>
+
+<!--<ul style="font-size:90%; list-style: none; padding-left:0; color:black;">-->   
+
+<ul style="font-size:90%; padding-left:20px; color:black;">   
+
+{% for p in site.posts %}
+    <li>
+     <strong><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></strong>
+     {{ p.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+</div>
+

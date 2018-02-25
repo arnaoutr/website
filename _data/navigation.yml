@@ -1,0 +1,26 @@
+# main links
+main:
+  - title: "research"
+    url: /research/
+  - title: "publications"
+    url: /publications/
+  - title: "members"
+    url: /members.html
+  - title: "news"
+    url: /news/
+  - title: "contact"
+    url: /contact/
+  
+# side or toggle navbar for members page
+members:
+  - title: The Arnaout Lab
+    children:
+      - title: "Principal Investigator"
+        url: /members.html/#Principal-Investigator
+      - title: "Members"
+        url: /members.html#Members
+      - title: "Collaborators"
+        url: /members.html#Collaborators
+      - title: "Alumni"
+        url: /members.html#Alumni
+  

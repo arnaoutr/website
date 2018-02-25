@@ -1,16 +1,8 @@
-# arnaoutr.github.io
-====================
+# The Arnaout Lab
 
-Technologies this website uses:  
+This is the official website of the Arnaout Lab at UCSF.
 
-    Jekyll  
-    Github Pages  
-    Twitter Bootstrap 3.2  
+This website uses the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
 
-Before pushing changes, please check that they will work on your system first with the plugins included in the Gemfile using the bundler tool (results served at [0.0.0.0:4000](0.0.0.0:4000)):
+[![GitHub release](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://github.com/mmistakes/minimal-mistakes/releases) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE.txt)
 
-    sudo gem install bundler
-    bundle install
-    bundle exec jekyll serve
-
-this website is under construction, being adapted from open-source code kindly provided on github from the Fraser lab.
