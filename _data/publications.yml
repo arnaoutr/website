@@ -1,3 +1,12 @@
+- citation: 'Guerra A, Germano RVF, Stone O, Arnaout R, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S. Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish. eLife. 2018 May 15;2018;7:e32833.' 
+  title: 'Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish.'
+  authors: 'Guerra A, Germano RVF, Stone O, **Arnaout R**, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S.'
+  journal: 'eLife'
+  year: '2018' 
+  date:  '2018 May 15'
+  image: ../static/img/pub/guerra_elife_2018.pdf
+  url: 'https://elifesciences.org/articles/32833'
+
 - citation: 'Arnaout R, Orr N, Gula LJ, Spears DA, Leong-Sit P, Li Q, Tarhuni W, Reischauer S, Chauhan VS, Borkovich M, Uppal S, Adler A, Coughlin SR, Stainier DY, Gollob MH. A mutation in the atrial-specific myosin light chain gene (MYL4) causes familial atrial fibrillation. Nat Commun. 2016 Apr 12;7:11303. doi: 10.1038/ncomms11303.' 
   title: 'A mutation in the atrial-specific myosin light chain gene (MYL4) causes familial atrial fibrillation.'
   authors: '**Arnaout R**, Orr N, Gula LJ, Spears DA, Leong-Sit P, Li Q, Tarhuni W, Reischauer S, Chauhan VS, Borkovich M, Uppal S, Adler A, Coughlin SR, Stainier DY, Gollob MH.'
@@ -5,9 +14,19 @@
   year: '2016' 
   date:  '2016 Apr 12'
   image: ../static/img/pub/arnaout_natcomm_2016.png
+  url: 'https://www.nature.com/articles/ncomms11303'
   pmid: '27066836' 
   pmcid: 'PMC4832069'
-  
+
+- citation: 'Madani A, Arnaout R, Mofrad M, Arnaout R. Fast and accurate view classification of echocardiograms using deep learning. npj Digitial Medicine. 2018 Mar 21.' 
+  title: 'Fast and accurate view classification of echocardiograms using deep learning.'
+  authors: 'Madani A, Arnaout R, Mofrad M, **Arnaout R**.'
+  journal: 'npj Digital Medicine'
+  year: '2018'
+  date: '2018 Mar 21'
+  image: ../static/img/pub/madani_npjdm_2018.jpg
+  url: 'https://www.nature.com/articles/s41746-017-0013-1' 
+
 - citation: 'Brown D, Samsa LA, Ito C, Ma H, Batres K, Arnaout R, Qian L, Liu J. Neuregulin-1 is essential for nerve plexus formation during cardiac maturation. J Cell Mol Med. 2017 Dec 19. doi: 10.1111/jcmm.13408. [Epub ahead of print]'
   title: 'Neuregulin-1 is essential for nerve plexus formation during cardiac maturation.'
   authors: 'Brown D, Samsa LA, Ito C, Ma H, Batres K, **Arnaout R**, Qian L, Liu J.'
