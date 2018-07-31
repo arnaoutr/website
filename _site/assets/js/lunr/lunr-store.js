@@ -18,4 +18,29 @@ var store = [{
         "excerpt":"","categories": [],
         "tags": [],
         "url": "http://localhost:4000/rima-interview/",
+        "teaser":null},{
+        "title": "<a href='https://spectrum.ieee.org/the-human-os/biomedical/diagnostics/ai-cardiologist-aces-its-first-medical-exam'>AI Cardiologist Aces Its First Medical Exam — IEEE Spectrum</a>",
+        "excerpt":"","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/IEEE/",
+        "teaser":null},{
+        "title": "<a href='https://www.cnet.com/news/ai-can-quickly-and-efficiently-analyze-heart-scans/'>View classification for echocardiograms on CNET</a>",
+        "excerpt":"","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/CNET/",
+        "teaser":null},{
+        "title": "<a href='http://www.cell.com/cell/abstract/S0092-8674(18)30460-4'>Artificial Intelligence Is Becoming Natural — Cell</a>",
+        "excerpt":"","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Cell/",
+        "teaser":null},{
+        "title": "<a href='https://accelerate.ucsf.edu/funding/catalyst-awardees#spring18'>Arnaout Lab Wins UCSF Catalyst Award</a>",
+        "excerpt":"","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Catalyst/",
+        "teaser":null},{
+        "title": "<a href='https://spectrum.ieee.org/biomedical/devices/making-medical-ai-trustworthy-and-transparent'>Making Medical AI Trustworthy and Transparent — IEEE Spectrum</a>",
+        "excerpt":"","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/IEEE/",
         "teaser":null}]

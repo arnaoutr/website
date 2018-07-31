@@ -112,7 +112,7 @@
 <!-- end custom head snippets -->
   </head>
 
-  <body class="layout--splash">
+  <body class="layout--members_layout">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -134,12 +134,12 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/pubs-2/" >publications</a>
+              <a href="http://localhost:4000/publications/" >publications</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://localhost:4000/members-2.html" >members</a>
+              <a href="http://localhost:4000/members.html" >members</a>
             </li>
           
             
@@ -169,7 +169,60 @@
     
 
     <div class="initial-content">
-      
+      <!--Source for flexible two-column layout:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
+<!--Source for equal-height columns CSS (not used here):http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css-->
+<style>
+
+.column img {
+   align:left;
+   border-radius:50%;
+   width:280px;
+   height:280px;
+   margin-bottom: 25px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+.column {
+    float: left;
+    overflow: hidden;
+}
+
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 1000px) {
+    .column {
+        width: 100%;
+    }
+} 
+</style>
+
+
+
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
@@ -179,295 +232,334 @@
     
 
     <section class="page__content" itemprop="text">
-      <h1 id="Principal-Investigator">Principal Investigator</h1>
+      <h1 style="font-size:180%;"> The Arnaout Lab </h1>
+<hr />
+
 <p><br /></p>
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<!--Principal Invesigator-->
 
-<div id="Rima Arnaout, MD" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        <img class="img-responsive" src="static/img/members/rima_arnaout.jpg" style="align:left;border-radius:50%;width:280px;height:280px" />
-	<br /> <br />
-        <strong>Rima Arnaout, MD</strong>
-         , Principal Investigator 
-        <br />
-        <strong>Email</strong>: <em>rima.arnaout (at) ucsf.edu</em> 
-        <br />
-        
-        
-          <strong>Web</strong>: <a href="http://profiles.ucsf.edu/rima.arnaout">http://profiles.ucsf.edu/rima.arnaout</a> <br />
-        
-        
-        
-        
-          <strong>Twitter</strong>: <a href="http://twitter.com/arnaoutlab"> @arnaoutlab </a> <br />
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Rima Arnaout is an Assistant Professor in <a href="https://cardiology.ucsf.edu/">Medicine (Cardiology)</a>, a member of the  <a href="http://bakarinstitute.ucsf.edu/"> Bakar Computational Health Sciences Institute at UCSF </a>, and a member of the  <a href="http://bmi.ucsf.edu/"> UCSF Graduate Program in Biological and Medical Informatics </a>. She is a physician-scientist with a background in genetics, clinical research and programming, and a practicing cardiologist board-certified in multi-modality cardiovascular imaging.</p>
+<h1 id="Principal-Investigator">Principal Investigator</h1>
+<p><br /></p>
+
+<div class="row">
+  <div class="column left">
+    <img class="img-responsive" src="static/img/members/rima_arnaout.jpg" />
+    <br />
+    <strong>Rima Arnaout, MD</strong>
+
+     , Principal Investigator 
+    <br />
+    <strong>Email</strong>: <em>rima.arnaout (at) ucsf.edu</em> 
+    <br />
+    
+    
+    
+    <strong>Web</strong>: <a href="http://profiles.ucsf.edu/rima.arnaout">http://profiles.ucsf.edu/rima.arnaout</a> <br />
+    
+    
+    
+
+    
+    
+    
+    <strong>Twitter</strong>: <a href="http://twitter.com/arnaoutlab"> @arnaoutlab </a> <br />
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Rima Arnaout is an Assistant Professor in <a href="https://cardiology.ucsf.edu/">Medicine (Cardiology)</a>, a member of the <a href="http://bakarinstitute.ucsf.edu/">Bakar Computational Health Sciences Institute</a>, and faculty in the UCSF <a href="http://bmi.ucsf.edu">Graduate Program in Biological and Medical Informatics</a>. She is a physician-scientist with a background in genetics, clinical research and programming, and a practicing cardiologist board-certified in multi-modality cardiovascular imaging.</p>
 </p>
-    </div>
+
+  </div>
 </div>
 <hr />
+
+<p><br /></p>
+
+<!--Members-->
 
 <h1 id="Members">Members</h1>
+<p><br /></p>
+
+<div class="row">
+  <div class="column left">
+    
+    <img class="img-responsive" src="static/img/members/erin_chinn.jpg" />
+    <br />
+    
+    <strong>Erin Chinn, MS</strong>
+
+     , Data Science Researcher 
+    <br />
+    <strong>Email</strong>: <em>erin.chinn (at) ucsf.edu</em> 
+    <br />
+    
+    <strong>Github</strong>: <a href="https://github.com/emchinn">emchinn </a> <br />
+    
+    
+    
+    
+    
+    <strong>LinkedIn</strong>: <a href="http://linkedin.com/in/{person.linkedin}}">erinchinn</a> <br />
+    
+
+    
+    
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master’s Degree in Analytics from the University of San Francisco.</p>
+</p>
+
+  </div>
+</div>
+<hr />
+
+<div class="row">
+  <div class="column left">
+    
+    <img class="img-responsive" src="static/img/members/lara_curran.jpg" />
+    <br />
+    
+    <strong>Lara Curran, MBBS BSc</strong>
+
+     , Visiting Research Scholar 
+    <br />
+    <strong>Email</strong>: <em>lara.groom (at) ucsf.edu</em> 
+    <br />
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Dr. Curran is trained in internal medicine and has an interest in cardiology. She is a visiting researcher from the UK.</p>
+</p>
+
+  </div>
+</div>
+<hr />
+
+<div class="row">
+  <div class="column left">
+    
+    <img class="img-responsive" src="static/img/members/claudia_portillo.jpg" />
+    <br />
+    
+    <strong>Claudia Portillo, BS</strong>
+
+     , Research Affiliate 
+    <br />
+    <strong>Email</strong>: <em>claudia.portillo (at) ucsf.edu</em> 
+    <br />
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Claudia graduated from Vassar College with a Bachelor’s degree in Biochemistry and is currently in the UC Berkeley post-Baccalaureate program. Claudia’s interests include bench research and community health care. She is applying to medical school in the fall.</p>
+</p>
+
+  </div>
+</div>
+<hr />
+
+<div class="row">
+  <div class="column left">
+    
+    <img class="img-responsive" src="static/img/members/jon_renslo.jpg" />
+    <br />
+    
+    <strong>Jon Renslo, BS</strong>
+
+     , Research Affiliate 
+    <br />
+    <strong>Email</strong>: <em>jon.renslo (at) ucsf.edu</em> 
+    <br />
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Jon graduated with a Bachelor’s degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician.</p>
+</p>
+
+  </div>
+</div>
+<hr />
 
 <p><br /></p>
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-
-<div id="Erin Chinn, MS" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <img class="img-responsive" src="static/img/members/erin_chinn.jpg" style="align:left;border-radius:50%;width:280px;height:280px" />
-	<br /><br />
-        
-        <strong>Erin Chinn, MS</strong>, Data Science Researcher <br />
-        <strong>Email</strong>: <em>erin.chinn (at) ucsf.edu</em> 
-        <br />
-        
-          <strong>Github</strong>: <a href="https://github.com/emchinn">emchinn </a> <br />
-        
-        
-        
-          <strong>LinkedIn</strong>: <a href="http://linkedin.com/in/{person.linkedin}}">erinchinn</a> <br />
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master’s Degree in Analytics from the University of San Francisco.</p>
-</p>
-    </div>
-</div>
-<hr />
-
-<!--<hr style="height:4px; border:none; color:#000; background-color:#000; width:15%; text-align:left; margin: 5 5 0 5;">-->
-
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-
-<div id="Lara Curran, MBBS BSc" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <img class="img-responsive" src="static/img/members/lara_curran.jpg" style="align:left;border-radius:50%;width:280px;height:280px" />
-	<br /><br />
-        
-        <strong>Lara Curran, MBBS BSc</strong>, Visiting Research Scholar <br />
-        <strong>Email</strong>: <em>lara.groom (at) ucsf.edu</em> 
-        <br />
-        
-        
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Dr. Curran is trained in internal medicine and has an interest in cardiology. She is a visiting researcher from the UK and has matched into her top choice for cardiology fellowship.</p>
-</p>
-    </div>
-</div>
-<hr />
-
-<!--<hr style="height:4px; border:none; color:#000; background-color:#000; width:15%; text-align:left; margin: 5 5 0 5;">-->
-
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-
-<!--<hr style="height:4px; border:none; color:#000; background-color:#000; width:15%; text-align:left; margin: 5 5 0 5;">-->
-
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
-
-<div id="Jon Renslo, BS" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <img class="img-responsive" src="static/img/members/jon_renslo.jpg" style="align:left;border-radius:50%;width:280px;height:280px" />
-	<br /><br />
-        
-        <strong>Jon Renslo, BS</strong>, Research Affiliate <br />
-        <strong>Email</strong>: <em>jon.renslo (at) ucsf.edu</em> 
-        <br />
-        
-        
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Jon graduated with a Bachelor’s degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician.</p>
-</p>
-    </div>
-</div>
-<hr />
-
-<!--<hr style="height:4px; border:none; color:#000; background-color:#000; width:15%; text-align:left; margin: 5 5 0 5;">-->
-
-<p><br /></p>
+<!--Collaborators-->
 
 <h1 id="Collaborators">Collaborators</h1>
 <p><br /></p>
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<div class="row">
+  <div class="column left">
+    
+    <strong>Ramy Arnaout, MD</strong>
 
-<div id="Ramy Arnaout, MD" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <strong>Ramy Arnaout, MD</strong>
-        
-        <br />
-        
-        <strong>Email</strong>: <em>rarnaout (at) bidmc.harvard.edu</em> 
-        <br />
-        
-        
-          <strong>Web</strong>: <a href="http://arnaoutlab.org">http://arnaoutlab.org</a> <br />
-        
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Ramy is Assistant Professor of Pathology at BIDMC and Harvard Medical School. An alumnus of MIT, he received his doctorate in mathematical (systems) biology from Oxford University on a Marshall Scholarship and his MD from Harvard Medical School as a Soros Fellow. He completed residency in pathology at Brigham and Women’s Hospital and postdoctoral work at the Broad Institute of MIT and Harvard.</p>
+    
+    <br />
+    
+    <strong>Email</strong>: <em>rarnaout (at) bidmc.harvard.edu</em> 
+    <br />
+    
+    
+    
+    
+    <strong>Web</strong>: <a href="http://arnaoutlab.org">http://arnaoutlab.org</a> <br />
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Ramy is Assistant Professor of Pathology at BIDMC and Harvard Medical School. An alumnus of MIT, he received his doctorate in mathematical (systems) biology from Oxford University on a Marshall Scholarship and his MD from Harvard Medical School as a Soros Fellow. He completed residency in pathology at Brigham and Women’s Hospital and postdoctoral work at the Broad Institute of MIT and Harvard.</p>
 </p>
-    </div>
+
+  </div>
 </div>
 <hr />
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<div class="row">
+  <div class="column left">
+    
+    <strong>Nisha I. Parikh, MD MPH</strong>
 
-<div id="Anita Moon-Grady, MD" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <strong>Anita Moon-Grady, MD</strong>
-         , Professor of Pediatrics 
-        <br />
-        
-        <strong>Email</strong>: <em>anita.grady (at) ucsf.edu</em> 
-        <br />
-        
-        
-          <strong>Web</strong>: <a href="http://profiles.ucsf.edu/anita.moon-grady">http://profiles.ucsf.edu/anita.moon-grady</a> <br />
-        
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Dr. Anita Moon-Grady, director of the Fetal Cardiovascular Program at UCSF Benioff Children’s Hospital, specializes in pediatric cardiology and neonatal and perinatal medicine. She has expertise in pediatric and fetal echocardiography, with research interests in diastolic dysfunction and fetal cardiovascular assessment.</p>
+     , Assistant Professor 
+    <br />
+    
+    <strong>Email</strong>: <em>nisha.parikh (at) ucsf.edu</em> 
+    <br />
+    
+    
+    
+    
+    <strong>Web</strong>: <a href="http://profiles.ucsf.edu/nisha.parikh">http://profiles.ucsf.edu/nisha.parikh</a> <br />
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Dr. Parikh is a cardiovascular epidemiologist and population scientist. She has an MPH in epidemiology and biostatistics from the U.C. Berkeley School of Public Health and did her post-doctoral research fellowship at the Framingham Heart Study. Dr Parikh is devleoping risk stratification tools using pregnancy and childbirth as a ‘cardiometabolic stress test’ to predict later cardiovascular disease risk factors and overt cardiovascular disease in women.</p>
 </p>
-    </div>
+
+  </div>
 </div>
 <hr />
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<div class="row">
+  <div class="column left">
+    
+    <strong>Jiandong Liu, PhD</strong>
 
-<div id="Nisha I. Parikh, MD MPH" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <strong>Nisha I. Parikh, MD MPH</strong>
-         , Assistant Professor 
-        <br />
-        
-        <strong>Email</strong>: <em>nisha.parikh (at) ucsf.edu</em> 
-        <br />
-        
-        
-          <strong>Web</strong>: <a href="http://profiles.ucsf.edu/nisha.parikh">http://profiles.ucsf.edu/nisha.parikh</a> <br />
-        
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Dr. Parikh is a cardiovascular epidemiologist and population scientist. She has an MPH in epidemiology and biostatistics from the U.C. Berkeley School of Public Health and did her post-doctoral research fellowship at the Framingham Heart Study. Dr Parikh is devleoping risk stratification tools using pregnancy and childbirth as a ‘cardiometabolic stress test’ to predict later cardiovascular disease risk factors and overt cardiovascular disease in women.</p>
+     , Assistant Professor 
+    <br />
+    
+    <strong>Email</strong>: <em>jiandong_liu (at) med.unc.edu</em> 
+    <br />
+    
+    
+    
+    
+    <strong>Web</strong>: <a href="http://liulab.web.unc.edu">http://liulab.web.unc.edu</a> <br />
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+
+  <div class="column left">
+
+    <p class="text-justify"><p>Dr Liu’s Lab combines genetics, molecular and cell biology to study cardiac development and function, focusing on the molecular mechanisms that link mechanical forces and genetic factors to cardiac morphogenesis. Their studies using zebrafish as a model system serve as the basic foundation to address the key questions in cardiac development and function, and could provide novel therapeutics for cardiac diseases.</p>
 </p>
-    </div>
+
+  </div>
 </div>
 <hr />
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<p><br /></p>
 
-<div id="Jiandong Liu, PhD" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <strong>Jiandong Liu, PhD</strong>
-         , Assistant Professor 
-        <br />
-        
-        <strong>Email</strong>: <em>jiandong_liu (at) med.unc.edu</em> 
-        <br />
-        
-        
-          <strong>Web</strong>: <a href="http://liulab.web.unc.edu">http://liulab.web.unc.edu</a> <br />
-        
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Dr Liu’s Lab combines genetics, molecular and cell biology to study cardiac development and function, focusing on the molecular mechanisms that link mechanical forces and genetic factors to cardiac morphogenesis. Their studies using zebrafish as a model system serve as the basic foundation to address the key questions in cardiac development and function, and could provide novel therapeutics for cardiac diseases.</p>
-</p>
-    </div>
-</div>
-<hr />
-
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<!--Alumni-->
 
 <h1 id="Alumni">Alumni</h1>
 <p><br /></p>
 
-<!-- The paddingtop and margin-top edits allow anchors to link properly. -->
+<div class="row">
+  <div class="column left">
+    
+    <strong>Sabeen Kazimi</strong>
 
-<div id="Claudia Portillo, BS" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <img class="img-responsive" src="static/img/members/claudia_portillo.jpg" style="align:left;border-radius:50%;width:280px;height:280px" />
-  <br /><br />
-        
-        <strong>Claudia Portillo, BS</strong>, Research Affiliate <br />
-        <strong>Email</strong>: <em>claudia.portillo (at) ucsf.edu</em> 
-        <br />
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Claudia graduated from Vassar College with a Bachelor’s degree in Biochemistry and is currently in the UC Berkeley post-Baccalaureate program. Claudia’s interests include bench research and community health care. She is applying to medical school in the fall.</p>
-</p>
-    </div>
-</div>
-<hr />
+    
+    <br />
+    
+    
+    
+    
+    
+    
 
+    
+    
+    
 
-<div id="Sabeen Kazimi" class="row" style="padding-top: 0px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <strong>Sabeen Kazimi</strong>
-        
-        <br />
-        
-<div id="Lorraine James" class="row" style="padding-top: 60px; margin-top: -60px; font-size:85%;">
-    <div class="col-sm-4">
-        
-        <strong>Lorraine James</strong>
-         , Research Affiliate 
-        <br />
-        <br />
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify"><p>Lorraine is a medical student at UT Southwestern currently on a research rotation at UCSF.</p>
-</p>
-    </div>
-</div>
-<hr />
-        
-        
-        
-        
-        
-    </div>
-    <div class="col-sm-8">
-        <p class="text-justify">
-</p>
-    </div>
+  </div>
+
+  <div class="column left">
+    
+
+  </div>
 </div>
 <hr />
 
@@ -475,6 +567,8 @@
     </section>
   </article>
 </div>
+
+
 
     </div>
 
