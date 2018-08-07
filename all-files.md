@@ -1,8 +1,9 @@
+## repository files
+
 assets
 	css
 	image
-		color_doppler_cropped.jpg (keep)
-		heart_graphic_white.png (keep)
+		heart\_graphic\_white.png
 	js
 banner.js
 CNAME
@@ -13,7 +14,7 @@ _data
 	members.yml
 	navigation.yml
 	pi.yml
-	_publications (can delete)
+	publications.yml
 	ui-text.yml
 favicon.ico: the favicon
 Gemfile
@@ -26,12 +27,9 @@ minimal-mistakes-jekyll.gemspec
 package.json
 _pages
 	contact.md
-	members (delete)
-	members-2.md (delete)
 	members.md
 	news.md
 	publications.md
-	pubs-2.md
 	research.md
 _posts
 	2013-07-01-rima-joins.md
@@ -73,18 +71,19 @@ _site
 	static
 	staticman.yml
 static
-	img (only keep the used ones)
-		color_doppler_1.jpg
-		color_doppler_2.jpg
-		color_dopp
-		website_image.jpg
-	members
-		claudia_portillo.jpg
-		erin_chinn.jpg
-		jon_renslo.jpg
-		lara_curran.jpg
-		rima_arnaout.jpg
-		_site (why?)	
+	img
+		members
+			claudia_portillo.jpg
+			erin_chinn.jpg
+			jon_renslo.jpg
+			lara_curran.jpg
+			rima_arnaout.jpg
+				_site (generated when site renders)
+					claudia_portillo.jpg
+					erin_chinn.jpg
+					jon_renslo.jpg
+					lara_curran.jpg
+					rima_arnaout.jpg
 	pub
 		all publication images
 staticman.yml
