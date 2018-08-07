@@ -5,6 +5,14 @@ Hello! This document explains the website repository and outlines how to make ch
 
 This website uses the minimal mistakes Jekyll theme. Documentation for this theme is found here: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/. This guide is useful if you wish to change the layout and structure of the website. If you wish to simply change the content of the website, here is what you need to know:
 
+(1) The only .html file that you would edit is for the homepage, index.html. Otherwise, you should edit a .md file. The reason is that the HTML of this website is generated from the Markdown files; therefore, you should not change anything in the "_site" directory.
+
+(2) The Members, Publications and News pages are written in Markdown under the "\_pages" directory as loops that read in data from a .yml file found in the "\_data" directory. 
+
+(3) You can store images in either the "assets" folder or the "static" folder. For member or publications images, it is best to keep them in the "static" folder. 
+
+
+## instructions by page
 
 **home** (Welcome to the Arnaout Lab)
 * the current website image can be found here: assets/image/
