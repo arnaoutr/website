@@ -1,0 +1,92 @@
+assets
+	css
+	image
+		color_doppler_cropped.jpg (keep)
+		heart_graphic_white.png (keep)
+	js
+banner.js
+CNAME
+_config.yml
+_data
+	alumni.yml
+	collaborators.yml
+	members.yml
+	navigation.yml
+	pi.yml
+	_publications (can delete)
+	ui-text.yml
+favicon.ico: the favicon
+Gemfile
+Gemfile.lock
+_includes
+index.html
+_layouts
+LICENSE.txt
+minimal-mistakes-jekyll.gemspec
+package.json
+_pages
+	contact.md
+	members (delete)
+	members-2.md (delete)
+	members.md
+	news.md
+	publications.md
+	pubs-2.md
+	research.md
+_posts
+	2013-07-01-rima-joins.md
+	2017-11-08-new-data.md
+	2017-11-13-best-abstract.md
+	2017-12-26-rima-interview.md
+	2018-03-22-IEEE.md
+	2018-03-26-CNET.md
+	2018-04-19-Cell.md
+	2018-07-10-Catalyst.md
+	2018-07-27-IEEE.md
+Rakefile
+README.md
+_sass
+	minimal-mistakes
+		_.scss
+	minimal-mistakes.scss
+	site
+		minimal-mistakes.scss
+_site
+	assets
+	banner.js
+	best-abstract
+	contact
+	feed.xml
+	index.html
+	members-2.html
+	members.html
+	minimal-mistakes-jekyll.gemspec
+	new-data
+	news
+	publications
+	pubs-2
+	research
+	rima-interview
+	rima-joins
+	robots.txt
+	sitemap.xml
+	static
+	staticman.yml
+static
+	img (only keep the used ones)
+		color_doppler_1.jpg
+		color_doppler_2.jpg
+		color_dopp
+		website_image.jpg
+	members
+		claudia_portillo.jpg
+		erin_chinn.jpg
+		jon_renslo.jpg
+		lara_curran.jpg
+		rima_arnaout.jpg
+		_site (why?)	
+	pub
+		all publication images
+staticman.yml
+tasks
+test
