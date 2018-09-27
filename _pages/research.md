@@ -22,6 +22,7 @@ Dr. Arnaout is currently developing computational methods to bring precision phe
 <h1> Affiliated organizations</h1>
 <hr>
 [The AHA Precision Medicine Institute](https://precision.heart.org)<br>
+[The Chan Zuckerberg Biohub](https://www.czbiohub.org)<br>
 [Pediatric Cardiac Genomics Consortium](https://benchtobassinet.com/About/AboutPCGC.aspx)<br>
 [Sarnoff Cardiovascular Research Foundation](http://www.sarnofffoundation.org/)<br>
 [NIH National Heart, Lung and Blood Institutes](https://www.nhlbi.nih.gov/)<br>
