@@ -27,13 +27,13 @@ email: rima.arnaout (at) ucsf.edu <br>
 
 We are hiring a data scientist and a data engineer with early-to-mid career skills and experience. Applications will be accepted through November 30, 2018. Both positions offer an opportunity to participate in cutting-edge research with transformational impact to clinical and research medicine across a wide array of diseases, working with decades of high-quality imaging data alongside clinical domain experts. Both positions also provide opportunities to publish, present at research conferences, and for professional advancement. Salary and benefits are set according to experience and to UCSF salary scales.
 
-Both positions require:
-•	strong interpersonal and communication skills
-•	working with patient data in a HIPPA-compliant and morally and ethically responsible manner
-•	working closely with an expert interdisciplinary team including both medical and data science professionals
-•	working independently to complete assigned responsibilities
-•	strong organizational, record-keeping, and written and oral communication skills
-•	strong motivation to apply pioneering breakthroughs to the practical, personalized everyday care of patients
+Both positions require:<br>
+•	strong interpersonal and communication skills<br>
+•	working with patient data in a HIPPA-compliant and morally and ethically responsible manner<br>
+•	working closely with an expert interdisciplinary team including both medical and data science professionals<br>
+•	working independently to complete assigned responsibilities<br>
+•	strong organizational, record-keeping, and written and oral communication skills<br>
+•	strong motivation to apply pioneering breakthroughs to the practical, personalized everyday care of patients<br>
 
 Inquiries should be emailed directly to Dr. Arnaout and should include a CV and a letter of interest clearly but briefly articulating why you are interested in joining the lab. Graduate and postdoctoral candidates will be encouraged to explore applying for extramural fellowships to support their research.
 
@@ -44,16 +44,16 @@ Inquiries should be emailed directly to Dr. Arnaout and should include a CV and 
 <br>
 The Arnaout laboratory at UCSF seeks a highly motivated data engineer to harmonize hospital-wide imaging data and associated tools for research.
 <br>
-In addition to the above, the successful candidate will:
-•	be proficient in designing and implementing a system to scale preprocessing, storage, query, and transfer of hospital-wide medical imaging data as well as related clinical metadata, through structured (eg SQL) or unstructured databases
-•	be proficient in mining and ‘cleaning’ data of several types (e.g. semi-structured text, images, vectors/matrices)
-•	be proficient in organizing and deploying code and data-labeling tasks across members of the research team (through either home-grown or off-the-shelf solutions)
+In addition to the above, the successful candidate will:<br>
+•	be proficient in designing and implementing a system to scale preprocessing, storage, query, and transfer of hospital-wide medical imaging data as well as related clinical metadata, through structured (eg SQL) or unstructured databases<br>
+•	be proficient in mining and ‘cleaning’ data of several types (e.g. semi-structured text, images, vectors/matrices)<br>
+•	be proficient in organizing and deploying code and data-labeling tasks across members of the research team (through either home-grown or off-the-shelf solutions)<br>
 <br>
-Requirements:
-•	A Master’s, PhD, or similar degree in computer science or related field. Would consider a candidate with an alternate background with demonstrated experience in computer science and biomedical research (e.g., MD with dedicated clinical informatics or data engineering fellowship training; BS with demonstrated postgraduate experience in data engineering).
-•	Fluency with Python, SQL, distributed/cloud computing (e.g. AWS, GCP), shell scripting. Proficiency in applying supervised machine learning techniques (eg neural networks, random forests, and support vector machines) to medical data is a plus.
-
-
+Requirements:<br>
+•	A Master’s, PhD, or similar degree in computer science or related field. Would consider a candidate with an alternate background with demonstrated experience in computer science and biomedical research (e.g., MD with dedicated clinical informatics or data engineering fellowship training; BS with demonstrated postgraduate experience in data engineering).<br>
+•	Fluency with Python, SQL, distributed/cloud computing (e.g. AWS, GCP), shell scripting. Proficiency in applying supervised machine learning techniques (eg neural networks, random forests, and support vector machines) to medical data is a plus.<br>
+<br>
+<br>
 
 <strong>Position Announcement — Data Scientist</strong><br>
 <br>
