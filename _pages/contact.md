@@ -59,13 +59,14 @@ Requirements:<br>
 <br>
 The Arnaout laboratory at UCSF seeks a highly motivated data scientist to develop and implement deep-learning and related methods to revolutionize cardiovascular imaging.
 <br>
-In addition to the above, the successful candidate will:
-•	be proficient in ‘cleaning’ data of several types (e.g. semi-structured text, images, vectors/matrices)
-•	be proficient in applying supervised and unsupervised machine learning and other computational techniques (including but not limited to neural networks, discriminant analysis, tree-based methods, boosting, random forests, and support vector machines, as well as [incremental] principal/independent component analysis, t-SNE, and data augmentation techniques) to imaging data
-•	be proficient in producing excellent data visualizations and analyses for machine learning results
+In addition to the above, the successful candidate will:<br>
+•	be proficient in ‘cleaning’ data of several types (e.g. semi-structured text, images, vectors/matrices)<br>
+•	be proficient in applying supervised and unsupervised machine learning and other computational techniques (including but not limited to neural networks, discriminant analysis, tree-based methods, boosting, random forests, and support vector machines, as well as [incremental] principal/independent component analysis, t-SNE, and data augmentation techniques) to imaging data<br>
+•	be proficient in producing excellent data visualizations and analyses for machine learning results<br><br>
 <br>
-Requirements: 
-•	A Master’s, PhD, or similar degree in computer science or related field. Would consider a candidate with an alternate background with demonstrated experience in computer science and biomedical research (e.g., MD with dedicated clinical informatics or data science fellowship training; BS with demonstrated postgraduate experience in machine learning)
-•	Fluency with Python, Pandas, Keras, Tensorflow/Theano, and related programming languages, as well as data visualizations (ideally using d3.js, R, Matlab, pylab, seaborn, etc). Specific experience with computer vision projects, and with AWS/cloud computing is a plus.
+Requirements:<br> 
+•	A Master’s, PhD, or similar degree in computer science or related field. Would consider a candidate with an alternate background with demonstrated experience in computer science and biomedical research (e.g., MD with dedicated clinical informatics or data science fellowship training; BS with demonstrated postgraduate experience in machine learning)<br>
+•	Fluency with Python, Pandas, Keras, Tensorflow/Theano, and related programming languages, as well as data visualizations (ideally using d3.js, R, Matlab, pylab, seaborn, etc). Specific experience with computer vision projects, and with AWS/cloud computing is a plus.<br>
+<br>
 
 
