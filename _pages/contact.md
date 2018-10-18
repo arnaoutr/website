@@ -10,18 +10,6 @@ permalink: /contact/
   <br>
 </div>
 
-<h1> Contact the Arnaout Lab </h1>
-<hr>
-
-<strong>Rima Arnaout</strong>, Assistant Professor <br>
-Division of Cardiology, Department of Medicine <br>
-Bakar Institute for Computational Health Sciences <br>
-Graduate Program in Biological and Medical Informatics <br>
-University of California, San Francisco <br>
-email: rima.arnaout (at) ucsf.edu <br>
-<i>505 Parnassus Avenue</i> <br>
-<i>San Francisco, CA 94143</i> <br>
-<br>
 <h1 id="join-us"> We Are Hiring! </h1>
 <hr>
 
@@ -69,4 +57,16 @@ Requirements:<br>
 •	Fluency with Python, Pandas, Keras, Tensorflow/Theano, and related programming languages, as well as data visualizations (ideally using d3.js, R, Matlab, pylab, seaborn, etc). Specific experience with computer vision projects, and with AWS/cloud computing is a plus.<br>
 <br>
 
+<h1> Contact the Arnaout Lab </h1>
+<hr>
+
+<strong>Rima Arnaout</strong>, Assistant Professor <br>
+Division of Cardiology, Department of Medicine <br>
+Bakar Institute for Computational Health Sciences <br>
+Graduate Program in Biological and Medical Informatics <br>
+University of California, San Francisco <br>
+email: rima.arnaout (at) ucsf.edu <br>
+<i>505 Parnassus Avenue</i> <br>
+<i>San Francisco, CA 94143</i> <br>
+<br>
 
