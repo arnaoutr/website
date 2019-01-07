@@ -31,7 +31,7 @@
   journal: 'arXiv'
   year: '2018' 
   date: '2018 Sep 19'
-  image: ../static/img/pub/arnaout_arxiv_2018.png
+  image: ../static/img/pub/guerra_elife_2018.png
   url: 'https://arxiv.org/abs/1809.06993'
 
 - citation: 'Guerra A, Germano RVF, Stone O, Arnaout R, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S. Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish. eLife. 2018 May 15;2018;7:e32833.' 
