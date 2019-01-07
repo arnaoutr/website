@@ -7,7 +7,7 @@
   image: ../static/img/pub/arnaout_natmed_2019.png
   url: 'https://doi.org/10.1038/s41591-018-0318-x'
 
-- citation: 'Arnaout R. Deep-learning models improve on community-level diagnosis for common congenital heart disease lesions. ArXiv e-prints. 2018;1809.06993.' 
+- citation: 'Arnaout R. Deep-learning models improve on community-level diagnosis for common congenital heart disease lesions. ArXiv e-prints. 2018;1809.06993.'
   title: 'Deep-learning models improve on community-level diagnosis for common congenital heart disease lesions.'
   authors: '**Arnaout R**,' Curran L, Chinn E, Zhao Y, Moon-Grady A.'
   journal: 'arXiv'
