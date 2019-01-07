@@ -1,3 +1,5 @@
 [ ] how to make the bottom border on the site (currently maroon) different colors: what is that color variable called and in which file is it located?
 [ ] same question for the color of the hover bars on the masthead
 [ ] make the twitter feed scroll (so that the page doesn't continue to get longer as the feed extends)
+[ ] need to change the main graphic so that one doesn't have to scroll down just to see the useful text on each page
+[ ] on the Members Page, the margin for the descriptive text is narrow, even when the webpage size is wide. How to get the descriptive text to move with the width of the webpage so that white space is not wasted.

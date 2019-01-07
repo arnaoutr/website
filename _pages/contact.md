@@ -10,7 +10,20 @@ permalink: /contact/
   <br>
 </div>
 
-<h1 id="join-us"> We Are Hiring! </h1>
+<h1 id="join-us"> Contact the Arnaout Lab </h1>
+<hr>
+
+<strong>Rima Arnaout</strong>, Assistant Professor <br>
+Division of Cardiology, Department of Medicine <br>
+Bakar Institute for Computational Health Sciences <br>
+Graduate Program in Biological and Medical Informatics <br>
+University of California, San Francisco <br>
+email: rima.arnaout (at) ucsf.edu <br>
+<i>505 Parnassus Avenue</i> <br>
+<i>San Francisco, CA 94143</i> <br>
+<br>
+
+<!-- <h1 id="join-us"> We Are Hiring! </h1>
 <hr>
 
 We are hiring a data scientist and a data engineer with early-to-mid career skills and experience. Applications will be accepted through November 30, 2018. Both positions offer an opportunity to participate in cutting-edge research with transformational impact to clinical and research medicine across a wide array of diseases, working with decades of high-quality imaging data alongside clinical domain experts. Both positions also provide opportunities to publish, present at research conferences, and for professional advancement. Salary and benefits are set according to experience and to UCSF salary scales.
@@ -25,7 +38,7 @@ Both positions require:<br>
 
 Inquiries should be emailed directly to Dr. Arnaout and should include a CV and a letter of interest clearly but briefly articulating why you are interested in joining the lab. Graduate and postdoctoral candidates will be encouraged to explore applying for extramural fellowships to support their research.
 
-<!-- If you think machine learning will revolutionize healthcare, come work with us! Students, postdocs, residents/fellows with clinical and/or computational backgrounds are encouraged to apply to work with us.  -->
+<!-- If you think machine learning will revolutionize healthcare, come work with us! Students, postdocs, residents/fellows with clinical and/or computational backgrounds are encouraged to apply to work with us. 
   
 
 <strong>Position Announcement — Data Engineer</strong><br>
@@ -55,18 +68,4 @@ In addition to the above, the successful candidate will:<br>
 Requirements:<br> 
 •	A Master’s, PhD, or similar degree in computer science or related field. Would consider a candidate with an alternate background with demonstrated experience in computer science and biomedical research (e.g., MD with dedicated clinical informatics or data science fellowship training; BS with demonstrated postgraduate experience in machine learning)<br>
 •	Fluency with Python, Pandas, Keras, Tensorflow/Theano, and related programming languages, as well as data visualizations (ideally using d3.js, R, Matlab, pylab, seaborn, etc). Specific experience with computer vision projects, and with AWS/cloud computing is a plus.<br>
-<br>
-
-<h1> Contact the Arnaout Lab </h1>
-<hr>
-
-<strong>Rima Arnaout</strong>, Assistant Professor <br>
-Division of Cardiology, Department of Medicine <br>
-Bakar Institute for Computational Health Sciences <br>
-Graduate Program in Biological and Medical Informatics <br>
-University of California, San Francisco <br>
-email: rima.arnaout (at) ucsf.edu <br>
-<i>505 Parnassus Avenue</i> <br>
-<i>San Francisco, CA 94143</i> <br>
-<br>
-
+<br> -->
