@@ -3,7 +3,7 @@
   authors: '**Arnaout R**.'
   journal: 'Nature Medicine'
   year: '2019' 
-  date:  '2019 Jan 7'
+  date: '2019 Jan 7'
   image: ../static/img/pub/arnaout_natmed_2019.png
   url: 'https://doi.org/10.1038/s41591-018-0318-x'
 
@@ -12,7 +12,7 @@
   authors: '**Arnaout R**,' Curran L, Chinn E, Zhao Y, Moon-Grady A.'
   journal: 'arXiv'
   year: '2018' 
-  date:  '2018 Sep 19'
+  date: '2018 Sep 19'
   image: ../static/img/pub/arnaout_arxiv_2018.png
   url: 'https://arxiv.org/abs/1809.06993'
 
@@ -21,7 +21,7 @@
   authors: 'Guerra A, Germano RVF, Stone O, **Arnaout R**, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S.'
   journal: 'eLife'
   year: '2018' 
-  date:  '2018 May 15'
+  date: '2018 May 15'
   image: ../static/img/pub/guerra_elife_2018.png
   url: 'https://elifesciences.org/articles/32833'
 
@@ -30,7 +30,7 @@
   authors: '**Arnaout R**, Orr N, Gula LJ, Spears DA, Leong-Sit P, Li Q, Tarhuni W, Reischauer S, Chauhan VS, Borkovich M, Uppal S, Adler A, Coughlin SR, Stainier DY, Gollob MH.'
   journal: 'Nat Commun.'
   year: '2016' 
-  date:  '2016 Apr 12'
+  date: '2016 Apr 12'
   image: ../static/img/pub/arnaout_natcomm_2016.png
   url: 'https://www.nature.com/articles/ncomms11303'
   pmid: '27066836' 
