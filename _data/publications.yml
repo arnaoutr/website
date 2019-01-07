@@ -16,6 +16,15 @@
   image: ../static/img/pub/arnaout_natmed_2019.png
   url: 'https://doi.org/10.1038/s41591-018-0318-x'
 
+- citation: 'Arnaout A. Toward a clearer picture of health. Nature Medicine. 2019 Jan 7.' 
+  title: 'Toward a clearer picture of health.'
+  authors: '**Arnaout R**.'
+  journal: 'arXiv'
+  year: '2018' 
+  date: '2018 Sep 19'
+  image: ../static/img/pub/arnaout_natmed_2019.png
+  url: 'https://doi.org/10.1038/s41591-018-0318-x'
+
 - citation: 'Guerra A, Germano RVF, Stone O, Arnaout R, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S. Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish. eLife. 2018 May 15;2018;7:e32833.' 
   title: 'Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish.'
   authors: 'Guerra A, Germano RVF, Stone O, **Arnaout R**, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S.'
