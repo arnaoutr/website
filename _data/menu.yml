@@ -1,0 +1,20 @@
+- text: "Research"
+  url: "/research/"
+
+- text: "Publication"
+  url: "/publication/"
+
+- text: "Research"
+  url: "/research/"
+
+- text: "Member"
+  url: "/member/"
+
+- text: "News"
+  url: "/news/"
+
+- text: "Contact"
+  url: "/contact/"
+
+- text: "Join Us"
+  url: "/contact/#join-us"
