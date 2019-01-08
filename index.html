@@ -1,250 +1,129 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
 
 <div id="home">
-	<div class="main-top-background">
-		<div class="hm_top hm_desktop">
-			<div class="hm_top_wrap">
-				<div class="hm_intro_area">
-					<div class="hm_top_man clear">
-						<!-- <img src="https://content.backgroundsonline.com/images/sites/bgo/hm_bgo_man.png" width="78" height="70" border="0" />-->
-					</div>
-					<h1 class="hm_top_header clear">Background Screening Solutions</h1>
-					<h2 class="hm_top_header_intro clear">Tailored to meet your onboarding needs.</h2>
-					<div style="text-align: center;">
-						<a href="CreateAccount/index.html" class="hm_btn_signup">Start Screening</a>
-					</div>
-				</div>
+  <div class="main-top-background">
+    <div class="hm_top hm_desktop">
+      <div class="hm_top_wrap"></div>
 
-			</div>
-
-			<!--<div class="hm_20years_section">
+      <!--<div class="hm_20years_section">
 			<div class="hm_20years_section_wrap">
 				<div class="left"><img src="https://content.backgroundsonline.com/images/sites/bgo/BGO20_hm_sm.png" width="127" height="89" border="0" /></div>
 
 				<div class="left"><span class="very_bold">Celebrating Two Decades</span> <br />of Background Screening</div>
 			</div>
 			</div>-->
-
-		</div>
-		<div class="mobile_start_screen_copy mobile_home" style="text-align: center;">
-			<div class="hm_top_wrap">
+    </div>
+    <div
+      class="mobile_start_screen_copy mobile_home"
+      style="text-align: center;"
+    >
+      <!-- <div class="hm_top_wrap">
 				<h1 class="hm_top_header">Background Screening Solutions</h1>
 				<h2 class="hm_top_header_intro">Tailored to meet your onboarding needs.</h2>
 				<div style="text-align: center;">
 					<a href="CreateAccount/index.html" class="hm_btn_signup">Start Screening</a>
 				</div>
-			</div>
-		</div>
-		<div class="hm_top_wrap hm_promo">
-			<div class="main_points hm_promo_background">
-				<div class="infinite-slider unslider-horizontal">
-					<ul class="unslider-wrap unslider-carousel" style="width: 800%; margin-left: -100%; left: 0%;">
+			</div> -->
+    </div>
+    <div class="hm_top_wrap hm_promo">
+      <div class="main_points hm_promo_background">
+        <div class="infinite-slider unslider-horizontal">
+          <ul
+            class="unslider-wrap unslider-carousel"
+            style="width: 800%; margin-left: -100%; left: 0%;"
+          >
+            {% for news in site.posts %}
+            <li class="unslider-clone row" style="width: 12.5%;">
+              <div class="row">
+                <div class="col-md-12 slide" style="vertical-align: top;">
+                  <div
+                    class="header_promo"
+                    style="text-align: center; padding: 0px 0px 10px 0px;"
+                  >
+                    {{ news.title }}
+                  </div>
+                  <!-- <p style="text-align: center; padding: 0px 25px;">
+                    Now you have even more options to use our services directly
+                    through your preferred ATS. You'll get a secure connection
+                    that saves time, reduces manual data entry and expedites the
+                    screening process.
+                  </p> -->
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="" style="background-color:#fff;">
+    <div class="hm_certification_logos home_bgo_protects"></div>
+  </div>
 
-						<!--<li class="unslider-active passionate" style="width: 12.5%;">
-							<div class="row">
-								<div class="passionate-container"style="vertical-align: top;">
-									<div class="header_promo">Passionate About Background Screening</div>
-									<p>Hire honest and ethical people to represent your company. You've worked hard to establish your brand and it's worth protecting.</p>
-									<div class="col-md-6">
-										<div class="hm_promo_btn">
-											<a href="~/why-us">
-												Why Us
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>-->
-						<li class="unslider-clone row" style="width: 12.5%;">
-							<div class="row">
-								<div class="col-md-12" style="vertical-align: top;">
-									<img src="/assets/img/sites/bgo/ats-hrnx.png" width="200" alt="hrnx logo" style="padding-top: 20px;" />
+  <div class="hm_sub_nav">
+    <ul class="hm_sub_nav_txt">
+      {% for logo in site.data.home_logos %}
+      <li class="logo_width">
+        <a href="#">
+          <img
+            src="/assets/image/logos/{{ logo.img }}"
+            alt="report"
+            border="0"
+            height="100"
+            width=""
+            style="display: block; margin: 0px auto;"
+          />
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 
-									<div class="header_promo" style="text-align: center; padding: 0px 0px 10px 0px;">
-										Backgrounds Online Partnered with HRNX
-									</div>
-									<p style="text-align: center; padding: 0px 25px;">Now you have even more options to use our services directly through your preferred ATS. You'll get a secure connection that saves time, reduces manual data entry and expedites the screening process.</p>
-									<div class="">
-										<div class="hm_promo_btn">
-											<a href="ats-integration.html" style="margin-top: 15px;">
-												Read More
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="unslider-active row hm_promo_hro" style="width: 12.5%;">
-							<div class="row">
-								<div class="col-md-6">
-									<img src="/assets/img/sites/bgo/hrologo.png" width="250" alt="City" class="hro-logo" />
-								</div>
-								<div class="col-md-6" style="vertical-align: top;">
-									<div class="header_promo">
-										Customer Satisfaction Winner<br />
-										<span style="font-weight: 300;">Pre-Employment Screening</span>
-									</div>
-									<p>Backgrounds Online made the top pre-employment screening providers list. Rated for service, deal sizes, and quality.</p>
-									<div class="">
-										<div class="hm_promo_btn">
-											<a href="LandingPages/bakers_dozen.html">
-												Read More
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
+  <!-- main_points -->
 
+  <div class="home-simplified">
+    <div class="home-simplified_wrap">
+      <div class="home-simplified_content">
+        <h2 class="header_2">
+          Improving the resolution and accuracy of cardiovascular phenotypes
+          will lead to novel insights and therapies.
+        </h2>
+        This can occur by drilling down—understanding the genetic and cellular
+        mechanism of a particular disease—or going broad, using computational
+        means to analyze precision phenotypes at scale. Dr. Arnaout is currently
+        developing computational methods to bring precision phenotyping to
+        medical imaging. Her background as a physician-scientist informs the
+        future scope of this work as a technology that can transform
+        non-invasive imaging into a big-data tool for both research and clinical
+        use. She also uses animal and in vitro models to study cardiovascular
+        gene function and to model human cardiovascular disease. <br /><br />
+        <!-- 
+        Discover <span class="very_bold">fast, dependable</span> background
+        screening today. -->
 
-					</ul>
-				</div>
-			</div>
-		</div>
-
-
-	</div>
-	<div class="" style="background-color:#fff;">
-		<div class="hm_certification_logos home_bgo_protects">
-
-			<div class="hm_napbs_block">
-				<a href="NAPBS-Accredited/index.html">
-					<div class="hm_certification_col1">
-						<img src="/assets/img/sites/bgo/napbs_logo_hm.png" height="90" border="0" alt="napbs logo" />
-					</div>
-				</a>
-			</div>
-			<div class="hm_soc2_block">
-				<a>
-					<div class="hm_certification_col1" style="cursor:default;">
-						<img src="/assets/img/sites/bgo/BGO20Year-final.png" height="68" border="0" alt="20 year logo" />
-					</div>
-				</a>
-			</div>
-			<div class="hm_soc2_block">
-				<a href="SOC2-Report/index.html">
-					<div class="hm_certification_col1">
-						<img src="/assets/img/sites/bgo/soc2_logo_b_sm.png" height="78" border="0" alt="soc logo" />
-					</div>
-				</a>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="hm_sub_nav">
-		<ul class="hm_sub_nav_txt">
-			<li>
-				<a href="products-and-services.html">
-					<img src="/assets/img/sites/bgo/home-report.png" alt="report" border="0" height="48" style="display: block; margin: 0px auto;" />
-					Custom Background Checks
-				</a>
-			</li>
-			<li>
-				<a href="Criminal-Monitoring.html">
-					<img src="/assets/img/sites/bgo/home-monitor.png" alt="magnify glass" border="0" height="50" style="display: block; margin: 0px auto;" />
-					Criminal Monitoring
-				</a>
-			</li>
-			<li>
-				<a href="technology.html">
-					<img src="/assets/img/sites/bgo/home-api.png" alt="computer" border="0" height="50" style="display: block; margin: 0px auto;" />
-					API Integrations
-				</a>
-			</li>
-			<li>
-				<a href="Branded-Solutions.html">
-					<img src="/assets/img/sites/bgo/home-brand.png" alt="tech screens" border="0" height="50" style="display: block; margin: 0px auto;" />
-					Branded Solutions
-				</a>
-			</li>
-		</ul>
-	</div>
-
-	<div class="main_points" style="background-color:#fff;">
-		<div class="point column_1">
-
-			<h2 class="header_3">
-				Our Approach
-			</h2>
-			We leverage 20-years of experience to develop: cutting-edge technology that accelerates your screening process, products that empower you to perform due diligence and controls that help you remain compliant throughout the screening process.
-			<div class="more">
-				<a href="why-us.html">Learn More</a>
-			</div>
-		</div><!-- column_1 -->
-		<div class="point column_2">
-			<h2 class="header_3">
-				Focus On Service
-			</h2>
-			Our unwavering dedication to customer service sets us apart. We provide dedicated account managers who learn about your hiring needs, oversee orders from start to finish and create solutions for your easiest and most complex screening challenges.
-			<div class="more">
-				<a href="contact-us.html">Contact Us</a>
-			</div>
-		</div><!-- column_2 -->
-
-		<div class="point column_3">
-			<h2 class="header_3">
-				Start Screening
-			</h2>
-			Our background checks provide accurate, reportable data that helps you make crucial business decisions and maintain a safe work environment. We offer seamless integration services, co-branded flows and a fair, transparent process.
-			<div class="more">
-				<a href="CreateAccount/index.html">Start Screening Today</a>
-			</div>
-		</div><!-- column_2 -->
-	</div><!-- main_points -->
-
-	<div class="home-simplified">
-		<div class="home-simplified_wrap">
-			<div class="home-simplified_content">
-				<h2 class="header_2">Simplified Screening Solutions</h2>
-				Our solutions address your specific needs. We'll help identify the right combination of criminal searches, verifications and position-focused searches for any screening scenario. Create and save one or multiple screening packages that are ideal for hiring; promoting; vetting volunteers and contractors; or any other business-related purpose.
-				<br /><br />
-
-				Discover <span class="very_bold">fast, dependable</span> background screening today.
-
-				<!--  <div class="home-simplified_btn">
+        <!--  <div class="home-simplified_btn">
 					  <a href="started.html" class="btn_1_white">Get Started</a>
 				  </div> -->
-			</div><!-- home-simplified_content -->
-		</div>
-	</div><!-- home-simplified -->
+      </div>
+      <!-- home-simplified_content -->
+    </div>
+  </div>
+  <!-- home-simplified -->
 
-
-	<div class="home_bgo_protects_wrap">
-		<div class="home_bgo_protects">
-			<div class="home_bgo_protect_image"> <img src="/assets/img/sites/bgo/hm_bgo_protect.jpg" alt="BGO Shield" border="0" /></div>
-
-			<div class="home_bgo_protect_copy">
-				<h2 class="header_2">Backgrounds Online Protects Your Business</h2>
-
-				Background checks are brand insurance. They help you confirm that people are qualified and eligible to represent your business. We protect your business by helping you to avoid risk and remain compliant with federal, state and local laws everywhere you operate.
-			</div>
-
-		</div>
-
-	</div><!--home_bgo_protects_wra-->
-
-
-
-
-
-
-
-	<div class="blog_area">
-		<div class="blog_area_vertical">
-			<div class="blog_area_wrap">
-				<div class="blog_logo">
-					<img src="/assets/img/sites/bgo/blog_logo_white.png" alt="Blog logo" border="0" width="180" />
-				</div><!-- blog_logo -->
-				<div class="blog_copy">
-					<iframe src="https://content.backgroundsonline.com/docs/BGO/blog/latest_blog.html" scrolling="no" frameborder="0" class="blog_iframe"></iframe>
-				</div><!-- blog_copy -->
-			</div><!-- blog_area_wrap -->
-		</div>
-	</div><!-- blog_area -->
-<div class="clear"></div>
+  <div class="blog_area">
+    <div class="blog_area_vertical">
+      <div class="blog_area_wrap">
+        <div class="blog_logo"></div>
+        <!-- blog_logo -->
+        <div class="blog_copy"></div>
+        <!-- blog_copy -->
+      </div>
+      <!-- blog_area_wrap -->
+    </div>
+  </div>
+  <!-- blog_area -->
+  <div class="clear"></div>
+</div>
