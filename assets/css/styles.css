@@ -479,9 +479,21 @@ body {
         /* min-width: 1150px; */
         /* max-width: 1200px; */
         float: right;
-        margin-top: 35px;
+        margin-top: 20px;
         font-family: 'Helvetica Neue', sans-serif;
+        text-align: right;
     }
+
+    .phone-number {
+        text-align: right;
+        color: #fff;
+        padding: 0px;
+        line-height: 12px;
+        font-size: 13px;
+        letter-spacing: .5px;
+        display: block;
+    }
+
 
     /*   .navbar-fixed {
         z-index: 1000 !important;
@@ -518,11 +530,9 @@ body {
         color: #0d3759 !important;
         font-weight: 300 !important;
         display: block !important;
-        height: 30px !important;
         width: 145px;
         text-align: center !important;
-        padding-top: 0px !important;
-        line-height: 30px !important;
+        padding: 3px 0px !important;
         margin-bottom: 1px;
         margin-top: 5px;
         border-radius: 30px;
@@ -544,11 +554,9 @@ body {
         color: #fff !important;
         font-weight: 300 !important;
         display: block !important;
-        height: 30px !important;
         width: 145px;
         text-align: center !important;
-        padding-top: 0px !important;
-        line-height: 30px !important;
+        padding: 3px 0px !important;
         margin-bottom: 1px;
         margin-top: 5px;
         border-radius: 30px;
@@ -837,7 +845,6 @@ body {
   	margin-right: auto;
   	margin-left: auto;
   	width: 1170px;
-  	height: 740px;
   }
 
   .hm_top_man
@@ -1049,6 +1056,25 @@ body {
         padding-top: 80px;
         margin-top: -110px;
         /* For banner nav */
+    }
+
+
+    #ats .main-top-background {
+        background-image: url('/assets/img/sites/bgo/ats-header.png');
+        background-size: 100%;
+        padding-top: 80px;
+        margin-top: -110px;
+    }
+
+    .ats-row {
+        padding: 30px 0px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .ats-row img {
+        margin: 10px 25px;
+    vertical-align: middle;
     }
 
     .main_points {
@@ -1563,9 +1589,10 @@ display: table-cell;
     }
 
     .hm_promo_background {
-        width: 800px; background-color: #eee;
+        width: 800px;
+        background-color: #fff;
         border-radius:5px;
-        padding: 20px 20px 0px 20px;
+        padding: 0px;
         min-height: 130px;
         font-size: 26px;
         color: #0d3759;
@@ -1574,17 +1601,17 @@ display: table-cell;
         box-shadow: 0 7px 16px 0 rgba(57, 76, 93, .3);
     }
     .hm_promo p {
-        width:400px;
-        margin:0px auto;
-        line-height:21px;
+        margin: 0px auto;
         text-align: left;
-        color: #222;
-        font-size: 16px;
+        font-size: 14px;
     }
     .header_promo {
         font-size: 24px;
         text-align: left;
-        padding: 30px 0px 20px 0px;
+        padding: 30px 0px 10px 0px;
+    }
+    .header_promo img {
+        padding: 5px;
     }
     .hm_promo_bottom {
         background-image: url('/assets/img/email/bgo/hrop.png');
@@ -1614,6 +1641,10 @@ display: table-cell;
         color: #fff !important;
         border: 2px solid #1b4e70;
     }
+    .hm_promo_hro {
+        background-image: url('/assets/img/sites/bgo/grey-tech.png');
+        background-repeat: no-repeat;
+    }
      .hm_quote_from_name
     {
     font-size: 17px;
@@ -1642,30 +1673,49 @@ display: table-cell;
             width: auto !important;
         }*/
 
+    .banner-img {
+        width: 275px;
+        padding-top: 20px;
+    }
+
+    .passionate {
+
+        text-align: center !important;
+        background-image: url('/assets/img/sites/bgo/tech.png');
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: 15%;
+    }
+
+    .passionate-container {
+                max-width: 400px;
+        margin: 0px auto;
+    }
+
+    .passionate .header_promo,
+    .passionate p {
+        text-align: center !important;
+    }
+
     .unslider-arrow {
         display: block;
         width: 53px;
-        height: 73px;
-        margin-top: -76px;
+        height: 140px;
+        margin-top: -146px;
         overflow: hidden;
         text-indent: -999em;
         background-repeat: no-repeat;
     }
 
     .unslider {
-        width: 940px;
         margin-right: auto;
         margin-left: auto;
-        overflow: hidden;
-        min-height: 93px;
+        width: 800px;
     }
 
-        .unslider li {
-            font-size: 18px;
-            line-height: 26px;
-            font-style: italic;
-            font-weight: 300;
-        }
+    .unslider li {
+        min-height: 220px;
+    }
 
     .unslider-arrow {
         position: relative;
@@ -1682,6 +1732,7 @@ display: table-cell;
             background-position: 0px 0px;
             height: 40px;
             background-size: 60%;
+            right: -10px;
         }
 
     a.unslider-arrow.next {
@@ -1691,19 +1742,20 @@ display: table-cell;
         background-image: url(/assets/img/sites/bgo/arrow_prev.png);
         background-repeat: no-repeat;
         overflow: hidden;
+        left: 10px;
         background-position: 0px 0px;
         background-size: 60%;
-        height: 40px;
     }
 
     .infinite-slider {
-        position: relative;
-        overflow: hidden;
-        width: 777px;
-        min-height: 85px;
         margin-left: auto;
         margin-right: auto;
     }
+
+.hro-logo {
+padding-top: 3rem;
+width: 250px;
+}
 
     .btn_1_white {
         height: 40px;
@@ -2933,10 +2985,10 @@ display: table-cell;
 		text-align: center;
 		font-size: 18px;
 		line-height: 20px;
-		padding-top: 70px;
+		padding-top: 40px;
 		font-weight: 400;
 		padding-bottom: 80px;
-width: 100%;
+        width: 100%;
 
     background-color: #0d3759;
     background-repeat: repeat-x;
@@ -2959,15 +3011,15 @@ width: 100%;
     }
 
     .statelaws_main-area-content .header_1 {
-    font-size: 42px;
-    line-height: 58px;
-    font-weight: 500;
-    margin: 0;
-    padding-bottom: 0px;
-}
+        font-size: 32px;
+        font-weight: 300;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 0px;
+    }
 
     .sl_subhead {
-        		width: 700px;
+        width: 700px;
 		margin-right: auto;
 		margin-left: auto;
     }
@@ -2986,8 +3038,8 @@ width: 100%;
 	{
     background-color: #f1efef;
     display: inline-block;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     /* margin-bottom: 30px; */
     width: 100%;
     text-align: center;
@@ -3070,17 +3122,14 @@ width: 100%;
     #statelaws ul {
         margin-bottom: 0px;
     }
-    #statelaws li {
-        padding-bottom: 5px;
-    }
+
 
 	.statelaw_single_state
 	{
 		width: 150px;
 		text-align: center;
 		display: inline-block;
-		padding-top: 10px;
-		padding-bottom: 10px;
+
 		font-size: 20px;
 		line-height: 36px;
 		margin-top: 20px;
@@ -3194,7 +3243,6 @@ text-decoration:none;
 		font-weight: 400;
 		border-top: 1px solid #ddd;
 		padding-top: 8px;
-		margin-right: 45px;
         text-align: center;
         letter-spacing: .5px;
 	}
@@ -3212,6 +3260,7 @@ text-decoration:none;
 		font-size: 14px;
         line-height: normal;
         font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        width: 100%;
 	}
     .viewbill a {
         color: #0d3759 !important;
@@ -4994,7 +5043,6 @@ path{
 
     #newsletters .main-top-background {
         /* background-image: url(https://content.backgroundsonline.com/images/sites/bgo/client_education-background.jpg); */
-        height: 180px;
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
@@ -5022,7 +5070,6 @@ path{
         font-size: 18px;
         line-height: 30px;
         padding-top: 34px;
-        border-bottom: 1px solid #999;
         padding-bottom: 0px;
     }
 
@@ -5033,7 +5080,7 @@ path{
     }
 
     .newsletter_area {
-        margin-top: 70px;
+        margin-top: 30px;
         margin-bottom: 50px;
         width: 100%;
         display: inline-table;
@@ -5121,6 +5168,24 @@ path{
 
     .newsletterdropdown {
         display: none;
+    }
+
+    .statelaw-dropdown {
+        list-style-type: none;
+        padding: 0px 20px;
+    }
+    .statelaw-dropdown li:hover,
+    .statelaw-dropdown a:hover {
+        background-color: #eee;
+        text-decoration: none;
+    }
+
+    .sl_state_popup {
+        font-weight: 400;
+        letter-spacing: .5px;
+    }
+    .multi-column {
+        width: 580px;
     }
 
     .newletter_body .date {
@@ -6731,7 +6796,7 @@ path{
     }
 
     .su_field_drop_1 {
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         background-size: 20px;
         font-family: "Helvetica Neue", sans-serif !important;
@@ -6741,7 +6806,7 @@ path{
 
     .su_field_drop_2 {
         overflow: hidden !important;
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         cursor: pointer !important;
         background-size: 20px;
@@ -6752,7 +6817,7 @@ path{
 
     .su_field_drop_3 {
         overflow: hidden !important;
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         cursor: pointer !important;
         background-size: 20px;
@@ -6763,7 +6828,7 @@ path{
 
     .su_field_drop_4 {
         overflow: hidden !important;
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         cursor: pointer !important;
         width: 100px !important;
@@ -7660,6 +7725,50 @@ path{
         width: 600px;
     }
 
+    /*Baker's Dozen Landing Page*/
+    .hro-header-img {
+        background-image: url('/assets/img/sites/bgo/hro-header.png');
+        background-size: cover;
+        margin-top: -120px;
+        padding-top: 140px;
+        margin-bottom: 40px;
+    }
+
+    .hro-top {
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 300 !important;
+        max-width: 800px;
+        margin: 0px auto;
+    }
+
+    .hro-header {
+        font-size: 28px;
+    }
+
+    .hro-header-subtext {
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+
+    .hro {
+        background-color: #f1efef;
+        padding-bottom: 30px;
+    }
+
+    .hro p {
+        font-size: 14px !important;
+    }
+
+    .hro h5 {
+        text-align: center;
+        color: #0d3759;
+    }
+
+    .hro .my-3 {
+        padding: 2rem !important;
+    }
 
     /*BGO20 Landing page====================================*/
 
@@ -8838,6 +8947,16 @@ font-size: 34px;
         /* background-color: #FFF; */
     }
 
+     .phone-number {
+        text-align: right;
+        color: #fff;
+        padding: 0px;
+        line-height: 12px;
+        font-size: 13px;
+        display: block;
+        letter-spacing: .5px;
+    }
+
     .main-back {
         margin-top: 43px;
     }
@@ -9398,6 +9517,25 @@ padding: 10px;
         background-repeat: no-repeat;
         /* height: 400px; */
     }
+
+    #ats .main-top-background {
+        background-image: url('/assets/img/sites/bgo/ats-header.png');
+        background-position: center top;
+
+background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: -50px;
+    }
+    .phone-number {
+        display: none;
+    }
+    #ats .hm_intro_area {
+        text-align: center;
+    }
+    #ats .bgo_nav_mobile {
+        background: none;
+    }
     #home main_points {
         text-align: left;
     }
@@ -9808,6 +9946,10 @@ padding: 10px;
             width: 100%;
         }
 
+.banner-img {
+    width: 200px;
+}
+
     .hm_quote_from_name {
         font-size: 17px;
         line-height: 17px;
@@ -9823,27 +9965,14 @@ padding: 10px;
 
     .unslider-arrow {
         display: block;
-        width: 53px;
-        height: 73px;
-        margin-top: -170px;
-        overflow: hidden;
-        text-indent: -999em;
         background-repeat: no-repeat;
     }
 
     .unslider {
         margin-right: auto;
         margin-left: auto;
-        min-height: 93px;
-        overflow: visible !important;
     }
 
-        .unslider li {
-            font-size: 22px;
-            line-height: 28px;
-            font-style: italic;
-            font-weight: 300;
-        }
 
     .unslider-arrow {
         position: relative;
@@ -9868,10 +9997,14 @@ padding: 10px;
         }
 
     .infinite-slider {
-        position: relative;
         margin-left: auto;
         margin-right: auto;
     }
+
+.hro-logo {
+padding-top: 1rem;
+width: 250px;
+}
 
     .btn_1_white {
         height: 40px;
@@ -11217,8 +11350,6 @@ padding: 10px;
 		width: 200px;
 		text-align: center;
 		display: inline-block;
-		padding-top: 10px;
-		padding-bottom: 10px;
 		font-size: 20px;
 		line-height: 36px;
 		margin-top: 20px;
@@ -11330,7 +11461,6 @@ text-decoration:none;
 		font-weight: 400;
 		border-top: 1px solid #ddd;
 		padding-top: 8px;
-		margin-right: 45px;
         text-align: center;
         letter-spacing: .5px;
 	}
@@ -13349,7 +13479,6 @@ path{
         font-size: 18px;
         line-height: 30px;
         padding-top: 20px;
-        border-bottom: 1px solid #999;
         padding-bottom: 0px;
     }
 
@@ -14909,7 +15038,7 @@ path{
 
     .su_field_drop_1 {
         overflow: hidden !important;
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         cursor: pointer !important;
         background-size: 20px;
@@ -14920,7 +15049,7 @@ path{
 
     .su_field_drop_2 {
         overflow: hidden !important;
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         cursor: pointer !important;
         background-size: 20px;
@@ -15863,6 +15992,51 @@ path{
 
     #langingpage_employment .header_wrap {
         width: 600px;
+    }
+
+    /*Baker's Dozen Landing Page*/
+    .hro-header-img {
+        background-image: url('/assets/img/sites/bgo/hro-header.png');
+        background-size: cover;
+        margin-top: -120px;
+        padding-top: 140px;
+        margin-bottom: 40px;
+    }
+
+    .hro-top {
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 300 !important;
+        max-width: 800px;
+        margin: 0px auto;
+    }
+
+    .hro-header {
+        font-size: 28px;
+    }
+
+    .hro-header-subtext {
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+
+    .hro {
+        background-color: #f1efef;
+        padding-bottom: 30px;
+    }
+
+    .hro p {
+        font-size: 14px !important;
+    }
+
+    .hro h5 {
+        text-align: center;
+        color: #0d3759;
+    }
+
+    .hro .my-3 {
+        padding: 2rem !important;
     }
 
     /*BGO20 Landing page====================================*/
@@ -17121,13 +17295,11 @@ font-size: 34px;
     .nav-wrap {
         z-index: 1100;
         width: 100%;
-                            background-color: #0d3759;
-                    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d3759+0,0d3759+55,9d529b+100 */
-        background: #0d3759; /* Old browsers */
-        background: -moz-linear-gradient(-45deg, #0d3759 0%, #0d3759 55%, #9d529b 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(-45deg, #0d3759 0%,#0d3759 55%,#9d529b 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(135deg, #0d3759 0%,#0d3759 55%,#9d529b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d3759', endColorstr='#9d529b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        background-color: #0d3759;
+    }
+
+    .phone-number {
+        display: none !important;
     }
 
     .main-back {
@@ -17516,6 +17688,26 @@ padding: 10px;
             height: 150px;
             font-size: 16px;
         }
+    #ats .main-top-background {
+        background-image: url('/assets/img/sites/bgo/ats-header.png');
+        background-size: 100%;
+            height: 229px;
+            /* margin-bottom: 54px; */
+            margin-top: -42px;
+            padding-top: 60px;
+            width: 100%;
+            height: 150px;
+            font-size: 16px;
+    }
+    #ats .bgo_nav_mobile {
+        background-color: transparent;
+        background: none;
+    }
+    .ats-options img {
+        max-width: 100px !important;
+        max-height: 30px !important;
+    }
+
         .hm_top_wrap {
             text-align: center;
         }
@@ -17524,7 +17716,7 @@ padding: 10px;
             display: block;
         }
              .hm_promo_background {
-        background-color: #eee;
+        background-color: #fff;
         border-radius:5px;
         text-align: center;
         margin:0px auto;
@@ -17567,7 +17759,6 @@ padding: 5px;
         text-align: center;
         width: 100%;
         padding: 10px 0px;
-        background: #f1efef;
     }
     .col-md-6 {
         text-align: center !important;
@@ -17906,7 +18097,7 @@ padding: 5px;
     }
     .hm_certification_logos {
         display: block;
-        padding-top: 420px;
+        padding-top: 360px;
     }
     .home_bgo_protect_image {
         clear: both;
@@ -17984,6 +18175,10 @@ padding: 5px;
     margin-right:auto;
 }
 
+.banner-img {
+    width: 200px;
+}
+
    .hm_quote_from_name
     {
     font-size: 17px;
@@ -17997,7 +18192,9 @@ padding: 5px;
         font-size: 13px;
     line-height: 15px;
     }
-
+    .banner-img {
+        width: 200px;
+    }
 
 
     .unslider-arrow {
@@ -18013,16 +18210,8 @@ padding: 5px;
     .unslider {
         margin-right: auto;
         margin-left: auto;
-        min-height: 93px;
-        overflow: visible !important;
     }
 
-        .unslider li {
-            font-size: 18px;
-            line-height: 22px;
-            font-style: italic;
-            font-weight: 300;
-        }
 
     .unslider-arrow {
         position: relative;
@@ -18036,7 +18225,6 @@ padding: 5px;
             background-image: url(/assets/img/sites/bgo/arrow_next.png);
             background-repeat: no-repeat;
             float: right;
-            overflow: hidden;
         }
 
         .unslider-arrow.prev {
@@ -18046,10 +18234,14 @@ padding: 5px;
         }
 
     .infinite-slider {
-        position: relative;
         margin-left: auto;
         margin-right: auto;
     }
+
+.hro-logo {
+    padding-top: 0px;
+    width: 250px;
+}
 
     .btn_1_white {
         height: 40px;
@@ -21419,7 +21611,6 @@ path{
         font-size: 18px;
         line-height: 30px;
         padding-top: 20px;
-        border-bottom: 1px solid #999;
         padding-bottom: 0px;
     }
 
@@ -22983,7 +23174,7 @@ path{
     }
 
     .su_field_drop_1 {
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         background-size: 20px;
         font-family: "Helvetica Neue", sans-serif !important;
@@ -22993,7 +23184,7 @@ path{
     }
 
     .su_field_drop_2 {
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         background-size: 20px;
         font-family: "Helvetica Neue", sans-serif !important;
@@ -23003,7 +23194,7 @@ path{
     }
 
     .su_field_drop_3 {
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         background-size: 20px;
         font-family: "Helvetica Neue", sans-serif !important;
@@ -23013,7 +23204,7 @@ path{
     }
 
     .su_field_drop_4 {
-        background-image: url(/assets/img/sites/bgo/su_select_icon1.png) !important;
+        background-image: url(/assets/img/sites/bgo/su_select_icon1.html) !important;
         background-repeat: no-repeat !important;
         background-size: 20px;
         font-family: "Helvetica Neue", sans-serif !important;
@@ -23875,6 +24066,50 @@ path{
         margin: 0px;
     }
 
+    /*Baker's Dozen Landing Page*/
+    .hro-header-img {
+        background-image: url('/assets/img/sites/bgo/hro-header.png');
+        background-size: cover;
+        margin-top: -120px;
+        padding-top: 140px;
+        margin-bottom: 40px;
+    }
+
+    .hro-top {
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 300 !important;
+        max-width: 800px;
+        margin: 0px auto;
+    }
+
+    .hro-header {
+        font-size: 28px;
+    }
+
+    .hro-header-subtext {
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+
+    .hro {
+        background-color: #f1efef;
+        padding-bottom: 30px;
+    }
+
+    .hro p {
+        font-size: 14px !important;
+    }
+
+    .hro h5 {
+        text-align: center;
+        color: #0d3759;
+    }
+
+    .hro .my-3 {
+        padding: 2rem !important;
+    }
     /*BGO20 Landing page====================================*/
 
     .langingpage_bgo20_photo {
