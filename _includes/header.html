@@ -6,42 +6,46 @@
       style="background-color: #0d3759; z-index:3000;"
     >
       <div class="wrap1">
-        <a href="index.html"> <div class="bgo-logo_reverse"></div> </a>
+        <a href="/"> <div class="bgo-logo_reverse" style="color: #fff">Arnaout Lab @ UCSF</div> </a>
         <div class="nav-wrap">
           <div
             class="bgo_nav_mobile mobile"
             style="background: transparent; position: relative;"
           >
-            <a href="/">
-              <img
+            <a href="/" style="color: #fff"></a>
+              <!-- <img
                 src="/assets/img/sites/bgo/bgo_logo_white_notag.png"
                 width="200"
                 border="0"
                 alt="BGO Logo"
-              />
-
+              /> -->
+              Arnaout Lab @ UCSF
               <div class="mobile_nav_header"></div>
             </a>
             <div class="menu-button"></div>
           </div>
           <ul data-breakpoint="800" class="flexnav">
-            <li><a href="/products-and-services">Products</a></li>
-            <li><a href="/industry-background-check/">Solutions</a></li>
-            <li><a href="/resources/">Resources</a></li>
-            <li><a href="/why-us/">Why Us</a></li>
-            <li><a href="/contact-us/">Contact</a></li>
-            <li class="nav-btn1">
-              <a
-                href="https://clients.backgroundsonline.com/login.aspx"
-                class="nav_btn_login"
-                >Log In</a
-              >
-            </li>
-            <li class="nav-btn2">
+            {% for link in site.data.menu %}
+              {% unless forloop.last == true %}
+              <li><a href="{{link.url}}">{{link.text}}</a></li>
+              {% endunless %}
+
+              {% if forloop.last == true %}
+                <li class="nav-btn1">
+                  <a
+                    href="{{link.url}}"
+                    class="nav_btn_login"
+                    >{{link.text}}</a
+                  >
+                </li>
+              {% endif %}
+            {% endfor %}
+            
+            <!-- <li class="nav-btn2">
               <a href="CreateAccount/index.html" class="nav_btn_signup"
                 >Start Screening</a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
