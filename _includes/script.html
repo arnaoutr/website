@@ -1,0 +1,58 @@
+<script src="/assets/js/jquery.flexnav.min.js"></script>
+<script src="/assets/js/recaptcha/api.js"></script>
+<script src="/assets/js/cookies.js"></script>
+<script src="/assets/js/fromcodetracking.js"></script>
+
+<script>
+  $(function() {
+    $("a[href*=#]:not([href=#])").click(function() {
+      if (
+        location.pathname.replace(/^\//, "") ==
+          this.pathname.replace(/^\//, "") &&
+        location.hostname == this.hostname
+      ) {
+        var target = $(this.hash);
+        target = target.length
+          ? target
+          : $("[name=" + this.hash.slice(1) + "]");
+        if (target.length) {
+          $("html,body").animate(
+            {
+              scrollTop: target.offset().top
+            },
+            1000
+          );
+          return false;
+        }
+      }
+    });
+    //this code looks for a from code cookie
+    setFromCodeCookie();
+    setProfileCodeCookie();
+  });
+</script>
+
+<script
+  src="/assets/js/slick.min.js"
+  type="text/javascript"
+  charset="utf-8"
+></script>
+<script type="text/javascript">
+  $(document).on("ready", function() {
+    $(".variable").slick({
+      dots: true,
+      infinite: true,
+      variableWidth: true,
+      centerMode: true
+    });
+  });
+</script>
+
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script>
+  $(".carousel").carousel({
+    interval: 1500 * 6
+  });
+  //# sourceURL=pen.js
+</script>
