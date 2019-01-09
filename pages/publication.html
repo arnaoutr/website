@@ -1,4 +1,80 @@
 ---
 layout: default
+title: "Publication"
 permalink: /publication/
 ---
+
+<div id="home">
+  <div class="publication-main-top-background">
+    <div class="rs_top">
+      <div class="hm_top_wrap">
+        <div class="hm_intro_area" style="max-width: 650px; color:#fff;">
+          <div class="hm_top_man clear">
+            <!-- <img src="https://content.backgroundsonline.com/images/sites/bgo/hm_bgo_man.png" width="78" height="70" border="0" />-->
+          </div>
+          <h1
+            class="header_1  animated fadeInDown"
+            style="letter-spacing: 2px; padding-bottom: 0px;"
+          >
+            Our Publication
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- main-top-background -->
+  <div class="resource_area">
+    <div class="resource_area_wrap">
+      {% for item in site.data.publications %}
+      <div class="a">
+        <div class="client_resouces_items client_education">
+          <img src="{{ item.image }}" alt="" border="0" />
+          <div class="header_3">{{ item.title }}</div>
+
+          {{ item.authors | markdownify }}
+          <ul>
+            {% if item.pmid %}
+            <!--PMID - optional-->
+            <li>
+              PMID:
+              <a
+                href="http://www.ncbi.nlm.nih.gov/pubmed/{{ item.pmid }}"
+                alt="pubmed link: {{ item.pmid }}"
+              >
+                {{ item.pmid }}</a
+              >
+            </li>
+            <!--PMCID - optional-->
+            {% if item.pmcid %}
+            <li>
+              PMCID:
+              <a
+                href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ item.pmcid }}"
+                alt="pubmed central link: {{ item.pmcid }}"
+              >
+                {{ item.pmcid }}</a
+              >
+              {% endif %}
+            </li>
+            {% if item.pdf %}
+            <li>
+              <a class="read-more" href="{{ item.pdf }}" alt="PDF">
+                Read More</a
+              >
+            </li>
+            {% endif %} {%endif%} {% if item.url %}
+            <li>
+              <a class="read-more" href="{{ item.url }}" alt="PDF">
+                Read More</a
+              >
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <!--resource_area_wrap-->
+  </div>
+  <!-- resource_area -->
+</div>

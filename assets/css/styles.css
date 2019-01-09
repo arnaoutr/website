@@ -4967,7 +4967,7 @@ path{
         /* border-top: 1px #999 solid; */
         font-size: 14px;
         line-height: 21px;
-        background: #fff;
+        background: #ededed;
         width: 100%;
         padding-bottom: 90px;
         vertical-align: top;
@@ -5014,14 +5014,43 @@ path{
             transform: scale(1.025);
             cursor: pointer;
         }
+        .a {
+            display: inline;
+        }
 
-    a .client_resouces_items {
+    .a .client_resouces_items {
         color: #000;
+        text-align: left;
     }
-
+    .a .client_resouces_items .header_3 {
+        text-align: left;
+    }
+    .a ul li {
+        list-style: none;
+        padding-top: 10px;
+    }
+    .a ul li a {
+        color: blue;
+    }.a ul li a:hover {
+        color: green;
+        transition: all .5s;
+    }
+    .a ul {
+        padding: 0;
+    }
+    .a ul li .read-more {
+        color: white;
+        padding: 5px 10px;
+        background: blue;
+        border-radius: 5px;
+    }
+    .a ul li .read-more:hover {
+        transition: all .5s;
+        color: yellow;
+    }
     .client_resouces_items img {
-        height: 70px;
-        padding: 25px 0px 20px 0px;
+        height: 270px;
+        width: 100%;
     }
 
 
@@ -25266,4 +25295,12 @@ font-size: 28px;
 }
 .main-img {
     width: 100%;
+}
+.contact-row {
+    padding: 0 10%;
+    text-align: left;
+}
+.publication-main-top-background {
+    background: #0d3759;
+    margin-top: -2px;
 }
