@@ -29,8 +29,8 @@ permalink: /publication/
       <div class="a">
         <div class="client_resouces_items client_education">
           <img src="{{ item.image }}" alt="" border="0" />
+          <p>{{ item.journal }}</p>
           <div class="header_3">{{ item.title }}</div>
-
           {{ item.authors | markdownify }}
           <ul>
             {% if item.pmid %}
