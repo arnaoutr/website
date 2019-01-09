@@ -42,7 +42,8 @@ layout: default
                     class="header_promo"
                     style="text-align: center; padding: 0px 0px 10px 0px;"
                   >
-                    {{ news.title }}
+                    {{ news.title }} <br />
+                    {% if news.title2%} {{ news.title2 }} {% endif%}
                   </div>
                   <!-- <p style="text-align: center; padding: 0px 25px;">
                     Now you have even more options to use our services directly
