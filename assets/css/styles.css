@@ -1041,6 +1041,7 @@ body {
       background-image: url('/assets/image/heart_graphic_white.png');
       background-size: 100%;
         padding-top: 350px;
+        background-repeat: no-repeat;
         /* For banner nav */
     }
 
