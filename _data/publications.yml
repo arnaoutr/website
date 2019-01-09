@@ -1,0 +1,132 @@
+- citation: "Arnaout A. Toward a clearer picture of health. Nature Medicine. 2019 Jan 7."
+  title: "Toward a clearer picture of health."
+  authors: "**Arnaout R**."
+  journal: "Nature Medicine"
+  year: "2019"
+  date: "2019 Jan 7"
+  image: /assets/image/pub/arnaout_natmed_2019.png
+  url: "https://doi.org/10.1038/s41591-018-0318-x"
+
+- citation: "Arnaout R. Deep-learning models improve on community-level diagnosis for common congenital heart disease lesions. ArXiv e-prints. 2018;1809.06993."
+  title: "Deep-learning models improve on community-level diagnosis for common congenital heart disease lesions."
+  authors: "**Arnaout R**, Curran L, Chinn E, Zhao Y, Moon-Grady A."
+  journal: "arXiv"
+  year: "2018"
+  date: "2018 Sep 19"
+  image: /assets/image/pub/arnaout_arxiv_2018.png
+  url: "https://arxiv.org/abs/1809.06993"
+
+- citation: "Guerra A, Germano RVF, Stone O, Arnaout R, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S. Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish. eLife. 2018 May 15;2018;7:e32833."
+  title: "Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish."
+  authors: "Guerra A, Germano RVF, Stone O, **Arnaout R**, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S."
+  journal: "eLife"
+  year: "2018"
+  date: "2018 May 15"
+  image: /assets/image/pub/guerra_elife_2018.png
+  url: "https://elifesciences.org/articles/32833"
+
+- citation: "Arnaout R, Orr N, Gula LJ, Spears DA, Leong-Sit P, Li Q, Tarhuni W, Reischauer S, Chauhan VS, Borkovich M, Uppal S, Adler A, Coughlin SR, Stainier DY, Gollob MH. A mutation in the atrial-specific myosin light chain gene (MYL4) causes familial atrial fibrillation. Nat Commun. 2016 Apr 12;7:11303. doi: 10.1038/ncomms11303."
+  title: "A mutation in the atrial-specific myosin light chain gene (MYL4) causes familial atrial fibrillation."
+  authors: "**Arnaout R**, Orr N, Gula LJ, Spears DA, Leong-Sit P, Li Q, Tarhuni W, Reischauer S, Chauhan VS, Borkovich M, Uppal S, Adler A, Coughlin SR, Stainier DY, Gollob MH."
+  journal: "Nat Commun."
+  year: "2016"
+  date: "2016 Apr 12"
+  image: /assets/image/pub/arnaout_natcomm_2016.png
+  url: "https://www.nature.com/articles/ncomms11303"
+  pmid: "27066836"
+  pmcid: "PMC4832069"
+
+- citation: "Madani A, Arnaout R, Mofrad M, Arnaout R. Fast and accurate view classification of echocardiograms using deep learning. npj Digitial Medicine. 2018 Mar 21."
+  title: "Fast and accurate view classification of echocardiograms using deep learning."
+  authors: "Madani A, Arnaout R, Mofrad M, **Arnaout R**."
+  journal: "npj Digital Medicine"
+  year: "2018"
+  date: "2018 Mar 21"
+  image: /assets/image/pub/madani_npjdm_2018.jpg
+  url: "https://www.nature.com/articles/s41746-017-0013-1"
+
+- citation: "Brown D, Samsa LA, Ito C, Ma H, Batres K, Arnaout R, Qian L, Liu J. Neuregulin-1 is essential for nerve plexus formation during cardiac maturation. J Cell Mol Med. 2017 Dec 19. doi: 10.1111/jcmm.13408. [Epub ahead of print]"
+  title: "Neuregulin-1 is essential for nerve plexus formation during cardiac maturation."
+  authors: "Brown D, Samsa LA, Ito C, Ma H, Batres K, **Arnaout R**, Qian L, Liu J."
+  journal: "J Cell Mol Med."
+  year: "2017"
+  date: "2017 Dec 19"
+  image: /assets/image/pub/brown_jcmm_2017.png
+  pmid: "29265764"
+
+- citation: "Madani A, Arnaout R, Mofrad M, Arnaout R. Fast and accurate classification of echocardiograms using deep learning. ArXiv e-prints. 2017;1706.08658."
+  title: "Fast and accurate classification of echocardiograms using deep learning."
+  authors: "Madani A, Arnaout R, Mofrad M, **Arnaout R**."
+  journal: "arXiv"
+  year: "2017"
+  date: "2017 Jun 17"
+  image: /assets/image/pub/madani_arxiv_2017_cropped.png
+  url: "https://arxiv.org/abs/1706.08658"
+
+- citation: "Gut P, Reischauer S, Stainier DYR, Arnaout R. LITTLE FISH, BIG DATA: ZEBRAFISH AS A MODEL FOR CARDIOVASCULAR AND METABOLIC DISEASE. Physiol Rev. 2017 Jul 1;97(3):889-938. doi: 10.1152/physrev.00038.2016. Review."
+  date: "2017 Jul 1"
+  title: "Little Fish, Big Data: Zebrafish as a Model for Cardiovascular and Metabolic Disease."
+  authors: "Gut P, Reischauer S, Stainier DYR, **Arnaout R**."
+  journal: "Physiol Rev."
+  year: "2017"
+  image: /assets/image/pub/gut_physrev_2017.png
+  pmid: "28468832"
+
+- citation: "Arnaout R, Reischauer S, Stainier DY. Recovery of adult zebrafish hearts for high-throughput applications. J Vis Exp. 2014 Dec 12;(94). doi: 10.3791/52248."
+  date: "2014 Dec 12"
+  title: "Recovery of adult zebrafish hearts for high-throughput applications."
+  authors: "**Arnaout R**, Reischauer S, Stainier DY."
+  journal: "J Vis Exp."
+  year: "2014"
+  image: /assets/image/pub/arnaout_jove_2014.png
+  pmid: "25548868"
+  pmcid: "PMC4396955"
+
+- citation: "Reischauer S, Arnaout R, Ramadass R, Stainier DY. Actin binding GFP allows 4D in vivo imaging of myofilament dynamics in the zebrafish heart and the identification of Erbb2 signaling as a remodeling factor of myofibril architecture. Circ Res. 2014 Oct 24;115(10):845-56. doi: 10.1161/CIRCRESAHA.115.304356. Epub 2014 Sep 16."
+  date: "2014 Sep 16"
+  title: "Actin binding GFP allows 4D in vivo imaging of myofilament dynamics in the zebrafish heart and the identification of Erbb2 signaling as a remodeling factor of myofibril architecture."
+  authors: "Reischauer S, **Arnaout R**, Ramadass R, Stainier DY."
+  journal: "Circ Res."
+  year: "2014"
+  image: /assets/image/pub/compressed_reischauer_circres_2014.jpg
+  pmid: "25228389"
+  pmcid: "PMC4371144"
+
+- citation: "Arnaout R, Stainier DY. Developmental biology: physics adds a twist to gut looping. Curr Biol. 2011 Oct 25;21(20):R854-7. doi: 10.1016/j.cub.2011.09.005. Review."
+  date: "2011 Oct 25"
+  title: "Developmental biology: physics adds a twist to gut looping."
+  authors: "**Arnaout R**, Stainier DY."
+  journal: "Curr Biol."
+  year: "2011"
+  image: /assets/image/pub/arnaout_currbiol_2011.png
+  pmid: "22032191"
+  doi: "10.1016/j.cub.2011.09.005"
+
+- citation: "Arnaout R, Thorson A. Late Recognition of Malignant Vasovagal Syncope. Card Electrophysiol Clin. 2010 Jun;2(2):281-283. doi: 10.1016/j.ccep.2010.01.019."
+  date: "2010 Jun 2"
+  title: "Late Recognition of Malignant Vasovagal Syncope."
+  authors: "**Arnaout R**, Thorson A."
+  journal: "Card Electrophysiol Clin."
+  year: "2010"
+  image: "/assets/image/pub/transparent_background.png"
+  pmid: "28770764"
+
+- citation: "Chi NC, Shaw RM, Jungblut B, Huisken J, Ferrer T, Arnaout R, Scott I, Beis D, Xiao T, Baier H, Jan LY, Tristani-Firouzi M, Stainier DY. Genetic and physiologic dissection of the vertebrate cardiac conduction system. PLoS Biol. 2008 May 13;6(5):e109. doi: 10.1371/journal.pbio.0060109."
+  date: "2008 May 13"
+  title: "Genetic and physiologic dissection of the vertebrate cardiac conduction system."
+  authors: "Chi NC, Shaw RM, Jungblut B, Huisken J, Ferrer T, **Arnaout R**, Scott I, Beis D, Xiao T, Baier H, Jan LY, Tristani-Firouzi M, Stainier DY."
+  journal: "PLoS Biol"
+  year: "2008"
+  image: /assets/image/pub/chi_plosbiol_2008.png
+  pmid: "18479184"
+  pmcid: "PMC2430899"
+
+- citation: "Arnaout R, Ferrer T, Huisken J, Spitzer K, Stainier DY, Tristani-Firouzi M, Chi NC. Zebrafish model for human long QT syndrome. Proc Natl Acad Sci U S A. 2007 Jul 3;104(27):11316-21. Epub 2007 Jun 25."
+  date: "2007 Jun 25"
+  title: "Zebrafish model for human long QT syndrome."
+  authors: "**Arnaout R**, Ferrer T, Huisken J, Spitzer K, Stainier DY, Tristani-Firouzi M, Chi NC."
+  journal: "Proc Natl Acad Sci USA"
+  year: "2007"
+  image: /assets/image/pub/compressed_arnaout_pnas_2007.jpg
+  pmid: "17592134"
+  pmcid: "PMC2040896"
