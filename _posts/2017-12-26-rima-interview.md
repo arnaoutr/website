@@ -1,5 +1,5 @@
 ---
-title: <a href='https://www.medpagetoday.com/practicemanagement/informationtechnology/70119'>MedPage Today interviews Rima Arnaout about how AI will change medicine</a>
+title: MedPage Today interviews Rima Arnaout about how AI will change medicine
 date: 2017-12-26
 redirect_to:
   - https://www.medpagetoday.com/practicemanagement/informationtechnology/70119
