@@ -4,8 +4,8 @@
 - text: "Publication"
   url: "/publication/"
 
-- text: "Member"
-  url: "/member/"
+- text: "Members"
+  url: "/members/"
 
 - text: "News"
   url: "/news/"
