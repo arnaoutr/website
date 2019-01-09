@@ -1,55 +1,35 @@
-<header>
-  <nav>
-    <div
-      class="masthead"
-      id="themasthead"
-      style="background-color: #0d3759; z-index:3000;"
-    >
-      <div class="wrap1">
-        <a href="/"> <div class="bgo-logo_reverse" style="color: #fff">Arnaout Lab @ UCSF</div> </a>
-        <div class="nav-wrap">
-          <div
-            class="bgo_nav_mobile mobile"
-            style="background: transparent; position: relative;"
-          >
-            <a href="/" style="color: #fff"></a>
-              <img
-                src="/assets/img/sites/bgo/bgo_logo_white_notag.png"
-                width="200"
-                border="0"
-                alt="BGO Logo"
-              />
-              <div class="mobile_nav_header"></div>
-            </a>
-            <div class="menu-button"></div>
-          </div>
-          <ul data-breakpoint="800" class="flexnav">
-            {% for link in site.data.menu %}
-              {% unless forloop.last == true %}
-              <li><a href="{{link.url}}">{{link.text}}</a></li>
-              {% endunless %}
+<div
+  class="masthead"
+  id="themasthead"
+  style="background-color: #0d3759; z-index:3000;"
+>
+  <div class="wrap1">
+    <a href="/" class="logo">
+      Arnaout Lab @ UCSF
+      <div class="bgo-logo_reverse"></div>
+    </a>
+    <div class="nav-wrap">
+      <div class="bgo_nav_mobile mobile" style="position: relative;">
+        <a href="/" class="logo">
+          <!-- <img src="/assets/images/sites/bgo/bgo_logo_white_notag.png" width="200" border="0" /> -->
 
-              {% if forloop.last == true %}
-                <li class="nav-btn1">
-                  <a
-                    href="{{link.url}}"
-                    class="nav_btn_login"
-                    >{{link.text}}</a
-                  >
-                </li>
-              {% endif %}
-            {% endfor %}
-            
-            <!-- <li class="nav-btn2">
-              <a href="CreateAccount/index.html" class="nav_btn_signup"
-                >Start Screening</a
-              >
-            </li> -->
-          </ul>
-        </div>
+          <div class="mobile_nav_header"></div>
+        </a>
+        <div class="menu-button"></div>
       </div>
-      <!-- wrap1 -->
+      <ul data-breakpoint="800" class="flexnav">
+        {% for link in site.data.menu %} {% unless forloop.last == true %}
+        <li>
+          <a href="{{ link.url }}">{{ link.text }}</a>
+        </li>
+        {% endunless %} {% if forloop.last == true %}
+        <li class="nav-btn1">
+          <a href="{{ link.url }}" class="nav_btn_login">{{ link.text }}</a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
     </div>
-    <!-- masthead -->
-  </nav>
-</header>
+  </div>
+  <!-- wrap1 -->
+</div>
+<!-- masthead -->
