@@ -1,10 +1,10 @@
 # upload all logo in assets
--
--
+- img: "aha_pmi_logo.png"
 - img: "berkeley_logo.png"
-- img: "czb_logo.jpeg"
-- img: "nhlbi_logo1.jpg"
+- img: "stanford.logo.png"
+- img: "czb_logo_transparent.png"
+- img: "nhlbi_logo_transparent_background.png"
 - img: "pcgc_logo.png"
 - img: "sarnoff_logo.jpg"
 - img: "stanford.logo.png"
-- img: "UCSF_logo_for_catalyst_or_general.png"
+- img: "ucsf_logo_navy.png"
