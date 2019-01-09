@@ -1762,7 +1762,7 @@ width: 250px;
     }
 
     #home .blog_area {
-        background-image: url(/assets/img/sites/bgo/background_blog.jpg);
+        background-image: url(/assets/image/cnnfilter.png);
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
@@ -1770,8 +1770,9 @@ width: 250px;
         width: 100%;
         display: table;
         height: auto;
+        background-repeat: no-repeat;
         padding-bottom: 50px;
-        padding-top: 50px;
+        padding-top: 450px;
     }
 
     #home .blog_area_vertical {
