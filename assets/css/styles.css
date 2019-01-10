@@ -10047,7 +10047,7 @@ width: 250px;
     }
 
     #home .blog_area {
-        background-image: url(/assets/img/sites/bgo/background_blog.jpg);
+        background-image: url(/assets/image/cnnfilter_top_crop.png);
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
@@ -25310,6 +25310,9 @@ font-size: 28px;
     color: #fff;
     position: absolute;
     top: 30px;
+}
+.logo:hover {
+    color: #fff;
 }
 @media only screen and (max-width: 767px) {
     .logo {
