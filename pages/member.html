@@ -3,35 +3,128 @@ layout: default
 permalink: /members/
 ---
 
-<div class="sbi_lp_mainarea">
-  <div id="next"></div>
-  <div class="sbi_lp_mainarea_wrap">
-    <div class="sbi_lp_industry_row">
-      <div class="sbi_lp_industry_cube sbi_lp_spacer">
-        <img
-          src="../content.backgroundsonline.com/images/sites/bgo/sbi_lp_notaries_b.jpg"
-          width="271"
-          height="185"
-          border="0"
-        />
-        <a href="industry-background-check/notaries.html">
-          <div class="sbi_lp_industry_cube_cover">
-            <div class="sbi_lp_summary">
-              <div class="sbi_lp_summary_header">Notaries</div>
-              We provide authoritative background screening for potential
-              Notaries, and annual screenings with a convenient Pass/Fail
-              scoring system.
+<div id="createaccount_main" class="signup_background">
+  <div class="main-area">
+    <div class="main-area-content">
+      <!--  -->
+      {% for person in site.data.members %} {% assign rows = forloop.index |
+      modulo: 2 %} {% if rows == 1 %}
+
+      <div>
+        <div class="main-area-width start2">
+          <div class="row">
+            <div class="col-md-6" style="vertical-align:top;">
+              <img
+                class="member-img"
+                src="/assets/image/members/{{ person.image }}"
+                height="200"
+                style="margin: 15px;"
+              />
+              <p>
+                <strong>{{ person.name }}</strong>
+
+                {% if person.position %} , {{ person.position }} {% endif %}
+              </p>
+              <strong>Email:</strong>
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a
+              ><br />
+              {% if person.github %} <strong>Github</strong>:
+              <a href="https://github.com/{{ person.github }}"
+                >{{ person.github }}
+              </a>
+              <br />
+              {% endif %} {% if person.website %} <strong>Web</strong>:
+              <a href="{{ person.website }}">{{ person.website }}</a> <br />
+              {% endif %} {% if person.linkedin %} <strong>LinkedIn</strong>:
+              <a href="http://linkedin.com/in/{person.linkedin}}">{{
+                person.linkedin
+              }}</a>
+              <br />
+              {% endif %} {% if person.scholar %}
               <a
-                href="industry-background-check/notaries.html"
-                class="sbi_lp_summary_btn"
-                >Learn More</a
+                href="http://scholar.google.com/citations?user={{
+                  person.scholar
+                }}"
               >
+                Scholar Citations
+              </a>
+              <br />
+              {% endif %} {% if person.twitter %} <strong>Twitter</strong>:
+              <a href="http://twitter.com/{{ person.twitter }}">
+                @{{ person.twitter }}
+              </a>
+              <br />
+              {% endif %}
+            </div>
+            <!--start-left-->
+            <div class="col-md-6" style="text-align: left;">
+              <h1 class="member_header_2">
+                {{ person.description | markdownify }}
+              </h1>
             </div>
           </div>
-          <!-- sbi_lp_industry_cube_cover -->
-        </a>
+        </div>
       </div>
-      <!-- sbi_lp_industry_cube -->
+      {% else %}
+      <div class="back-gray">
+        <div class="main-area-width start2">
+          <div class="row">
+            <div class="col-md-6" style="vertical-align:top;">
+              <img
+                class="member-img"
+                src="/assets/image/members/{{ person.image }}"
+                height="200"
+                style="margin: 15px;"
+              />
+              <p>
+                <strong>{{ person.name }}</strong>
+
+                {% if person.position %} , {{ person.position }} {% endif %}
+              </p>
+              <strong>Email:</strong>
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a
+              ><br />
+              {% if person.github %} <strong>Github</strong>:
+              <a href="https://github.com/{{ person.github }}"
+                >{{ person.github }}
+              </a>
+              <br />
+              {% endif %} {% if person.website %} <strong>Web</strong>:
+              <a href="{{ person.website }}">{{ person.website }}</a> <br />
+              {% endif %} {% if person.linkedin %} <strong>LinkedIn</strong>:
+              <a href="http://linkedin.com/in/{person.linkedin}}">{{
+                person.linkedin
+              }}</a>
+              <br />
+              {% endif %} {% if person.scholar %}
+              <a
+                href="http://scholar.google.com/citations?user={{
+                  person.scholar
+                }}"
+              >
+                Scholar Citations
+              </a>
+              <br />
+              {% endif %} {% if person.twitter %} <strong>Twitter</strong>:
+              <a href="http://twitter.com/{{ person.twitter }}">
+                @{{ person.twitter }}
+              </a>
+              <br />
+              {% endif %}
+            </div>
+            <!--start-left-->
+            <div class="col-md-6" style="text-align: left;">
+              <h1 class="member_header_2">
+                {{ person.description | markdownify }}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif%} {%endfor%}
     </div>
   </div>
+  <!-- main-area -->
+
+  <div class="clear"></div>
 </div>

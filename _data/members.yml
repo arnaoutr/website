@@ -1,0 +1,49 @@
+- name: Erin Chinn, MS
+  image: erin_chinn.jpg
+  position: Data Science Researcher
+  email: erin.chinn@ucsf.edu
+  github: "emchinn"
+  linkedin: "erinchinn"
+  description: "Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master's Degree in Analytics from the University of San Francisco."
+
+- name: Lara Curran, MBBS BSc
+  image: lara_curran.jpg
+  position: Visiting Research Scholar
+  email: lara.groom@ucsf.edu
+  description: "Dr. Curran is trained in internal medicine and is a cardiology fellow at University College London. She is a visiting researcher from the UK."
+
+- name: Yili Zhao, PhD RDCS
+  image: yili_zhao.jpg
+  position: Research Sonographer
+  email: yili.zhao@ucsf.edu
+  description: "Yili practices clinical fetal and pediatric ultrasonography, as well as participates in fetal cardiology research."
+
+- name: Jon Renslo, BS
+  image: jon_renslo.jpg
+  position: Research Affiliate
+  email: jon.renslo@ucsf.edu
+  description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
+
+# - name: Ana Santos Lima, MD
+#   image: jon_renslo.jpg
+#   position: Research Affiliate
+#   email: jon.renslo@ucsf.edu
+#   description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
+
+- name: Claudia Portillo, BS
+  image: claudia_portillo.jpg
+  position: Research Affiliate
+  email: claudia.portillo@ucsf.edu
+  description: "Claudia graduated from Vassar College with a Bachelor's degree in Biochemistry and is currently in the UC Berkeley post-Baccalaureate program. Claudia's interests include bench research and community health care. She is applying to medical school in the fall."
+# - name: Walter Rasmussen, RDMS, RDCS
+#   image: jon_renslo.jpg
+#   position: Research Affiliate
+#   email: jon.renslo@ucsf.edu
+#   description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
+
+# - name: Martha Tesfalul, MD
+#   image: martha_tesfalul.jpg
+#   position: Clinical Fellow
+#   email: martha.tesfalul@ucsf.edu
+#   description: "Dr. Tesfalul is a maternal-fetal medicine fellow at UCSF."
+
