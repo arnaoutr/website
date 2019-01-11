@@ -37,20 +37,29 @@ layout: default
             {% for news in site.posts %}
             <li class="unslider-clone row" style="width: 12.5%;">
               <div class="row">
-                <div class="col-md-12 slide" style="vertical-align: top;">
-                  <div
-                    class="header_promo"
-                    style="text-align: center; padding: 0px 0px 10px 0px;"
-                  >
+                <div class="col-md-6">
+                  {% if news.img %}
+                  <img
+                    src="/assets/image/news/{{ news.img }}"
+                    width="250"
+                    alt="News"
+                    class="hro-logo"
+                  />
+                  {% endif %}
+                </div>
+                <div class="col-md-6" style="vertical-align: top;">
+                  <div class="header_promo">
                     {{ news.title }} <br />
                     {% if news.title2%} {{ news.title2 }} {% endif%}
                   </div>
-                  <!-- <p style="text-align: center; padding: 0px 25px;">
-                    Now you have even more options to use our services directly
-                    through your preferred ATS. You'll get a secure connection
-                    that saves time, reduces manual data entry and expedites the
-                    screening process.
-                  </p> -->
+                  <!-- <p>Backgrounds Online made the top pre-employment screening providers list. Rated for service, deal sizes, and quality.</p> -->
+                  <!-- <div class=""> -->
+                  <!-- <div class="hm_promo_btn">
+                          <a href="LandingPages/bakers_dozen.html">
+                            Read More
+                          </a>
+                        </div> -->
+                  <!-- </div> -->
                 </div>
               </div>
             </li>
@@ -68,7 +77,7 @@ layout: default
     <ul class="hm_sub_nav_txt">
       {% for logo in site.data.home_logos %}
       <li class="logo_width">
-        <a href="#">
+        <a href="{{ logo.url }}">
           <img
             src="/assets/image/logos/{{ logo.img }}"
             alt="report"
