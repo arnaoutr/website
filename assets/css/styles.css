@@ -25288,12 +25288,12 @@ font-size: 28px;
     float: right;
 }
 .logo_width {
-    width: 19%;
+    width: 18.5%;
     margin: 10px 0;
 }
 .logo_width img {
     width: 100%;
-    height: 300px;
+    height: 150px;
 }
 @media screen and (max-height: 767px) {
     .logo_width img {
@@ -25359,8 +25359,12 @@ font-size: 28px;
     color: #052049;
     font-weight: 700;
 }
-#createaccount_main a {
+#createaccount_main a, .affiliated-link a {
     color: #007cbe;
+}
+.affiliated-link a:hover {
+    color: #052049;
+    transition: all .5s;    
 }
 .signup_background {
     padding-top: 0;
