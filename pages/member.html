@@ -6,10 +6,254 @@ permalink: /members/
 <div id="createaccount_main" class="signup_background">
   <div class="main-area">
     <div class="main-area-content">
-      <!--  -->
+      <!-- Principal Investigator -->
+      <div class="main-area-width start2">
+        <h1 class="header_1  animated fadeInDown member-title">
+          Principal Investigator
+        </h1>
+      </div>
+      {% for person in site.data.pi %} {% assign rows = forloop.index | modulo:
+      2 %} {% if rows == 1 %}
+      <div>
+        <div class="main-area-width start2">
+          <div class="row">
+            <div class="col-md-6" style="vertical-align:top;">
+              <img
+                class="member-img"
+                src="/assets/image/members/{{ person.image }}"
+                height="200"
+                style="margin: 15px;"
+              />
+              <p>
+                <strong>{{ person.name }}</strong>
+
+                {% if person.position %} , {{ person.position }} {% endif %}
+              </p>
+              <strong>Email:</strong>
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a
+              ><br />
+              {% if person.github %} <strong>Github</strong>:
+              <a href="https://github.com/{{ person.github }}"
+                >{{ person.github }}
+              </a>
+              <br />
+              {% endif %} {% if person.website %} <strong>Web</strong>:
+              <a href="{{ person.website }}">{{ person.website }}</a> <br />
+              {% endif %} {% if person.linkedin %} <strong>LinkedIn</strong>:
+              <a href="http://linkedin.com/in/{person.linkedin}}">{{
+                person.linkedin
+              }}</a>
+              <br />
+              {% endif %} {% if person.scholar %}
+              <a
+                href="http://scholar.google.com/citations?user={{
+                  person.scholar
+                }}"
+              >
+                Scholar Citations
+              </a>
+              <br />
+              {% endif %} {% if person.twitter %} <strong>Twitter</strong>:
+              <a href="http://twitter.com/{{ person.twitter }}">
+                @{{ person.twitter }}
+              </a>
+              <br />
+              {% endif %}
+            </div>
+            <!--start-left-->
+            <div class="col-md-6" style="text-align: left;">
+              <h1 class="member_header_2">
+                {{ person.description | markdownify }}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% else %}
+      <div class="back-gray">
+        <div class="main-area-width start2">
+          <div class="row">
+            <div class="col-md-6" style="vertical-align:top;">
+              <img
+                class="member-img"
+                src="/assets/image/members/{{ person.image }}"
+                height="200"
+                style="margin: 15px;"
+              />
+              <p>
+                <strong>{{ person.name }}</strong>
+
+                {% if person.position %} , {{ person.position }} {% endif %}
+              </p>
+              <strong>Email:</strong>
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a
+              ><br />
+              {% if person.github %} <strong>Github</strong>:
+              <a href="https://github.com/{{ person.github }}"
+                >{{ person.github }}
+              </a>
+              <br />
+              {% endif %} {% if person.website %} <strong>Web</strong>:
+              <a href="{{ person.website }}">{{ person.website }}</a> <br />
+              {% endif %} {% if person.linkedin %} <strong>LinkedIn</strong>:
+              <a href="http://linkedin.com/in/{person.linkedin}}">{{
+                person.linkedin
+              }}</a>
+              <br />
+              {% endif %} {% if person.scholar %}
+              <a
+                href="http://scholar.google.com/citations?user={{
+                  person.scholar
+                }}"
+              >
+                Scholar Citations
+              </a>
+              <br />
+              {% endif %} {% if person.twitter %} <strong>Twitter</strong>:
+              <a href="http://twitter.com/{{ person.twitter }}">
+                @{{ person.twitter }}
+              </a>
+              <br />
+              {% endif %}
+            </div>
+            <!--start-left-->
+            <div class="col-md-6" style="text-align: left;">
+              <h1 class="member_header_2">
+                {{ person.description | markdownify }}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif%} {%endfor%}
+      <!-- Member -->
+      <hr />
+      <div class="main-area-width start2">
+        <h1 class="header_1  animated fadeInDown member-title">Member</h1>
+      </div>
       {% for person in site.data.members %} {% assign rows = forloop.index |
       modulo: 2 %} {% if rows == 1 %}
+      <div>
+        <div class="main-area-width start2">
+          <div class="row">
+            <div class="col-md-6" style="vertical-align:top;">
+              <img
+                class="member-img"
+                src="/assets/image/members/{{ person.image }}"
+                height="200"
+                style="margin: 15px;"
+              />
+              <p>
+                <strong>{{ person.name }}</strong>
 
+                {% if person.position %} , {{ person.position }} {% endif %}
+              </p>
+              <strong>Email:</strong>
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a
+              ><br />
+              {% if person.github %} <strong>Github</strong>:
+              <a href="https://github.com/{{ person.github }}"
+                >{{ person.github }}
+              </a>
+              <br />
+              {% endif %} {% if person.website %} <strong>Web</strong>:
+              <a href="{{ person.website }}">{{ person.website }}</a> <br />
+              {% endif %} {% if person.linkedin %} <strong>LinkedIn</strong>:
+              <a href="http://linkedin.com/in/{person.linkedin}}">{{
+                person.linkedin
+              }}</a>
+              <br />
+              {% endif %} {% if person.scholar %}
+              <a
+                href="http://scholar.google.com/citations?user={{
+                  person.scholar
+                }}"
+              >
+                Scholar Citations
+              </a>
+              <br />
+              {% endif %} {% if person.twitter %} <strong>Twitter</strong>:
+              <a href="http://twitter.com/{{ person.twitter }}">
+                @{{ person.twitter }}
+              </a>
+              <br />
+              {% endif %}
+            </div>
+            <!--start-left-->
+            <div class="col-md-6" style="text-align: left;">
+              <h1 class="member_header_2">
+                {{ person.description | markdownify }}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% else %}
+      <div class="back-gray">
+        <div class="main-area-width start2">
+          <div class="row">
+            <div class="col-md-6" style="vertical-align:top;">
+              <img
+                class="member-img"
+                src="/assets/image/members/{{ person.image }}"
+                height="200"
+                style="margin: 15px;"
+              />
+              <p>
+                <strong>{{ person.name }}</strong>
+
+                {% if person.position %} , {{ person.position }} {% endif %}
+              </p>
+              <strong>Email:</strong>
+              <a href="mailto:{{ person.email }}">{{ person.email }}</a
+              ><br />
+              {% if person.github %} <strong>Github</strong>:
+              <a href="https://github.com/{{ person.github }}"
+                >{{ person.github }}
+              </a>
+              <br />
+              {% endif %} {% if person.website %} <strong>Web</strong>:
+              <a href="{{ person.website }}">{{ person.website }}</a> <br />
+              {% endif %} {% if person.linkedin %} <strong>LinkedIn</strong>:
+              <a href="http://linkedin.com/in/{person.linkedin}}">{{
+                person.linkedin
+              }}</a>
+              <br />
+              {% endif %} {% if person.scholar %}
+              <a
+                href="http://scholar.google.com/citations?user={{
+                  person.scholar
+                }}"
+              >
+                Scholar Citations
+              </a>
+              <br />
+              {% endif %} {% if person.twitter %} <strong>Twitter</strong>:
+              <a href="http://twitter.com/{{ person.twitter }}">
+                @{{ person.twitter }}
+              </a>
+              <br />
+              {% endif %}
+            </div>
+            <!--start-left-->
+            <div class="col-md-6" style="text-align: left;">
+              <h1 class="member_header_2">
+                {{ person.description | markdownify }}
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif%} {%endfor%}
+      <!-- Collaborators -->
+      <hr />
+      <div class="main-area-width start2">
+        <h1 class="header_1  animated fadeInDown member-title">
+          Collaborators
+        </h1>
+      </div>
+      {% for person in site.data.collaborators %} {% assign rows = forloop.index
+      | modulo: 2 %} {% if rows == 1 %}
       <div>
         <div class="main-area-width start2">
           <div class="row">

@@ -25353,4 +25353,15 @@ font-size: 28px;
 }
 .back-gray {
     background: #eee;
+    padding-top: 30px;
+}
+.member-title {
+    color: #052049;
+    font-weight: 700;
+}
+#createaccount_main a {
+    color: #007cbe;
+}
+.signup_background {
+    padding-top: 0;
 }
