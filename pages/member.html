@@ -234,6 +234,7 @@ permalink: /members/
   </div>
   <!-- sbi_lp_mainarea_wrap -->
 </div>
+
 <!-- member main-area -->
 
 <div id="solutionsbyindustry">
@@ -325,13 +326,11 @@ permalink: /members/
             </ul>
           </div>
 
-          <div class="modal-toggle-member{{ forloop.index }} modal-toggle">
-            +
-          </div>
+          <div class="modal-toggle-{{ forloop.index }} modal-toggle">+</div>
 
           <!-- sbi_lp_industry_cube_cover -->
         </div>
-        <div class="modal-member{{ forloop.index }} modal">
+        <div class="modal-{{ forloop.index }} modal">
           <div class="modal-overlay modal-toggle"></div>
           <div class="modal-wrapper modal-transition">
             <div class="modal-body">
@@ -437,7 +436,7 @@ permalink: /members/
                   </div>
                   <div class="col-md-6">
                     <div
-                      class="modal-close modal-toggle modal-toggle-member{{
+                      class="modal-close modal-toggle modal-toggle-{{
                         forloop.index
                       }}"
                     ></div>
@@ -452,9 +451,9 @@ permalink: /members/
           </div>
         </div>
         <script>
-          $(".modal-toggle-member{{forloop.index}}").on("click", function(e) {
+          $(".modal-toggle-{{forloop.index}}").on("click", function(e) {
             e.preventDefault();
-            $(".modal-member{{forloop.index}}").toggleClass("is-visible");
+            $(".modal-{{forloop.index}}").toggleClass("is-visible");
           });
         </script>
 
@@ -568,7 +567,7 @@ permalink: /members/
 
           <!-- sbi_lp_industry_cube_cover -->
         </div>
-        <div class="modal-member{{ forloop.index }} modal">
+        <div class="modal-collaborators{{ forloop.index }} modal">
           <div class="modal-overlay modal-toggle"></div>
           <div class="modal-wrapper modal-transition">
             <div class="modal-body">
