@@ -1594,8 +1594,8 @@ display: table-cell;
     }
     .header_promo {
         font-size: 24px;
-        text-align: left;
-        padding: 30px 0px 10px 0px;
+        text-align: center;
+        padding: 65px 60px;
     }
     .header_promo img {
         padding: 5px;
@@ -17687,6 +17687,7 @@ padding: 10px;
             /* margin-bottom: 54px; */
             margin-top: 0px;
             padding-top: 60px;
+            background-repeat: no-repeat;
             width: 100%;
             height: 110px;
             font-size: 16px;
@@ -18103,7 +18104,7 @@ padding: 5px;
     }
     .hm_certification_logos {
         display: block;
-        padding-top: 130px;
+        padding-top: 70px;
     }
     .home_bgo_protect_image {
         clear: both;
@@ -25264,7 +25265,7 @@ font-size: 28px;
     }
 }
 
-@media screen and (max-height: 575px) {
+@media screen and (max-width: 575px) {
     #rc-imageselect, .g-recaptcha {
         transform: scale(0.77);
         -webkit-transform: scale(0.77);
@@ -25295,9 +25296,9 @@ font-size: 28px;
     width: 100%;
     height: 150px!important;
 }
-@media screen and (max-height: 767px) {
+@media screen and (max-width: 767px) {
     .logo_width img {
-        height: 50px;
+        height: 50px!important;
     }
 }
 .main-img {

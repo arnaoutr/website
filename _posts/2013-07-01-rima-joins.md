@@ -1,7 +1,7 @@
 ---
 title: Rima Arnaout joins the Cardiology faculty at UCSF
 date: 2013-07-01
-img: "bakar_institute_logo.png"
+img: "newsbox_mmode1.png"
 redirect_to:
   - https://cardiology.ucsf.edu/facstaff/spotlight/arnaout.html
 ---

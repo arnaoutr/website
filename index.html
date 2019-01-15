@@ -37,10 +37,12 @@ layout: default
             {% for news in site.posts %}
             <li
               class="unslider-clone row li-back"
-              style="width: 12.5%; background-image: url(/assets/image/news/newsbox_cells.png); "
+              style="width: 12.5%; background-image: url(/assets/image/news/{{
+                news.img
+              }}); "
             >
               <div class="row">
-                <div class="col-md-6" style="vertical-align: top;">
+                <div class="" style="vertical-align: top;">
                   <div class="header_promo">
                     {{ news.title }} <br />
                     {% if news.title2%} {{ news.title2 }} {% endif%}
