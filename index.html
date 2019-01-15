@@ -35,18 +35,11 @@ layout: default
             style="width: 800%; margin-left: -100%; left: 0%;"
           >
             {% for news in site.posts %}
-            <li class="unslider-clone row" style="width: 12.5%;">
+            <li
+              class="unslider-clone row li-back"
+              style="width: 12.5%; background-image: url(/assets/image/news/newsbox_cells.png); "
+            >
               <div class="row">
-                <div class="col-md-6">
-                  {% if news.img %}
-                  <img
-                    src="/assets/image/news/{{ news.img }}"
-                    width="250"
-                    alt="News"
-                    class="hro-logo"
-                  />
-                  {% endif %}
-                </div>
                 <div class="col-md-6" style="vertical-align: top;">
                   <div class="header_promo">
                     {{ news.title }} <br />
