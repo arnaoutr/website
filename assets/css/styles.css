@@ -25369,3 +25369,7 @@ font-size: 28px;
 .signup_background {
     padding-top: 0;
 }
+.li-back {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
