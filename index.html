@@ -44,17 +44,17 @@ layout: default
               <div class="row">
                 <div class="" style="vertical-align: top;">
                   <div class="header_promo">
-                    {{ news.title }} <br />
-                    {% if news.title2%} {{ news.title2 }} {% endif%}
+                    <a href="{{ news.url }}"
+                      >{{ news.title }} <br />
+                      {% if news.title2%} {{ news.title2 }} {% endif%}</a
+                    >
                   </div>
                   <!-- <p>Backgrounds Online made the top pre-employment screening providers list. Rated for service, deal sizes, and quality.</p> -->
-                  <!-- <div class=""> -->
-                  <!-- <div class="hm_promo_btn">
-                          <a href="LandingPages/bakers_dozen.html">
-                            Read More
-                          </a>
-                        </div> -->
-                  <!-- </div> -->
+                  <!-- <div class="">
+                    <div class="hm_promo_btn">
+                      <a href="{{ news.url }}"> Read More </a>
+                    </div>
+                  </div> -->
                 </div>
               </div>
             </li>

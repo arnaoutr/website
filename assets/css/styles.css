@@ -1724,6 +1724,7 @@ display: table-cell;
         }
 
     a.unslider-arrow.next {
+        z-index: 50;
     }
 
     .unslider-arrow.prev {
@@ -1732,6 +1733,7 @@ display: table-cell;
         overflow: hidden;
         left: 10px;
         background-position: 0px 0px;
+        z-index: 50;
         background-size: 60%;
     }
 
@@ -25510,4 +25512,13 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
 
 .modal-content > *:last-child {
   margin-bottom: 0;
+}
+.header_promo a {
+    color: rgb(255, 255, 255);
+}
+.header_promo a:hover {
+    color: #fff;
+}
+.flexnav a.active {
+    border-bottom: 1px solid #fff;
 }
