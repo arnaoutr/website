@@ -22,12 +22,14 @@ permalink: /members/
       <div class="sbi_lp_industry_row">
         {% for person in site.data.pi %}
         <div class="sbi_lp_industry_cube sbi_lp_spacer">
-          <img
-            src="/assets/image/members/{{ person.image }}"
-            width="271"
-            height="185"
-            border="0"
-          />
+            {% if person.image %}
+
+            <img
+              src="/assets/image/members/{{ person.image }}"
+              width="271"
+              border="0"
+            />
+            {% endif %}
           <div class="member-info">
             <p>
               <strong>{{ person.name }}</strong>
@@ -284,12 +286,14 @@ permalink: /members/
       <div class="sbi_lp_industry_row">
         {% for person in site.data.members %}
         <div class="sbi_lp_industry_cube sbi_lp_spacer">
+          {% if person.image %}
+
           <img
             src="/assets/image/members/{{ person.image }}"
             width="271"
-            height="185"
             border="0"
           />
+          {% endif %}
           <div class="member-info">
             <p>
               <strong>{{ person.name }}</strong>
@@ -545,12 +549,14 @@ permalink: /members/
       <div class="sbi_lp_industry_row">
         {% for person in site.data.collaborators_backup %}
         <div class="sbi_lp_industry_cube sbi_lp_spacer">
+          {% if person.image %}
+
           <img
             src="/assets/image/members/{{ person.image }}"
             width="271"
-            height="185"
             border="0"
           />
+          {% endif %}
           <div class="member-info">
             <p>
               <strong>{{ person.name }}</strong>
@@ -815,12 +821,15 @@ permalink: /members/
       <div class="sbi_lp_industry_row">
         {% for person in site.data.alumni %}
         <div class="sbi_lp_industry_cube sbi_lp_spacer">
+          {% if person.image %}
+
           <img
             src="/assets/image/members/{{ person.image }}"
             width="271"
-            height="185"
             border="0"
           />
+          {% endif %}
+
           <div class="member-info">
             <p>
               <strong>{{ person.name }}</strong>
