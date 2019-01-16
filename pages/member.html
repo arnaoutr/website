@@ -11,6 +11,14 @@ permalink: /members/
 
   <div class="sbi_lp_mainarea">
     <div class="sbi_lp_mainarea_wrap">
+      <div class="hm_intro_area" style="max-width: 650px; color:#052049;">
+        <h1
+          class="header_1  animated fadeInDown"
+          style="letter-spacing: 2px; padding-bottom: 0px;"
+        >
+          Principal Investigator
+        </h1>
+      </div>
       <div class="sbi_lp_industry_row">
         {% for person in site.data.pi %}
         <div class="sbi_lp_industry_cube sbi_lp_spacer">
@@ -31,7 +39,11 @@ permalink: /members/
               <!--  -->
               {% if person.website %}
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="{{ person.website }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/website_logo.png"
                     style="height: 28px;"
@@ -43,7 +55,11 @@ permalink: /members/
               {% if person.linkedin %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/LinkedIn_logo_initials.png"
                     style="height: 28px;"
@@ -56,7 +72,11 @@ permalink: /members/
               {% if person.twitter %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://twitter.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/twitter_logo.png"
                     style="height: 28px;"
@@ -69,7 +89,11 @@ permalink: /members/
               {% if person.github %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://github.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/github_logo.png"
                     style="height: 28px;"
@@ -82,7 +106,11 @@ permalink: /members/
               {% if person.email %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="mailto:{{ person.email }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/email_logo.png"
                     style="height: 28px;"
@@ -114,13 +142,12 @@ permalink: /members/
                       </p>
                       <p>{{ person.position }}</p>
                       <p>{{ person.role }}</p>
-
                       <ul class="member-social">
                         <!--  -->
                         {% if person.website %}
                         <li>
                           <a
-                            href=""
+                            href="{{ person.website }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -136,7 +163,9 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://www.linkedin.com/in/{{
+                              person.linkedin
+                            }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -153,7 +182,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://twitter.com/{{ person.twitter }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -170,7 +199,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://github.com/{{ person.twitter }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -187,7 +216,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="mailto:{{ person.email }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -244,6 +273,14 @@ permalink: /members/
 
   <div class="sbi_lp_mainarea">
     <div class="sbi_lp_mainarea_wrap">
+      <div class="hm_intro_area" style="max-width: 650px; color:#052049;">
+        <h1
+          class="header_1  animated fadeInDown"
+          style="letter-spacing: 2px; padding-bottom: 0px;"
+        >
+          Members
+        </h1>
+      </div>
       <div class="sbi_lp_industry_row">
         {% for person in site.data.members %}
         <div class="sbi_lp_industry_cube sbi_lp_spacer">
@@ -259,12 +296,15 @@ permalink: /members/
             </p>
             <p>{{ person.position }}</p>
             <p>{{ person.role }}</p>
-
             <ul class="member-social">
               <!--  -->
               {% if person.website %}
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="{{ person.website }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/website_logo.png"
                     style="height: 28px;"
@@ -276,7 +316,11 @@ permalink: /members/
               {% if person.linkedin %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/LinkedIn_logo_initials.png"
                     style="height: 28px;"
@@ -289,7 +333,11 @@ permalink: /members/
               {% if person.twitter %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://twitter.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/twitter_logo.png"
                     style="height: 28px;"
@@ -302,7 +350,11 @@ permalink: /members/
               {% if person.github %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://github.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/github_logo.png"
                     style="height: 28px;"
@@ -315,7 +367,11 @@ permalink: /members/
               {% if person.email %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="mailto:{{ person.email }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/email_logo.png"
                     style="height: 28px;"
@@ -347,13 +403,12 @@ permalink: /members/
                       </p>
                       <p>{{ person.position }}</p>
                       <p>{{ person.role }}</p>
-
                       <ul class="member-social">
                         <!--  -->
                         {% if person.website %}
                         <li>
                           <a
-                            href=""
+                            href="{{ person.website }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -369,7 +424,9 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://www.linkedin.com/in/{{
+                              person.linkedin
+                            }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -386,7 +443,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://twitter.com/{{ person.twitter }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -403,7 +460,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://github.com/{{ person.twitter }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -420,7 +477,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="mailto:{{ person.email }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -477,6 +534,14 @@ permalink: /members/
 
   <div class="sbi_lp_mainarea">
     <div class="sbi_lp_mainarea_wrap">
+      <div class="hm_intro_area" style="max-width: 650px; color:#052049;">
+        <h1
+          class="header_1  animated fadeInDown"
+          style="letter-spacing: 2px; padding-bottom: 0px;"
+        >
+          Collaborators
+        </h1>
+      </div>
       <div class="sbi_lp_industry_row">
         {% for person in site.data.collaborators_backup %}
         <div class="sbi_lp_industry_cube sbi_lp_spacer">
@@ -492,12 +557,15 @@ permalink: /members/
             </p>
             <p>{{ person.position }}</p>
             <p>{{ person.role }}</p>
-
             <ul class="member-social">
               <!--  -->
               {% if person.website %}
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="{{ person.website }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/website_logo.png"
                     style="height: 28px;"
@@ -509,7 +577,11 @@ permalink: /members/
               {% if person.linkedin %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/LinkedIn_logo_initials.png"
                     style="height: 28px;"
@@ -522,7 +594,11 @@ permalink: /members/
               {% if person.twitter %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://twitter.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/twitter_logo.png"
                     style="height: 28px;"
@@ -535,7 +611,11 @@ permalink: /members/
               {% if person.github %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="https://github.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/github_logo.png"
                     style="height: 28px;"
@@ -548,7 +628,11 @@ permalink: /members/
               {% if person.email %}
 
               <li>
-                <a href="" class="footer_logo_3" style="text-align: center;">
+                <a
+                  href="mailto:{{ person.email }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
                   <img
                     src="/assets/image/icon/email_logo.png"
                     style="height: 28px;"
@@ -584,13 +668,12 @@ permalink: /members/
                       </p>
                       <p>{{ person.position }}</p>
                       <p>{{ person.role }}</p>
-
                       <ul class="member-social">
                         <!--  -->
                         {% if person.website %}
                         <li>
                           <a
-                            href=""
+                            href="{{ person.website }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -606,7 +689,9 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://www.linkedin.com/in/{{
+                              person.linkedin
+                            }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -623,7 +708,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://twitter.com/{{ person.twitter }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -640,7 +725,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="https://github.com/{{ person.twitter }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -657,7 +742,7 @@ permalink: /members/
 
                         <li>
                           <a
-                            href=""
+                            href="mailto:{{ person.email }}"
                             class="footer_logo_3"
                             style="text-align: center;"
                           >
@@ -697,6 +782,270 @@ permalink: /members/
               );
             }
           );
+        </script>
+
+        {%endfor%}
+        <!-- sbi_lp_industry_cube -->
+
+        <!-- sbi_lp_industry_cube -->
+      </div>
+      <!-- sbi_lp_industry_row -->
+    </div>
+  </div>
+  <!-- sbi_lp_mainarea_wrap -->
+</div>
+
+<!-- Alumni main-area -->
+
+<div id="solutionsbyindustry">
+  <!-- main-top-background -->
+
+  <!-- main-area -->
+
+  <div class="sbi_lp_mainarea">
+    <div class="sbi_lp_mainarea_wrap">
+      <div class="hm_intro_area" style="max-width: 650px; color:#052049;">
+        <h1
+          class="header_1  animated fadeInDown"
+          style="letter-spacing: 2px; padding-bottom: 0px;"
+        >
+          Alumni
+        </h1>
+      </div>
+      <div class="sbi_lp_industry_row">
+        {% for person in site.data.alumni %}
+        <div class="sbi_lp_industry_cube sbi_lp_spacer">
+          <img
+            src="/assets/image/members/{{ person.image }}"
+            width="271"
+            height="185"
+            border="0"
+          />
+          <div class="member-info">
+            <p>
+              <strong>{{ person.name }}</strong>
+            </p>
+            <p>{{ person.position }}</p>
+            <p>{{ person.role }}</p>
+            <ul class="member-social">
+              <!--  -->
+              {% if person.website %}
+              <li>
+                <a
+                  href="{{ person.website }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
+                  <img
+                    src="/assets/image/icon/website_logo.png"
+                    style="height: 28px;"
+                  />
+                </a>
+              </li>
+              {% endif %}
+              <!--  -->
+              {% if person.linkedin %}
+
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
+                  <img
+                    src="/assets/image/icon/LinkedIn_logo_initials.png"
+                    style="height: 28px;"
+                  />
+                </a>
+              </li>
+              {% endif %}
+
+              <!--  -->
+              {% if person.twitter %}
+
+              <li>
+                <a
+                  href="https://twitter.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
+                  <img
+                    src="/assets/image/icon/twitter_logo.png"
+                    style="height: 28px;"
+                  />
+                </a>
+              </li>
+              {% endif %}
+
+              <!--  -->
+              {% if person.github %}
+
+              <li>
+                <a
+                  href="https://github.com/{{ person.twitter }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
+                  <img
+                    src="/assets/image/icon/github_logo.png"
+                    style="height: 28px;"
+                  />
+                </a>
+              </li>
+              {% endif %}
+
+              <!--  -->
+              {% if person.email %}
+
+              <li>
+                <a
+                  href="mailto:{{ person.email }}"
+                  class="footer_logo_3"
+                  style="text-align: center;"
+                >
+                  <img
+                    src="/assets/image/icon/email_logo.png"
+                    style="height: 28px;"
+                  />
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+
+          <div class="modal-toggle-alumni{{ forloop.index }} modal-toggle">
+            +
+          </div>
+
+          <!-- sbi_lp_industry_cube_cover -->
+        </div>
+        <div class="modal-alumni{{ forloop.index }} modal">
+          <div class="modal-overlay modal-toggle"></div>
+          <div class="modal-wrapper modal-transition">
+            <div class="modal-body">
+              <div class="modal-content">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img
+                      src="/assets/image/members/{{ person.image }}"
+                      style="width: 200px; height: 200px;"
+                    />
+                    <div class="member-info">
+                      <p>
+                        <strong>{{ person.name }}</strong>
+                      </p>
+                      <p>{{ person.position }}</p>
+                      <p>{{ person.role }}</p>
+
+                      <ul class="member-social">
+                        <!--  -->
+                        {% if person.website %}
+                        <li>
+                          <a
+                            href="{{ person.website }}"
+                            class="footer_logo_3"
+                            style="text-align: center;"
+                          >
+                            <img
+                              src="/assets/image/icon/website_logo.png"
+                              style="height: 28px;"
+                            />
+                          </a>
+                        </li>
+                        {% endif %}
+                        <!--  -->
+                        {% if person.linkedin %}
+
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/{{
+                              person.linkedin
+                            }}"
+                            class="footer_logo_3"
+                            style="text-align: center;"
+                          >
+                            <img
+                              src="/assets/image/icon/LinkedIn_logo_initials.png"
+                              style="height: 28px;"
+                            />
+                          </a>
+                        </li>
+                        {% endif %}
+
+                        <!--  -->
+                        {% if person.twitter %}
+
+                        <li>
+                          <a
+                            href="https://twitter.com/{{ person.twitter }}"
+                            class="footer_logo_3"
+                            style="text-align: center;"
+                          >
+                            <img
+                              src="/assets/image/icon/twitter_logo.png"
+                              style="height: 28px;"
+                            />
+                          </a>
+                        </li>
+                        {% endif %}
+
+                        <!--  -->
+                        {% if person.github %}
+
+                        <li>
+                          <a
+                            href="https://github.com/{{ person.twitter }}"
+                            class="footer_logo_3"
+                            style="text-align: center;"
+                          >
+                            <img
+                              src="/assets/image/icon/github_logo.png"
+                              style="height: 28px;"
+                            />
+                          </a>
+                        </li>
+                        {% endif %}
+
+                        <!--  -->
+                        {% if person.email %}
+
+                        <li>
+                          <a
+                            href="mailto:{{ person.email }}"
+                            class="footer_logo_3"
+                            style="text-align: center;"
+                          >
+                            <img
+                              src="/assets/image/icon/email_logo.png"
+                              style="height: 28px;"
+                            />
+                          </a>
+                        </li>
+                        {% endif %}
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div
+                      class="modal-close modal-toggle modal-toggle-alumni{{
+                        forloop.index
+                      }}"
+                    ></div>
+
+                    <div class="column left member-details">
+                      {{ person.description | markdownify }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          $(".modal-toggle-alumni{{forloop.index}}").on("click", function(e) {
+            e.preventDefault();
+            $(".modal-alumni{{forloop.index}}").toggleClass("is-visible");
+          });
         </script>
 
         {%endfor%}
