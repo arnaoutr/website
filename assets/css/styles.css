@@ -153,7 +153,7 @@ a[href^=tel] {
 }
 
 a {
-    color: #0d3759;
+    color: #052049;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -306,7 +306,7 @@ body {
 }
 
 .right_box_link a {
-    color: #0d3759;
+    color: #052049;
     font-size: 15px;
     line-height: 19px;
     font-weight: 600;
@@ -318,7 +318,7 @@ body {
     }
 
 .footer {
-    background-color: #0d3759;
+    background-color: #052049;
     width: 100%;
     color: #fff;
     font-family: 'Helvetica Neue', sans-serif !important;
@@ -419,12 +419,12 @@ body {
 
     .masthead {
         width: 100%;
-        height: 105px;
+        height: 85px;
         min-width: 1030px;
         margin-right: auto;
         margin-left: auto;
-                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d3759+0,0d3759+55,9d529b+100 */
-        background: #0d3759; /* Old browsers */
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#052049+0,0d3759+55,9d529b+100 */
+        background: #052049; /* Old browsers */
     }
 
     .masthead {
@@ -518,7 +518,7 @@ body {
     .nav_btn_signup {
         border: solid 2px #fff !important;
         background-color:#fff;
-        color: #0d3759 !important;
+        color: #052049 !important;
         font-weight: 300 !important;
         display: block !important;
         width: 145px;
@@ -536,7 +536,7 @@ body {
         }
 
     a.nav_btn_signup:hover {
-        color: #0d3759 !important;
+        color: #052049 !important;
     }
 
         .nav_btn_login {
@@ -557,13 +557,13 @@ body {
 
         .nav_btn_login:hover {
             background-color: #fff !important;
-            color: #0d3759 !important;
+            color: #052049 !important;
             border: solid 2px #fff;
             opacity: .80;
         }
 
     a.nav_btn_login:hover {
-                    color: #0d3759 !important;
+                    color: #052049 !important;
 
     }
 
@@ -885,7 +885,7 @@ body {
         cursor:pointer;
         margin-top: 5px;
         border-radius: 30px;
-        color: #0d3759;
+        color: #052049;
         font-weight: 300;
         font-family: 'Helvetica Neue';
           transition: 0.3s;
@@ -896,7 +896,7 @@ body {
         }
 
     a.hm_btn_signup:hover {
-            color: #0d3759;
+            color: #052049;
     }
 
 
@@ -992,7 +992,7 @@ body {
         height: auto;
         display: block;
         text-align: center;
-        padding: 40px 0px;
+        padding: 40px 20px;
     }
 
 
@@ -1430,7 +1430,7 @@ body {
         }
 
         #fssList li.fssActive a {
-            color: #0d3759;
+            color: #052049;
         }
 
     .banner_links {
@@ -1441,7 +1441,7 @@ body {
         height: 40px;
         border-radius: 5px;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 225px !important;
         text-align: center;
@@ -1464,7 +1464,7 @@ body {
 
     .home-simplified {
         display: table;
-        background-color: #0d3759;
+        background-color: #052049;
         text-align: center;
         vertical-align: middle;
         color: #FFF;
@@ -1582,7 +1582,7 @@ display: table-cell;
         padding: 0px;
         min-height: 130px;
         font-size: 26px;
-        color: #0d3759;
+        color: #052049;
         background-size: 200px;
         background-repeat: no-repeat;
         box-shadow: 0 7px 16px 0 rgba(57, 76, 93, .3);
@@ -1612,8 +1612,8 @@ display: table-cell;
         background-color: transparent;
         padding: 5px 15px;
         border-radius:30px;
-        border: 2px solid #0d3759;
-        color: #0d3759;
+        border: 2px solid #052049;
+        color: #052049;
         width: 100px;
         display: inline-block;
         font-size:16px;
@@ -1855,7 +1855,7 @@ width: 250px;
         background-color: #cecece;
         color: #000;
         font-weight: 600;
-        border-top: 7px solid #0d3759;
+        border-top: 7px solid #052049;
         border-left: 1px solid #cecece;
         border-right: 1px solid #cecece;
         height: 44px;
@@ -2227,7 +2227,7 @@ width: 250px;
 
     .package_btn {
         height: 46px;
-        background-color: #0d3759;
+        background-color: #052049;
         bottom: 0px;
         display: block;
         border: 0px;
@@ -2983,7 +2983,7 @@ width: 250px;
 		padding-bottom: 80px;
         width: 100%;
 
-    background-color: #0d3759;
+    background-color: #052049;
     background-repeat: repeat-x;
     background-position: center bottom;
     color:#fff;
@@ -3072,8 +3072,8 @@ width: 250px;
 	}
 
     .btn-show {
-        border: 2px solid #0d3759 !important;
-        color: #0d3759;
+        border: 2px solid #052049 !important;
+        color: #052049;
         border-radius: 30px !important;
         transition: 0.3s;
         letter-spacing: .5px;
@@ -3082,7 +3082,7 @@ width: 250px;
         margin: 10px 0px 5px 0px !important;
     }
     .btn-show:hover {
-        background-color:  #0d3759;
+        background-color:  #052049;
         transition: 0.3s;
         color: #fff !important;
     }
@@ -3101,7 +3101,7 @@ width: 250px;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #0d3759;
+        background-color: #052049;
         color: #fff;
         border-radius: 9px;
         padding: 5px;
@@ -3153,7 +3153,7 @@ text-decoration:none;
 
 	.statelaws_blue
 	{
-		background-color: #0d3759;
+		background-color: #052049;
 		width: 100%;
 		display: inline-block;
 		padding-top: 60px;
@@ -3256,7 +3256,7 @@ text-decoration:none;
         width: 100%;
 	}
     .viewbill a {
-        color: #0d3759 !important;
+        color: #052049 !important;
         font-weight: 300;
         letter-spacing: .5px;
         display: block;
@@ -3296,7 +3296,7 @@ text-decoration:none;
   stroke: #002868 !important;
   stroke-width:2px;
   stroke-linejoin: round;
-  fill: #0d3759 !important;
+  fill: #052049 !important;
   cursor: pointer;
 }*/
 
@@ -3307,7 +3307,7 @@ text-decoration:none;
 }
 
 path{
-      stroke: #0d3759;
+      stroke: #052049;
   stroke-width:1px;
   stroke-linejoin: round;
 }
@@ -3521,7 +3521,7 @@ path{
         width: 110px;
         height: 24px;
         background-color: #fff;
-        color: #0d3759 !important;
+        color: #052049 !important;
         font-size: 16px;
         line-height: 24px;
         font-weight: 500;
@@ -3857,7 +3857,7 @@ path{
         border-radius: 30px;
         padding: 5px 15px;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 184px !important;
         text-align: center;
@@ -3973,7 +3973,7 @@ path{
     }
 
     .sbi_faq_header_faq {
-        color: #0d3759;
+        color: #052049;
         font-size: 110px;
         line-height: 97px;
         font-weight: 100;
@@ -4686,7 +4686,7 @@ path{
         border-right: 1px solid #929292;
         padding-right: 20px;
         height: 90px;
-        color: #0d3759;
+        color: #052049;
     }
 
     .step_header {
@@ -4989,7 +4989,7 @@ path{
     }
 
     .resource_area .header_1 {
-        color: #0d3759;
+        color: #052049;
         font-size: 28px;
         padding-bottom: 0px;
     }
@@ -5071,7 +5071,7 @@ path{
         background-position: center top;
         background-size: cover;
         margin-top: 0px;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #newsletters .main-area {
@@ -5231,7 +5231,7 @@ path{
         background-position: center top;
         background-size: cover;
         margin-top: 0px;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #client_education .main-area {
@@ -5694,7 +5694,7 @@ path{
         border-radius: 30px;
         padding: 5px 15px;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 300;
         width: 155px;
         text-align: center;
@@ -5793,7 +5793,7 @@ path{
     .login-header {
         width: 100%;
         height: 70px;
-        background: #0d3759;
+        background: #052049;
         margin-bottom: 30px;
         display: block;
     }
@@ -6267,7 +6267,7 @@ path{
         background-position: center top;
         background-size: cover;
         margin-top: 0px;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #faq .main-area {
@@ -6561,7 +6561,7 @@ path{
         line-height: 18px;
         font-size: 18px;
         font-weight: 400;
-        background-color: #0d3759;
+        background-color: #052049;
         padding: 10px;
         letter-spacing: 1px;
         transition: 0.3s;
@@ -6865,7 +6865,7 @@ path{
     .su_submit_btn {
         border-radius: 30px !important;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 300;
         max-width: 185px;
         text-align: center;
@@ -7787,7 +7787,7 @@ path{
 
     .hro h5 {
         text-align: center;
-        color: #0d3759;
+        color: #052049;
     }
 
     .hro .my-3 {
@@ -7924,7 +7924,7 @@ path{
 
     .bgo20_bluearea {
         display: table;
-        background-color: #0d3759;
+        background-color: #052049;
         text-align: center;
         vertical-align: middle;
         color: #FFF;
@@ -8079,7 +8079,7 @@ path{
 	vertical-align: top;
 	padding-top: 40px;
 	padding-bottom: 40px;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
 .cm_contact_account_wrap
@@ -8528,7 +8528,7 @@ font-size: 34px;
 
     .bs_peoplescreen_copy_item_hover {
         background-color: #ececec;
-        border-right: 10px solid #0d3759;
+        border-right: 10px solid #052049;
     }
 
 
@@ -8606,7 +8606,7 @@ font-size: 34px;
 
     .bs_yourteam_copy_item_hover {
         background-color: #ececec;
-        border-left: 10px solid #0d3759;
+        border-left: 10px solid #052049;
     }
 
 
@@ -8617,7 +8617,7 @@ font-size: 34px;
 	vertical-align: top;
 	padding-top: 40px;
 	padding-bottom: 40px;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
 
@@ -8875,7 +8875,7 @@ font-size: 34px;
     line-height:30px;
     text-align:center;
     border-radius:3px;
-    border: 2px solid #0d3759;
+    border: 2px solid #052049;
     margin-top:20px;
 }
 
@@ -8888,10 +8888,10 @@ font-size: 34px;
     line-height:30px;
     text-align:center;
     border-radius:3px;
-    border: 2px solid #0d3759;
+    border: 2px solid #052049;
     margin-top:20px;
     color:#fff;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
     /*DESKTOP END #################################################################################################################################################*/
@@ -8954,8 +8954,8 @@ font-size: 34px;
     }
 
     .bgo_nav_mobile {
-                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d3759+0,0d3759+55,9d529b+100 */
-        background: #0d3759; /* Old browsers */
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#052049+0,0d3759+55,9d529b+100 */
+        background: #052049; /* Old browsers */
         width: 100%;
         height: 43px;
         border-bottom: 0px;
@@ -9214,8 +9214,8 @@ font-size: 34px;
   {
   	width: 100%;
   	/* height: 975px; */
-  	                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d3759+0,0d3759+55,9d529b+100 */
-        background: #0d3759; /* Old browsers */
+  	                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#052049+0,0d3759+55,9d529b+100 */
+        background: #052049; /* Old browsers */
        display: inline-block;
       margin-top: -55px;
       text-align: center;
@@ -9276,17 +9276,17 @@ font-size: 34px;
   }
   .hm_promo_btn {
       background-color: transparent;
-      color: #0d3759;
+      color: #052049;
       width: 100px;
       border-radius: 30px;
-      border: 2px solid #0d3759;
+      border: 2px solid #052049;
       padding: 5px 15px;
       text-align: center;
       margin: 0px auto;
       font-weight: 300;
   }
     .hm_promo_btn a {
-      color: #0d3759;
+      color: #052049;
   }
 
   .very_bold
@@ -9321,7 +9321,7 @@ font-size: 34px;
         cursor:pointer;
         margin-top: 5px;
         border-radius: 30px;
-        color: #0d3759;
+        color: #052049;
         background-color:#fff;
                 font-weight: 400;
                 margin-bottom: 20px;
@@ -9478,7 +9478,7 @@ padding: 10px;
 
       .hm_sub_nav_txt li a
       {
-      	color: #0d3759;
+      	color: #052049;
       	text-decoration: none;
       	font-size: 14px;
           line-height:20px;
@@ -9487,7 +9487,7 @@ padding: 10px;
 
             .hm_sub_nav_txt li a:hover
       {
-      	color: #0d3759;
+      	color: #052049;
 
       }
 
@@ -9567,7 +9567,7 @@ background-size: cover;
     }
     .header_promo {
         font-size: 21px;
-        color: #0d3759;
+        color: #052049;
     }
 
     .point {
@@ -9821,8 +9821,8 @@ background-size: cover;
         }
 
         #fssList li.fssActive a, .fssActive.banner_links {
-            color: #0d3759;
-            background-color: #0d3759;
+            color: #052049;
+            background-color: #052049;
         }
 
     .banner_links {
@@ -9836,7 +9836,7 @@ background-size: cover;
         height: 40px;
         border-radius: 5px;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 225px !important;
         text-align: center;
@@ -9853,7 +9853,7 @@ background-size: cover;
 
     .home-simplified {
         display: table;
-        background-color: #0d3759;
+        background-color: #052049;
         text-align: center;
         vertical-align: middle;
         color: #FFF;
@@ -10103,7 +10103,7 @@ width: 250px;
     }
 
     .prod_mobile_moreinfo {
-        color: #0d3759;
+        color: #052049;
         text-decoration: none;
         text-transform: capitalize;
         display: block;
@@ -10151,7 +10151,7 @@ width: 250px;
         background-color: #cecece;
         color: #000;
         font-weight: 600;
-        border-top: 7px solid #0d3759;
+        border-top: 7px solid #052049;
         border-left: 1px solid #cecece;
         border-right: 1px solid #cecece;
         height: 44px;
@@ -10529,7 +10529,7 @@ width: 250px;
 
     .package_btn {
         height: 46px;
-        background-color: #0d3759;
+        background-color: #052049;
         bottom: 0px;
         display: block;
         border: 0px;
@@ -11261,8 +11261,8 @@ width: 250px;
         display:none;
 	}
         .btn-show {
-        border: 2px solid #0d3759 !important;
-        color: #0d3759;
+        border: 2px solid #052049 !important;
+        color: #052049;
         border-radius: 30px !important;
         transition: 0.3s;
         letter-spacing: .5px;
@@ -11271,7 +11271,7 @@ width: 250px;
         margin: 10px 0px 5px 0px !important;
     }
     .btn-show:hover {
-        background-color:  #0d3759;
+        background-color:  #052049;
         transition: 0.3s;
         color: #fff !important;
     }
@@ -11290,7 +11290,7 @@ width: 250px;
     font-weight: 400;
     padding-bottom: 40px;
     width: 100%;
-    background-color: #0d3759;
+    background-color: #052049;
     background-image: url(/assets/img/sites/bgo/hm_top_background_highlight.png);
     background-repeat: repeat-x;
     background-position: center bottom;
@@ -11398,7 +11398,7 @@ text-decoration:none;
 
 	.statelaws_blue
 	{
-		background-color: #0d3759;
+		background-color: #052049;
 		width: 100%;
 		display: inline-block;
 		padding-top: 60px;
@@ -11496,7 +11496,7 @@ text-decoration:none;
         font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	}
     .viewbill a {
-        color: #0d3759 !important;
+        color: #052049 !important;
         font-weight: 300;
         letter-spacing: .5px;
         display: block;
@@ -11550,7 +11550,7 @@ text-decoration:none;
   stroke: #002868 !important;
   stroke-width:2px;
   stroke-linejoin: round;
-  fill: #0d3759 !important;
+  fill: #052049 !important;
   cursor: pointer;
 }*/
 
@@ -11773,7 +11773,7 @@ path{
     .sbi_lp_summary_btn {
         width: 110px;
         height: 24px;
-        background-color: #0d3759;
+        background-color: #052049;
         color: #FFF;
         font-size: 16px;
         line-height: 24px;
@@ -12116,7 +12116,7 @@ path{
         border-radius: 30px;
         color: #FFF;
         padding: 5px 15px;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 284px !important;
         text-align: center;
@@ -12245,7 +12245,7 @@ path{
     }
 
     .sbi_faq_header_faq {
-        color: #0d3759;
+        color: #052049;
         font-size: 110px;
         line-height: 97px;
         font-weight: 100;
@@ -12988,7 +12988,7 @@ path{
         border-right: 1px solid #929292;
         padding-right: 20px;
         height: 90px;
-        color: #0d3759;
+        color: #052049;
     }
 
     .step_header {
@@ -13269,7 +13269,7 @@ path{
     }
 
     .resource_area .header_1 {
-        color: #0d3759;
+        color: #052049;
         font-size: 26px;
         padding-bottom: 0px;
     }
@@ -13390,7 +13390,7 @@ path{
         background-position: center top;
         background-size: cover;
         margin-top: 0px;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #faq .main-area {
@@ -13473,7 +13473,7 @@ path{
         background-position: center top;
         background-size: cover;
         margin-top: 0px;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #newsletters .main-area {
@@ -13607,7 +13607,7 @@ path{
         background-position: center top;
         background-size: cover;
         margin-top: 0px;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #client_education .main-area {
@@ -14080,7 +14080,7 @@ path{
     }
 
     .form_btn {
-        background-color: #0d3759 !important;
+        background-color: #052049 !important;
         width: 445px !important;
         border-radius: 30px !important;
         color: #FFF !important;
@@ -14609,7 +14609,7 @@ path{
         background-position: center top;
         background-size: cover;
         margin-top: 0px;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #pressreleases .main-area {
@@ -14769,7 +14769,7 @@ path{
         font-size: 25px;
         font-weight: 400;
         margin-left: auto;
-        background-color: #0d3759;
+        background-color: #052049;
         margin-right: auto;
                 letter-spacing: 1px;
     }
@@ -15123,7 +15123,7 @@ path{
         height: 46px;
         border-radius: 5px !important;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 325px;
         text-align: center;
@@ -16049,7 +16049,7 @@ path{
 
     .hro h5 {
         text-align: center;
-        color: #0d3759;
+        color: #052049;
     }
 
     .hro .my-3 {
@@ -16188,7 +16188,7 @@ path{
 
     .bgo20_bluearea {
         display: table;
-        background-color: #0d3759;
+        background-color: #052049;
         text-align: center;
         vertical-align: middle;
         color: #FFF;
@@ -16382,7 +16382,7 @@ clear:both;
 	vertical-align: top;
 	padding-top: 40px;
 	padding-bottom: 40px;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
 .cm_contact_account_wrap
@@ -16857,7 +16857,7 @@ font-size: 34px;
 
     .bs_peoplescreen_copy_item_hover {
         background-color: #ececec;
-        border-right: 10px solid #0d3759;
+        border-right: 10px solid #052049;
     }
 
 
@@ -16934,7 +16934,7 @@ font-size: 34px;
 
     .bs_yourteam_copy_item_hover {
         background-color: #ececec;
-        border-left: 10px solid #0d3759;
+        border-left: 10px solid #052049;
     }
 
 
@@ -16945,7 +16945,7 @@ font-size: 34px;
 	vertical-align: top;
 	padding-top: 40px;
 	padding-bottom: 40px;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
 
@@ -17207,7 +17207,7 @@ font-size: 34px;
     line-height:30px;
     text-align:center;
     border-radius:3px;
-    border: 2px solid #0d3759;
+    border: 2px solid #052049;
     margin-top:20px;
 }
 
@@ -17220,10 +17220,10 @@ font-size: 34px;
     line-height:30px;
     text-align:center;
     border-radius:3px;
-    border: 2px solid #0d3759;
+    border: 2px solid #052049;
     margin-top:20px;
     color:#fff;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
     /*Ipad END #################################################################################################################################################*/
@@ -17298,9 +17298,9 @@ font-size: 34px;
     }
 
     .bgo_nav_mobile {
-                    background-color: #0d3759;
-                    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d3759+0,0d3759+55,9d529b+100 */
-        background: #0d3759; /* Old browsers */
+                    background-color: #052049;
+                    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#052049+0,0d3759+55,9d529b+100 */
+        background: #052049; /* Old browsers */
         width: 100%;
         height: 43px;
     }
@@ -17308,7 +17308,7 @@ font-size: 34px;
     .nav-wrap {
         z-index: 1100;
         width: 100%;
-        background-color: #0d3759;
+        background-color: #052049;
     }
 
     .phone-number {
@@ -17548,7 +17548,7 @@ font-size: 34px;
   	text-align:center;
   	padding-top: 10px;
   	padding-bottom: 10px;
-      color: #0d3759;
+      color: #052049;
   }
 
 
@@ -17581,7 +17581,7 @@ padding: 10px;
 
       .hm_sub_nav_txt li a
       {
-      	color: #0d3759;
+      	color: #052049;
       	text-decoration: none;
       	font-size: 14px;
           line-height:16px;
@@ -17590,7 +17590,7 @@ padding: 10px;
 
             .hm_sub_nav_txt li a:hover
       {
-      	color: #0d3759;
+      	color: #052049;
 
       }
             .hm_soc2_block, .hm_napbs_block {
@@ -17669,7 +17669,7 @@ padding: 10px;
         }
     .hm_btn_signup {
         background-color: #fff;
-        color: #0d3759 !important;
+        color: #052049 !important;
         padding: 5px 15px;
         border-radius: 30px;
     }
@@ -17729,8 +17729,8 @@ padding: 10px;
         border-radius:5px;
         text-align: center;
         margin:0px auto;
-        font-size: 21px;
-        color: #0d3759;
+        font-size: 18px;
+        color: #052049;
         box-shadow: 2px 5px 20px #888;
         padding: 0px;
         width: 100%;
@@ -17747,8 +17747,8 @@ padding: 5px;
         background-color: transparent;
         padding: 5px 15px;
         border-radius:30px;
-        border: 2px solid #0d3759;
-        color: #0d3759;
+        border: 2px solid #052049;
+        color: #052049;
         width: 100px;
         display: inline-block;
         font-size:16px;
@@ -17758,18 +17758,20 @@ padding: 5px;
         margin:20px 0px;
     }
         .hm_promo_btn a:hover {
-        background-color: #0d3759;
+        background-color: #052049;
         color: #fff !important;
-        border: 2px solid #0d3759;
+        border: 2px solid #052049;
     }
 
     .main_points {
         display: inline-block;
         text-align: center;
         width: 100%;
-        padding: 10px 0px;
         background: #052049;
         color: #fff;
+    }
+    .unslider-wrap.unslider-carousel > li {
+        min-height: 102px;
     }
     .col-md-6 {
         text-align: center !important;
@@ -18028,8 +18030,8 @@ padding: 5px;
         }
 
         #fssList li.fssActive a, .fssActive.banner_links {
-            color: #0d3759;
-            background-color: #0d3759;
+            color: #052049;
+            background-color: #052049;
         }
 
     .banner_links {
@@ -18043,7 +18045,7 @@ padding: 5px;
         height: 40px;
         border-radius: 5px;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 225px !important;
         text-align: center;
@@ -18060,7 +18062,7 @@ padding: 5px;
 
     .home-simplified {
         display: table;
-        background-color: #0d3759;
+        background-color: #052049;
         text-align: center;
         vertical-align: middle;
         color: #FFF;
@@ -18337,7 +18339,7 @@ padding: 5px;
     }
 
     .prod_mobile_moreinfo {
-        color: #0d3759;
+        color: #052049;
         text-decoration: none;
         text-transform: capitalize;
         display: block;
@@ -18385,7 +18387,7 @@ padding: 5px;
         background-color: #cecece;
         color: #000;
         font-weight: 600;
-        border-top: 7px solid #0d3759;
+        border-top: 7px solid #052049;
         border-left: 1px solid #cecece;
         border-right: 1px solid #cecece;
         height: 40px;
@@ -18766,7 +18768,7 @@ padding: 5px;
 
     .package_btn {
         height: 46px;
-        background-color: #0d3759;
+        background-color: #052049;
         bottom: 0px;
         display: block;
         border: 0px;
@@ -19517,8 +19519,8 @@ padding: 5px;
         display:none;
 	}
         .btn-show {
-        border: 2px solid #0d3759 !important;
-        color: #0d3759;
+        border: 2px solid #052049 !important;
+        color: #052049;
         border-radius: 30px !important;
         transition: 0.3s;
         letter-spacing: .5px;
@@ -19527,7 +19529,7 @@ padding: 5px;
         margin: 10px 0px 5px 0px !important;
     }
     .btn-show:hover {
-        background-color:  #0d3759;
+        background-color:  #052049;
         transition: 0.3s;
         color: #fff !important;
     }
@@ -19546,7 +19548,7 @@ padding: 5px;
 		padding-bottom: 40px;
 width: 100%;
 
-    background-color: #0d3759;
+    background-color: #052049;
     background-image: url(/assets/img/sites/bgo/hm_top_background_highlight.png);
     background-repeat: repeat-x;
     background-position: center bottom;
@@ -19649,7 +19651,7 @@ text-decoration:none;
 
 	.statelaws_blue
 	{
-		background-color: #0d3759;
+		background-color: #052049;
 		width: 100%;
 		display: inline-block;
 		padding-top: 30px;
@@ -19745,7 +19747,7 @@ text-decoration:none;
         font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	}
     .viewbill a {
-        color: #0d3759 !important;
+        color: #052049 !important;
         font-weight: 300;
         letter-spacing: .5px;
         display: block;
@@ -19804,7 +19806,7 @@ text-decoration:none;
   stroke: #002868 !important;
   stroke-width:2px;
   stroke-linejoin: round;
-  fill: #0d3759 !important;
+  fill: #052049 !important;
   cursor: pointer;
 }*/
 
@@ -20053,7 +20055,7 @@ path{
     .sbi_lp_summary_btn {
         width: 110px;
         height: 24px;
-        background-color: #0d3759;
+        background-color: #052049;
         color: #FFF;
         font-size: 16px;
         line-height: 24px;
@@ -20369,7 +20371,7 @@ path{
         border-radius: 30px;
         padding: 5px 15px;
         color: #FFF;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 284px !important;
         text-align: center;
@@ -20490,7 +20492,7 @@ path{
     }
 
     .sbi_faq_header_faq {
-        color: #0d3759;
+        color: #052049;
         font-size: 100px;
         line-height: 82px;
         font-weight: 100;
@@ -21473,7 +21475,7 @@ path{
     }
 
     .resource_area .header_1 {
-        color: #0d3759;
+        color: #052049;
         font-size: 26px;
         padding-bottom: 10px;
     }
@@ -21600,7 +21602,7 @@ path{
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
 
@@ -21742,7 +21744,7 @@ path{
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #client_education .main-area {
@@ -21781,7 +21783,7 @@ path{
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #faq .main-area {
@@ -22224,7 +22226,7 @@ path{
 
 
     .form_btn {
-        background-color: #0d3759 !important;
+        background-color: #052049 !important;
         width: 100% !important;
         padding: 5px 15px;
         border-radius: 30px !important;
@@ -22317,7 +22319,7 @@ path{
     .login-header {
         width: 100%;
         height: 50px;
-        background: #0d3759;
+        background: #052049;
     }
 
     .login-header-text {
@@ -22762,7 +22764,7 @@ path{
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
-        /* background-color: #0d3759; */
+        /* background-color: #052049; */
     }
 
     #pressreleases .main-area {
@@ -22921,7 +22923,7 @@ path{
         padding: 5px 15px;
         font-weight: 400;
         margin-left: auto;
-        background-color: #0d3759;
+        background-color: #052049;
         margin-right: auto;
 
     }
@@ -23237,7 +23239,7 @@ path{
         border-radius: 30px !important;
         color: #FFF;
         padding: 5px 15px;
-        background-color: #0d3759;
+        background-color: #052049;
         font-weight: 100;
         width: 100%;
         text-align: center;
@@ -24124,7 +24126,7 @@ path{
 
     .hro h5 {
         text-align: center;
-        color: #0d3759;
+        color: #052049;
     }
 
     .hro .my-3 {
@@ -24262,7 +24264,7 @@ path{
 
     .bgo20_bluearea {
         display: table;
-        background-color: #0d3759;
+        background-color: #052049;
         text-align: center;
         vertical-align: middle;
         color: #FFF;
@@ -24422,7 +24424,7 @@ path{
 	vertical-align: top;
 	padding-top: 40px;
 	padding-bottom: 40px;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
 .cm_contact_account_wrap
@@ -24879,7 +24881,7 @@ font-size: 28px;
 
     .bs_peoplescreen_copy_item_hover {
         background-color: #ececec;
-        border-left: 10px solid #0d3759;
+        border-left: 10px solid #052049;
     }
 
 
@@ -24956,7 +24958,7 @@ font-size: 28px;
 
     .bs_yourteam_copy_item_hover {
         background-color: #ececec;
-        border-left: 10px solid #0d3759;
+        border-left: 10px solid #052049;
     }
 
 
@@ -24967,7 +24969,7 @@ font-size: 28px;
 	vertical-align: top;
 	padding-top: 40px;
 	padding-bottom: 40px;
-    background-color: #0d3759;
+    background-color: #052049;
 }
 
 
@@ -25234,7 +25236,7 @@ font-size: 28px;
     line-height:30px;
     text-align:center;
     border-radius:3px;
-    border: 2px solid #0d3759;
+    border: 2px solid #052049;
     margin-top:20px;
 }
 
@@ -25247,10 +25249,10 @@ font-size: 28px;
     line-height:30px;
     text-align:center;
     border-radius:3px;
-    border: 2px solid #0d3759;
+    border: 2px solid #052049;
     margin-top:20px;
     color:#fff;
-    background-color: #0d3759;
+    background-color: #052049;
 }
     /*MOBILE END #######################################################################################################################################################*/
 }
@@ -25313,7 +25315,7 @@ font-size: 28px;
     text-align: left;
 }
 .publication-main-top-background {
-    background: #0d3759;
+    background: #052049;
     margin-top: -2px;
 }
 .logo {
@@ -25369,7 +25371,7 @@ font-size: 28px;
 }
 .affiliated-link a:hover {
     color: #052049;
-    transition: all .5s;    
+    transition: all .5s;
 }
 .signup_background {
     padding-top: 0;
@@ -25521,4 +25523,7 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
 }
 .flexnav a.active {
     border-bottom: 1px solid #fff;
+}
+.nav-btn1 a {
+    margin-top: 0;
 }
