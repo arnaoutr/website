@@ -994,6 +994,9 @@ body {
         text-align: center;
         padding: 20px 20px;
     }
+    .hm_sub_nav img {
+        height: 400px;
+    }
 
 
   .hm_sub_nav_txt
@@ -9427,13 +9430,15 @@ font-size: 34px;
   	margin-left: auto;
   	margin-right: auto;
       width:550px;
-
   }
 
     .hm_20years_section_wrap img
   {
-
   	margin-right: 15px;
+  }
+
+  .hm_sub_nav.logo_banner{
+    display: flex;
   }
 
   .hm_sub_nav
@@ -9530,10 +9535,17 @@ padding: 10px;
     }
 
     #home .main-top-background {
-        background-position: center top;
+        /* background-position: center top;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
         /* height: 400px; */
+        background-image: url(/assets/image/heart_graphic_white.png);
+        background-size: 100%;
+        padding-top: 280px;
+        background-repeat: no-repeat;
+    }
+    .unslider li {
+        min-height: 180px;
     }
 
     #ats .main-top-background {
@@ -9561,7 +9573,7 @@ background-size: cover;
     .main_points {
         display: inline-block;
         text-align: center;
-        padding: 10px 0px;
+        /* padding: 10px 0px; */
     }
     .col-md-6 {
         padding: 20px;
@@ -10004,7 +10016,13 @@ background-size: cover;
             background-repeat: no-repeat;
             float: right;
             overflow: hidden;
-            background-size: 70%;
+            background-position: 0px 0px;
+            height: 40px;
+            background-size: 60%;
+            /* right: -10px; */
+        }
+        a.unslider-arrow.next {
+            z-index: 50;
         }
 
         .unslider-arrow.prev {
