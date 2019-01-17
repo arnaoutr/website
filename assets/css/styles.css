@@ -9249,11 +9249,12 @@ font-size: 34px;
 	z-index: 10;
 	width: 100%;
 	overflow: hidden;
-	pointer-events: none;
+    pointer-events: none;
 }
   .hm_top_wrap
   {
-  	margin-right: auto;
+      margin-right: auto;
+      text-align: center;
   	/* width:1200px; */
   	/* height: 740px; */
   }
@@ -9312,7 +9313,7 @@ font-size: 34px;
 
   .hm_promo_background {
       background-color: #eee;
-      width: 100%;
+      width: 600px;
       height: 140px;
   }
 
@@ -9574,7 +9575,11 @@ background-size: cover;
     .main_points {
         display: inline-block;
         text-align: center;
+        border-radius: 10px;
         /* padding: 10px 0px; */
+    }
+    .unslider li, .unslider ol, .unslider ul {
+        border-radius: 10px;
     }
     .col-md-6 {
         padding: 20px;
@@ -10026,7 +10031,7 @@ background-size: cover;
             background-position: 0px 0px;
             height: 40px;
             background-size: 60%;
-            /* right: -10px; */
+            right: -18px;
         }
         a.unslider-arrow.next {
             z-index: 50;
@@ -10036,7 +10041,7 @@ background-size: cover;
             background-image: url(/assets/img/sites/bgo/arrow_prev.png);
             background-repeat: no-repeat;
             overflow: hidden;
-            background-size: 70%;
+            background-size: 60%;
         }
 
     .infinite-slider {
