@@ -9313,6 +9313,7 @@ font-size: 34px;
   .hm_promo_background {
       background-color: #eee;
       width: 100%;
+      height: 140px;
   }
 
       .hm_btn_signup {
@@ -9582,6 +9583,7 @@ background-size: cover;
     .header_promo {
         font-size: 21px;
         color: #052049;
+        padding: 70px 40px 0;
     }
 
     .point {
