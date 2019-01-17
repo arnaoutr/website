@@ -9996,6 +9996,11 @@ background-size: cover;
     .unslider-arrow {
         display: block;
         background-repeat: no-repeat;
+        width: 53px;
+        height: 140px;
+        margin-top: -110px;
+        overflow: hidden;
+        text-indent: -999em;
     }
 
     .unslider {
