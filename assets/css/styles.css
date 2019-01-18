@@ -25606,8 +25606,21 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
 .client_resouces_items p {
     margin: 0;
 }
+.hm_sub_nav a img {
+    height: 150px;
+    max-width: 17%;
+}
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+    .hm_sub_nav a img {
+        height: 70px;
+        max-width: 100%;
+    }   
+}
 @media only screen and (max-width: 700px) {
     .modal-wrapper {
         top: 3em;       
+    }
+    .hm_sub_nav a img {
+        height: 50px;
     }
 }
