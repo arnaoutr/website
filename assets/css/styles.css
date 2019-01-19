@@ -993,6 +993,7 @@ body {
         display: block;
         text-align: center;
         padding: 20px 20px;
+        max-width: fit-content;
     }
     .hm_sub_nav img {
         height: 400px;
