@@ -616,6 +616,8 @@ body {
     }
     .footer {
       font-family: 'Helvetica Neue', sans-serif !important;
+      position: fixed;
+      bottom: 0;
     }
 
     .footer_wrap {
@@ -1691,8 +1693,8 @@ display: table-cell;
     .unslider-arrow {
         display: block;
         width: 53px;
-        height: 140px;
-        margin-top: -140px;
+        position: absolute;
+        top: 40%;
         overflow: hidden;
         text-indent: -999em;
         background-repeat: no-repeat;
@@ -1702,6 +1704,7 @@ display: table-cell;
         margin-right: auto;
         margin-left: auto;
         width: 800px;
+        position: relative;
     }
 
     .unslider li {
@@ -1710,7 +1713,7 @@ display: table-cell;
     }
 
     .unslider-arrow {
-        position: relative;
+        /* position: relative; */
         z-index: 2;
         cursor: pointer;
         overflow: hidden;
@@ -1748,10 +1751,11 @@ display: table-cell;
         margin-right: auto;
     }
 
-.hro-logo {
-padding-top: 3rem;
-width: 250px;
-}
+    .hro-logo {
+        padding-top: 3rem;
+        width: 250px;
+        position: relative;
+    }
 
     .btn_1_white {
         height: 40px;
@@ -2013,7 +2017,7 @@ width: 250px;
         display: block;
         text-align: left;
         margin-bottom: 30px;
-        color: #9d529b;
+        /* color: #9d529b; */
     }
 
     .all_products_learnmore {
@@ -9042,6 +9046,8 @@ font-size: 34px;
 
     .footer {
         display: block;
+        position: fixed;
+        bottom: 0;
     }
 
     .footer_wrap {
@@ -9219,11 +9225,7 @@ font-size: 34px;
   .hm_top, .rs_top
   {
   	width: 100%;
-  	/* height: 975px; */
-  	                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#052049+0,0d3759+55,9d529b+100 */
-        background: #052049; /* Old browsers */
-       display: inline-block;
-      margin-top: -55px;
+  	 display: inline-block;
       text-align: center;
   }
 
@@ -9241,7 +9243,9 @@ font-size: 34px;
 	overflow: hidden;
 	left: 350px;
 }
-
+.main-img {
+    width: 90%!important;
+}
   .hm_top .laptop_wrap
 {
 	height: 560px;
@@ -9582,8 +9586,13 @@ background-size: cover;
     .unslider li, .unslider ol, .unslider ul {
         border-radius: 10px;
     }
+    .member-details {
+        position: relative!important;
+        padding: 0 25px;
+        top: 0!important;
+    }
     .col-md-6 {
-        padding: 20px;
+        padding-top: 10px;
         text-align: center !important;
     }
     .header_promo {
@@ -10339,9 +10348,8 @@ width: 250px;
         font-weight: 300;
         clear: both;
         display: block;
-        text-align: left;
+        text-align: center;
         margin-bottom: 30px;
-        color: #9d529b;
     }
 
     .all_products_learnmore {
@@ -11734,7 +11742,7 @@ path{
 
     .sbi_lp_industry_cube {
         width: 271px;
-        height: 185px;
+        /* height: 185px; */
         /* float: left; */
         overflow: hidden;
         box-shadow: 2px 2px 5px #c3c3c3;
@@ -11829,6 +11837,8 @@ path{
     .sbi_lp_spacer {
         margin-right: 27px;
         margin-bottom: 27px;
+        position: relative;
+        background: #fff;
     }
 
     .sbi_lp_spacer_end {
@@ -17397,6 +17407,8 @@ font-size: 34px;
 
     .footer {
         display: block;
+        position: fixed;
+    bottom: 0;
     }
 
     .footer_wrap {
@@ -18253,7 +18265,8 @@ padding: 5px;
         display: block;
         width: 25px;
         height: 35px;
-        margin-top: -80px;
+        position: absolute;
+        top: 31%;
         overflow: hidden;
         text-indent: -999em;
         background-repeat: no-repeat;
@@ -18266,7 +18279,6 @@ padding: 5px;
 
 
     .unslider-arrow {
-        position: relative;
         z-index: 2;
         cursor: pointer;
         overflow: hidden;
@@ -18278,6 +18290,7 @@ padding: 5px;
             background-repeat: no-repeat;
             float: right;
             background-size: cover;
+            right: 0;
         }
 
         .unslider-arrow.prev {
@@ -18582,9 +18595,8 @@ padding: 5px;
         font-weight: 300;
         clear: both;
         display: block;
-        text-align: left;
+        text-align: center;
         margin-bottom: 10px;
-        color: #9d529b;
     }
 
     .all_products_learnmore {
@@ -25368,11 +25380,34 @@ font-size: 28px;
 }
 .main-img {
     width: 100%;
+    margin: 50px 0;
+    border: solid 2px #052049;
+    border-radius: 50px;
+    opacity: .5;
+}
+.contact-img {
+    position: relative;
 }
 .contact-row {
-    padding: 0 10%;
+    /* padding: 0 10%; */
     text-align: left;
+    position: absolute;
+    top: 35%;
+    /* width: 100%; */
+    left: 40%;
+    /* background: #fff; */
+    transform: translate(-50%);
 }
+.contact-row p {
+    margin: 0;
+    width: fit-content;
+    background: #fff;
+    font-size: 22px;
+    opacity: .85;
+}
+.contact-row p a:hover {
+    color: #052049;
+ }
 .publication-main-top-background {
     background: #052049;
     margin-top: -2px;
@@ -25616,6 +25651,19 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
         height: 70px;
         max-width: 100%;
     }   
+    .modal-close {
+        right: 13px;
+    }
+    .modal-wrapper {
+        top: 10em;
+    }
+    .contact-row {
+        position: relative;
+        left: unset;
+        transform: translate(0);
+        width: 90%;
+        float:right;
+    }
 }
 @media only screen and (max-width: 700px) {
     .modal-wrapper {
@@ -25623,5 +25671,24 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
     }
     .hm_sub_nav a img {
         height: 50px;
+    }
+    .contact-img {
+        position: relative;
+    }
+    .main-img {
+        width: 90%;
+        border-radius: 10px;
+        margin: 15px 0;
+    }
+    .contact-row {
+        position: relative;
+        left: unset;
+        transform: translate(0);
+        width: 90%;
+        margin-left: auto;
+        float:unset;
+    }
+    .contact-row p {
+        font-size: 14px;
     }
 }
