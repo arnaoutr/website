@@ -992,8 +992,8 @@ body {
         height: auto;
         display: block;
         text-align: center;
-        padding: 20px 20px;
-        max-width: fit-content;
+        padding: 20px 0;
+        /* max-width: fit-content; */
     }
     .hm_sub_nav img {
         height: 400px;
@@ -9441,7 +9441,7 @@ font-size: 34px;
   }
 
   .hm_sub_nav.logo_banner{
-    display: flex;
+    /* display: flex; */
   }
 
   .hm_sub_nav
