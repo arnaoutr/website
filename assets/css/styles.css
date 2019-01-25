@@ -616,7 +616,7 @@ body {
     }
     .footer {
       font-family: 'Helvetica Neue', sans-serif !important;
-      position: fixed;
+      position: static;
       bottom: 0;
     }
 
@@ -9042,7 +9042,7 @@ font-size: 34px;
 
     .footer {
         display: block;
-        position: fixed;
+        position: static;
         bottom: 0;
     }
 
@@ -11715,18 +11715,12 @@ path{
         background-image: url(/assets/img/sites/bgo/IS_Insurance_Background.jpg);
     }
 
-
-
-
-
-
-
     .sbi_lp_mainarea {
         background-color: #ededed;
         width: 100%;
         display: inline-block;
-        padding-top: 92px;
-        padding-bottom: 70px;
+        /* padding-top: 92px; */
+        /* padding-bottom: 70px; */
         vertical-align: text-top;
     }
 
@@ -19993,8 +19987,8 @@ path{
         background-color: #ededed;
         width: 100%;
         display: inline-block;
-        padding-top: 20px;
-        padding-bottom: 15px;
+        /* padding-top: 20px;
+        padding-bottom: 15px; */
         vertical-align: text-top;
     }
 
