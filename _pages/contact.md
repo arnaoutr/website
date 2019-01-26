@@ -80,3 +80,4 @@ Requirements:<br>
 •	A Master’s, PhD, or similar degree in computer science or related field. Would consider a candidate with an alternate background with demonstrated experience in computer science and biomedical research (e.g., MD with dedicated clinical informatics or data science fellowship training; BS with demonstrated postgraduate experience in machine learning)<br>
 •	Fluency with Python, Pandas, Keras, Tensorflow/Theano, and related programming languages, as well as data visualizations (ideally using d3.js, R, Matlab, pylab, seaborn, etc). Specific experience with computer vision projects, and with AWS/cloud computing is a plus.<br>
 <br>
+ -->
