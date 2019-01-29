@@ -858,7 +858,8 @@ body {
   }
 
 .rs_top {
-     height: 200px;
+     height: 225px;
+     /* visibility: hidden; */
 }
   .very_bold
   {
@@ -3436,8 +3437,8 @@ path{
         background-color: #ededed;
         width: 100%;
         display: inline-block;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
         vertical-align: text-top;
     }
 
@@ -13294,7 +13295,7 @@ path{
         background: #f1efef;
         width: 100%;
         padding-bottom: 10px;
-        padding-top: 40px;
+        /* padding-top: 40px; */
         vertical-align: top;
     }
 
@@ -20065,7 +20066,7 @@ path{
         transition: transform .5s ease-in-out;
     }
     .hm_intro_area {
-        padding-bottom: 25px;
+        padding-bottom: 0;
         text-align: center;
     }
     .hm_intro_area h1 {
@@ -25397,7 +25398,7 @@ font-size: 28px;
     color: #052049;
  }
 .publication-main-top-background {
-    background: #052049;
+    background: #ededed;
     margin-top: -2px;
 }
 .logo {
