@@ -1988,7 +1988,7 @@ display: table-cell;
         width: 100%;
         background-color: #f1efef;
         /* padding-top: 70px; */
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
         display: inline-block;
     }
 
@@ -9895,8 +9895,8 @@ background-size: cover;
     }
 
     .home-simplified_wrap {
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
         text-align: center;
         display: table;
     }
@@ -10322,7 +10322,7 @@ width: 250px;
         width: 100%;
         background-color: #f1efef;
         /* padding-top: 70px; */
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
         display: inline-block;
     }
 
