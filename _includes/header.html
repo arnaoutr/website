@@ -1,35 +1,23 @@
-<div
-  class="masthead"
-  id="themasthead"
-  style="background-color: #052049; z-index:3000;"
->
-  <div class="wrap1">
-    <a href="/" class="logo">
-      Arnaout Lab @ UCSF
-      <div class="bgo-logo_reverse"></div>
-    </a>
-    <div class="nav-wrap">
-      <div class="bgo_nav_mobile mobile" style="position: relative;">
-        <a href="/" class="logo">
-          <!-- <img src="/assets/images/sites/bgo/bgo_logo_white_notag.png" width="200" border="0" /> -->
+ <nav class="navbar navbar-expand-md navbar-dark bg-primary p-2" style="">
+    <div class="container"> <a class="navbar-brand" href="/">
+        <b> Arnaout Lab @ UCSF</b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar16"
+        aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse " id="navbar16" style="">
+        <ul class="navbar-nav ml-auto bg-primary text-white">
+          {% for link in site.data.menu %} {% unless forloop.last == true %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ link.url }}">{{ link.text }}</a>
+          </li>
+          {% endunless %} {% if forloop.last == true %}
+          <li class="nav-item">
+        <a href="{{ link.url }}" class="nav-link join-btn">{{ link.text }}</a>
 
-          <div class="mobile_nav_header"></div>
-        </a>
-        <div class="menu-button"></div>
+          </li>
+          {% endif %} {% endfor %}
+        </ul> 
       </div>
-      <ul data-breakpoint="800" class="flexnav">
-        {% for link in site.data.menu %} {% unless forloop.last == true %}
-        <li>
-          <a href="{{ link.url }}">{{ link.text }}</a>
-        </li>
-        {% endunless %} {% if forloop.last == true %}
-        <li class="nav-btn1">
-          <a href="{{ link.url }}" class="nav_btn_login">{{ link.text }}</a>
-        </li>
-        {% endif %} {% endfor %}
-      </ul>
     </div>
-  </div>
-  <!-- wrap1 -->
-</div>
-<!-- masthead -->
+  </nav>

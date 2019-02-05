@@ -3,288 +3,24 @@ layout: default
 title: "Member"
 permalink: /members/
 ---
+<div class="py-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="pl-2"> <strong>Principal Investigator</strong></h1>
 
-<div id="solutionsbyindustry">
-  <!-- main-top-background -->
-
-  <!-- main-area -->
-
-  <div class="sbi_lp_mainarea">
-    <div class="sbi_lp_mainarea_wrap">
-      <div class="hm_intro_area" style=" color:#052049;">
-        <h2 class="all_products_subhead">Principal Investigator</h2>
       </div>
-      <div class="sbi_lp_industry_row">
-        {% for person in site.data.pi %}
-        <div class="sbi_lp_industry_cube sbi_lp_spacer">
-          {% if person.image %}
-
-          <img
-            src="/assets/image/members/{{ person.image }}"
-            width="271"
-            border="0"
-          />
-          {% endif %}
-          <div class="member-info">
-            <p>
-              <strong>{{ person.name }}</strong>
-            </p>
-            <p>{{ person.position }}</p>
-            <p>{{ person.role }}</p>
-
-            <ul class="member-social">
-              <!--  -->
-              {% if person.website %}
-              <li>
-                <a
-                  href="{{ person.website }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/website_logo.png"
-                    style="height: 28px;"
-                  />
-                </a>
-              </li>
-              {% endif %}
-              <!--  -->
-              {% if person.linkedin %}
-
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/LinkedIn_logo_initials.png"
-                    style="height: 28px;"
-                  />
-                </a>
-              </li>
-              {% endif %}
-
-              <!--  -->
-              {% if person.twitter %}
-
-              <li>
-                <a
-                  href="https://twitter.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/twitter_logo.png"
-                    style="height: 28px;"
-                  />
-                </a>
-              </li>
-              {% endif %}
-
-              <!--  -->
-              {% if person.github %}
-
-              <li>
-                <a
-                  href="https://github.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/github_logo.png"
-                    style="height: 28px;"
-                  />
-                </a>
-              </li>
-              {% endif %}
-
-              <!--  -->
-              {% if person.email %}
-
-              <li>
-                <a
-                  href="mailto:{{ person.email }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/email_logo.png"
-                    style="height: 28px;"
-                  />
-                </a>
-              </li>
-              {% endif %}
-            </ul>
-          </div>
-
-          <div class="modal-toggle{{ forloop.index }} modal-toggle">+</div>
-
-          <!-- sbi_lp_industry_cube_cover -->
-        </div>
-        <div class="modal{{ forloop.index }} modal">
-          <div class="modal-overlay modal-toggle"></div>
-          <div class="modal-wrapper modal-transition">
-            <div class="modal-body">
-              <div class="modal-content">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img
-                      src="/assets/image/members/{{ person.image }}"
-                      style="width: 200px; height: 200px;"
-                    />
-                    <div class="member-info">
-                      <p>
-                        <strong>{{ person.name }}</strong>
-                      </p>
-                      <p>{{ person.position }}</p>
-                      <p>{{ person.role }}</p>
-                      <ul class="member-social">
-                        <!--  -->
-                        {% if person.website %}
-                        <li>
-                          <a
-                            href="{{ person.website }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/website_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                        <!--  -->
-                        {% if person.linkedin %}
-
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/{{
-                              person.linkedin
-                            }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/LinkedIn_logo_initials.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-
-                        <!--  -->
-                        {% if person.twitter %}
-
-                        <li>
-                          <a
-                            href="https://twitter.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/twitter_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-
-                        <!--  -->
-                        {% if person.github %}
-
-                        <li>
-                          <a
-                            href="https://github.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/github_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-
-                        <!--  -->
-                        {% if person.email %}
-
-                        <li>
-                          <a
-                            href="mailto:{{ person.email }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/email_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div
-                      class="modal-close modal-toggle modal-toggle{{
-                        forloop.index
-                      }}"
-                    ></div>
-
-                    <div class="column left member-details">
-                      {{ person.description | markdownify }}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script>
-          $(".modal-toggle{{forloop.index}}").on("click", function(e) {
-            e.preventDefault();
-            $(".modal{{forloop.index}}").toggleClass("is-visible");
-          });
-        </script>
-
-        {%endfor%}
-        <!-- sbi_lp_industry_cube -->
-
-        <!-- sbi_lp_industry_cube -->
-      </div>
-      <!-- sbi_lp_industry_row -->
     </div>
-  </div>
-  <!-- sbi_lp_mainarea_wrap -->
-</div>
-
-<!-- member main-area -->
-
-<div id="solutionsbyindustry">
-  <!-- main-top-background -->
-
-  <!-- main-area -->
-
-  <div class="sbi_lp_mainarea">
-    <div class="sbi_lp_mainarea_wrap">
-      <div class="hm_intro_area" style=" color:#052049;">
-        <h2 class="all_products_subhead">Members</h2>
-      </div>
-      <div class="sbi_lp_industry_row">
-        {% for person in site.data.members %}
-        <div class="sbi_lp_industry_cube sbi_lp_spacer">
+    <div class="row">
+      {% for person in site.data.pi %}
+      <div class="col-sm-3 col-12 p-2">
+        <div class="card member"> 
           {% if person.image %}
-
-          <img
-            src="/assets/image/members/{{ person.image }}"
-            width="271"
-            border="0"
-          />
+          
+          <!-- <img src="/assets/image/members/{{ person.image }}" width="271" border="0" /> -->
+          <img class="card-img-top member-img" src="/assets/image/members/{{ person.image }}">
           {% endif %}
-          <div class="member-info">
+          <div class="card-body">
             <p>
               <strong>{{ person.name }}</strong>
             </p>
@@ -294,255 +30,171 @@ permalink: /members/
               <!--  -->
               {% if person.website %}
               <li>
-                <a
-                  href="{{ person.website }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/website_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
               <!--  -->
               {% if person.linkedin %}
-
+            
               <li>
-                <a
-                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/LinkedIn_logo_initials.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://www.linkedin.com/in/{{ person.linkedin }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
-
+            
               <!--  -->
               {% if person.twitter %}
-
+            
               <li>
-                <a
-                  href="https://twitter.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/twitter_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
-
+            
               <!--  -->
               {% if person.github %}
-
+            
               <li>
-                <a
-                  href="https://github.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/github_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
-
+            
               <!--  -->
               {% if person.email %}
-
+            
               <li>
-                <a
-                  href="mailto:{{ person.email }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/email_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
             </ul>
           </div>
-
           <div class="modal-toggle-{{ forloop.index }} modal-toggle">+</div>
-
+          
           <!-- sbi_lp_industry_cube_cover -->
-        </div>
-        <div class="modal-{{ forloop.index }} modal">
-          <div class="modal-overlay modal-toggle"></div>
-          <div class="modal-wrapper modal-transition">
-            <div class="modal-body">
-              <div class="modal-content">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img
-                      src="/assets/image/members/{{ person.image }}"
-                      style="width: 200px; height: 200px;"
-                    />
-                    <div class="member-info">
-                      <p>
-                        <strong>{{ person.name }}</strong>
-                      </p>
-                      <p>{{ person.position }}</p>
-                      <p>{{ person.role }}</p>
-                      <ul class="member-social">
-                        <!--  -->
-                        {% if person.website %}
-                        <li>
-                          <a
-                            href="{{ person.website }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/website_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                        <!--  -->
-                        {% if person.linkedin %}
+          </div>
+          
 
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/{{
-                              person.linkedin
-                            }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/LinkedIn_logo_initials.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-
-                        <!--  -->
-                        {% if person.twitter %}
-
-                        <li>
-                          <a
-                            href="https://twitter.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/twitter_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-
-                        <!--  -->
-                        {% if person.github %}
-
-                        <li>
-                          <a
-                            href="https://github.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/github_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-
-                        <!--  -->
-                        {% if person.email %}
-
-                        <li>
-                          <a
-                            href="mailto:{{ person.email }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/email_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div
-                      class="modal-close modal-toggle modal-toggle-{{
-                        forloop.index
-                      }}"
-                    ></div>
-
-                    <div class="column left member-details">
-                      {{ person.description | markdownify }}
-                    </div>
-                  </div>
+      </div>
+      <div class="modal-{{ forloop.index }} modal">
+      <div class="modal-overlay modal-toggle"></div>
+      <div class="modal-wrapper modal-transition">
+        <div class="modal-body">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="/assets/image/members/{{ person.image }}" style="width: 200px; height: 200px;" />
+                <div class="member-info">
+                  <p>
+                    <strong>{{ person.name }}</strong>
+                  </p>
+                  <p>{{ person.position }}</p>
+                  <p>{{ person.role }}</p>
+                  <ul class="member-social">
+                    <!--  -->
+                    {% if person.website %}
+                    <li>
+                      <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                        <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
+                      </a>
+                    </li>
+                    {% endif %}
+                    <!--  -->
+                    {% if person.linkedin %}
+    
+                    <li>
+                      <a href="https://www.linkedin.com/in/{{
+                                                  person.linkedin
+                                                }}"
+                        class="footer_logo_3" style="text-align: center;">
+                        <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
+                      </a>
+                    </li>
+                    {% endif %}
+    
+                    <!--  -->
+                    {% if person.twitter %}
+    
+                    <li>
+                      <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                        <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
+                      </a>
+                    </li>
+                    {% endif %}
+    
+                    <!--  -->
+                    {% if person.github %}
+    
+                    <li>
+                      <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                        <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
+                      </a>
+                    </li>
+                    {% endif %}
+    
+                    <!--  -->
+                    {% if person.email %}
+    
+                    <li>
+                      <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                        <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
+                      </a>
+                    </li>
+                    {% endif %}
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="modal-close modal-toggle modal-toggle-{{
+                                            forloop.index
+                                          }}"></div>
+    
+                <div class="column left member-details">
+                  {{ person.description | markdownify }}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <script>
-          $(".modal-toggle-{{forloop.index}}").on("click", function(e) {
-            e.preventDefault();
-            $(".modal-{{forloop.index}}").toggleClass("is-visible");
-          });
-        </script>
-
-        {%endfor%}
-        <!-- sbi_lp_industry_cube -->
-
-        <!-- sbi_lp_industry_cube -->
       </div>
-      <!-- sbi_lp_industry_row -->
     </div>
+    <script>
+      $(".modal-toggle-{{forloop.index}}").on("click", function (e) {
+        e.preventDefault();
+        $(".modal-{{forloop.index}}").toggleClass("is-visible");
+      });
+    </script>
+      
+      {% endfor %}
+    </div>
+    
   </div>
-  <!-- sbi_lp_mainarea_wrap -->
 </div>
-
-<!-- member main-area -->
-
-<div id="solutionsbyindustry">
-  <!-- main-top-background -->
-
-  <!-- main-area -->
-
-  <div class="sbi_lp_mainarea">
-    <div class="sbi_lp_mainarea_wrap">
-      <div class="hm_intro_area" style="color:#052049;">
-          <h2 class="all_products_subhead">Collaborators</h2>
+<!-- aaaaaaaaaaaaaaaaaa -->
+<div class="pb-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="pl-2"> <strong>Members</strong></h1>
       </div>
-      <div class="sbi_lp_industry_row">
-        {% for person in site.data.collaborators_backup %}
-        <div class="sbi_lp_industry_cube sbi_lp_spacer">
+    </div>
+    <div class="row">
+      {% for person in site.data.members %}
+      <div class="col-sm-3 col-12 p-2">
+        <div class="card member">
           {% if person.image %}
 
-          <img
-            src="/assets/image/members/{{ person.image }}"
-            width="271"
-            border="0"
-          />
+          <!-- <img src="/assets/image/members/{{ person.image }}" width="271" border="0" /> -->
+          <img class="card-img-top member-img" src="/assets/image/members/{{ person.image }}">
           {% endif %}
-          <div class="member-info">
+          <div class="card-body">
             <p>
               <strong>{{ person.name }}</strong>
             </p>
@@ -552,15 +204,8 @@ permalink: /members/
               <!--  -->
               {% if person.website %}
               <li>
-                <a
-                  href="{{ person.website }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/website_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -568,15 +213,8 @@ permalink: /members/
               {% if person.linkedin %}
 
               <li>
-                <a
-                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/LinkedIn_logo_initials.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://www.linkedin.com/in/{{ person.linkedin }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -585,15 +223,8 @@ permalink: /members/
               {% if person.twitter %}
 
               <li>
-                <a
-                  href="https://twitter.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/twitter_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -602,15 +233,8 @@ permalink: /members/
               {% if person.github %}
 
               <li>
-                <a
-                  href="https://github.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/github_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -619,198 +243,133 @@ permalink: /members/
               {% if person.email %}
 
               <li>
-                <a
-                  href="mailto:{{ person.email }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/email_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
             </ul>
           </div>
-
-          <div
-            class="modal-toggle-collaborators{{ forloop.index }} modal-toggle"
-          >
-            +
-          </div>
+          <div class="m-modal-toggle-{{ forloop.index }} modal-toggle">+</div>
 
           <!-- sbi_lp_industry_cube_cover -->
         </div>
-        <div class="modal-collaborators{{ forloop.index }} modal">
-          <div class="modal-overlay modal-toggle"></div>
-          <div class="modal-wrapper modal-transition">
-            <div class="modal-body">
-              <div class="modal-content">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img
-                      src="/assets/image/members/{{ person.image }}"
-                      style="width: 200px; height: 200px;"
-                    />
-                    <div class="member-info">
-                      <p>
-                        <strong>{{ person.name }}</strong>
-                      </p>
-                      <p>{{ person.position }}</p>
-                      <p>{{ person.role }}</p>
-                      <ul class="member-social">
-                        <!--  -->
-                        {% if person.website %}
-                        <li>
-                          <a
-                            href="{{ person.website }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/website_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                        <!--  -->
-                        {% if person.linkedin %}
 
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/{{
-                              person.linkedin
-                            }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/LinkedIn_logo_initials.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
 
-                        <!--  -->
-                        {% if person.twitter %}
+      </div>
+      <div class="n-modal-{{ forloop.index }} modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+          <div class="modal-body">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="/assets/image/members/{{ person.image }}" style="width: 200px; height: 200px;" />
+                  <div class="member-info">
+                    <p>
+                      <strong>{{ person.name }}</strong>
+                    </p>
+                    <p>{{ person.position }}</p>
+                    <p>{{ person.role }}</p>
+                    <ul class="member-social">
+                      <!--  -->
+                      {% if person.website %}
+                      <li>
+                        <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+                      <!--  -->
+                      {% if person.linkedin %}
 
-                        <li>
-                          <a
-                            href="https://twitter.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/twitter_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
+                      <li>
+                        <a href="https://www.linkedin.com/in/{{
+                                                  person.linkedin
+                                                }}"
+                          class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
 
-                        <!--  -->
-                        {% if person.github %}
+                      <!--  -->
+                      {% if person.twitter %}
 
-                        <li>
-                          <a
-                            href="https://github.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/github_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
+                      <li>
+                        <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
 
-                        <!--  -->
-                        {% if person.email %}
+                      <!--  -->
+                      {% if person.github %}
 
-                        <li>
-                          <a
-                            href="mailto:{{ person.email }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/email_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                      </ul>
-                    </div>
+                      <li>
+                        <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+
+                      <!--  -->
+                      {% if person.email %}
+
+                      <li>
+                        <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+                    </ul>
                   </div>
-                  <div class="col-md-6">
-                    <div
-                      class="modal-close modal-toggle modal-toggle-collaborators{{
-                        forloop.index
-                      }}"
-                    ></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="modal-close modal-toggle m-modal-toggle-{{
+                                            forloop.index
+                                          }}"></div>
 
-                    <div class="column left member-details">
-                      {{ person.description | markdownify }}
-                    </div>
+                  <div class="column left member-details">
+                    {{ person.description | markdownify }}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <script>
-          $(".modal-toggle-collaborators{{forloop.index}}").on(
-            "click",
-            function(e) {
-              e.preventDefault();
-              $(".modal-collaborators{{forloop.index}}").toggleClass(
-                "is-visible"
-              );
-            }
-          );
-        </script>
-
-        {%endfor%}
-        <!-- sbi_lp_industry_cube -->
-
-        <!-- sbi_lp_industry_cube -->
       </div>
-      <!-- sbi_lp_industry_row -->
+      <script>
+        $(".m-modal-toggle-{{forloop.index}}").on("click", function (e) {
+          e.preventDefault();
+          $(".n-modal-{{forloop.index}}").toggleClass("is-visible");
+        });
+      </script>
+
+      {% endfor %}
     </div>
+
   </div>
-  <!-- sbi_lp_mainarea_wrap -->
 </div>
 
-<!-- Alumni main-area -->
-
-<div id="solutionsbyindustry">
-  <!-- main-top-background -->
-
-  <!-- main-area -->
-
-  <div class="sbi_lp_mainarea">
-    <div class="sbi_lp_mainarea_wrap">
-      <div class="hm_intro_area" style=" color:#052049;">
-          <h2 class="all_products_subhead">Alumni</h2>
+<!-- aaaaaaaaaaaaaaaaaa -->
+<div class="pb-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="pl-2"> <strong>Collaborators</strong></h1>
       </div>
-      <div class="sbi_lp_industry_row">
-        {% for person in site.data.alumni %}
-        <div class="sbi_lp_industry_cube sbi_lp_spacer">
+    </div>
+    <div class="row">
+      {% for person in site.data.collaborators_backup %}
+      <div class="col-sm-3 col-12 p-2">
+        <div class="card member">
           {% if person.image %}
 
-          <img
-            src="/assets/image/members/{{ person.image }}"
-            width="271"
-            border="0"
-          />
+          <!-- <img src="/assets/image/members/{{ person.image }}" width="271" border="0" /> -->
+          <img class="card-img-top member-img" src="/assets/image/members/{{ person.image }}">
           {% endif %}
-
-          <div class="member-info">
+          <div class="card-body">
             <p>
               <strong>{{ person.name }}</strong>
             </p>
@@ -820,15 +379,8 @@ permalink: /members/
               <!--  -->
               {% if person.website %}
               <li>
-                <a
-                  href="{{ person.website }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/website_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -836,15 +388,8 @@ permalink: /members/
               {% if person.linkedin %}
 
               <li>
-                <a
-                  href="https://www.linkedin.com/in/{{ person.linkedin }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/LinkedIn_logo_initials.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://www.linkedin.com/in/{{ person.linkedin }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -853,15 +398,8 @@ permalink: /members/
               {% if person.twitter %}
 
               <li>
-                <a
-                  href="https://twitter.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/twitter_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -870,15 +408,8 @@ permalink: /members/
               {% if person.github %}
 
               <li>
-                <a
-                  href="https://github.com/{{ person.twitter }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/github_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
@@ -887,163 +418,286 @@ permalink: /members/
               {% if person.email %}
 
               <li>
-                <a
-                  href="mailto:{{ person.email }}"
-                  class="footer_logo_3"
-                  style="text-align: center;"
-                >
-                  <img
-                    src="/assets/image/icon/email_logo.png"
-                    style="height: 28px;"
-                  />
+                <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
                 </a>
               </li>
               {% endif %}
             </ul>
           </div>
-
-          <div class="modal-toggle-alumni{{ forloop.index }} modal-toggle">
-            +
-          </div>
+          <div class="c-modal-toggle-{{ forloop.index }} modal-toggle">+</div>
 
           <!-- sbi_lp_industry_cube_cover -->
         </div>
-        <div class="modal-alumni{{ forloop.index }} modal">
-          <div class="modal-overlay modal-toggle"></div>
-          <div class="modal-wrapper modal-transition">
-            <div class="modal-body">
-              <div class="modal-content">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img
-                      src="/assets/image/members/{{ person.image }}"
-                      style="width: 200px; height: 200px;"
-                    />
-                    <div class="member-info">
-                      <p>
-                        <strong>{{ person.name }}</strong>
-                      </p>
-                      <p>{{ person.position }}</p>
-                      <p>{{ person.role }}</p>
 
-                      <ul class="member-social">
-                        <!--  -->
-                        {% if person.website %}
-                        <li>
-                          <a
-                            href="{{ person.website }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/website_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                        <!--  -->
-                        {% if person.linkedin %}
 
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/{{
-                              person.linkedin
-                            }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/LinkedIn_logo_initials.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
+      </div>
+      <div class="co-modal-{{ forloop.index }} modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+          <div class="modal-body">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="/assets/image/members/{{ person.image }}" style="width: 200px; height: 200px;" />
+                  <div class="member-info">
+                    <p>
+                      <strong>{{ person.name }}</strong>
+                    </p>
+                    <p>{{ person.position }}</p>
+                    <p>{{ person.role }}</p>
+                    <ul class="member-social">
+                      <!--  -->
+                      {% if person.website %}
+                      <li>
+                        <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+                      <!--  -->
+                      {% if person.linkedin %}
 
-                        <!--  -->
-                        {% if person.twitter %}
+                      <li>
+                        <a href="https://www.linkedin.com/in/{{
+                                                  person.linkedin
+                                                }}"
+                          class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
 
-                        <li>
-                          <a
-                            href="https://twitter.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/twitter_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
+                      <!--  -->
+                      {% if person.twitter %}
 
-                        <!--  -->
-                        {% if person.github %}
+                      <li>
+                        <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
 
-                        <li>
-                          <a
-                            href="https://github.com/{{ person.twitter }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/github_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
+                      <!--  -->
+                      {% if person.github %}
 
-                        <!--  -->
-                        {% if person.email %}
+                      <li>
+                        <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
 
-                        <li>
-                          <a
-                            href="mailto:{{ person.email }}"
-                            class="footer_logo_3"
-                            style="text-align: center;"
-                          >
-                            <img
-                              src="/assets/image/icon/email_logo.png"
-                              style="height: 28px;"
-                            />
-                          </a>
-                        </li>
-                        {% endif %}
-                      </ul>
-                    </div>
+                      <!--  -->
+                      {% if person.email %}
+
+                      <li>
+                        <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+                    </ul>
                   </div>
-                  <div class="col-md-6">
-                    <div
-                      class="modal-close modal-toggle modal-toggle-alumni{{
-                        forloop.index
-                      }}"
-                    ></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="modal-close modal-toggle c-modal-toggle-{{
+                                            forloop.index
+                                          }}"></div>
 
-                    <div class="column left member-details">
-                      {{ person.description | markdownify }}
-                    </div>
+                  <div class="column left member-details">
+                    {{ person.description | markdownify }}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <script>
-          $(".modal-toggle-alumni{{forloop.index}}").on("click", function(e) {
-            e.preventDefault();
-            $(".modal-alumni{{forloop.index}}").toggleClass("is-visible");
-          });
-        </script>
-
-        {%endfor%}
-        <!-- sbi_lp_industry_cube -->
-
-        <!-- sbi_lp_industry_cube -->
       </div>
-      <!-- sbi_lp_industry_row -->
+      <script>
+        $(".c-modal-toggle-{{forloop.index}}").on("click", function (e) {
+          e.preventDefault();
+          $(".co-modal-{{forloop.index}}").toggleClass("is-visible");
+        });
+      </script>
+
+      {% endfor %}
     </div>
+
   </div>
-  <!-- sbi_lp_mainarea_wrap -->
+</div>
+
+<!-- aaaaaaaaaaaaaaaaaa -->
+<div class="pb-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="pl-2"> <strong>Alumni</strong></h1>
+      </div>
+    </div>
+    <div class="row">
+      {% for person in site.data.alumni %}
+      <div class="col-sm-3 col-12 p-2">
+        <div class="card member">
+          {% if person.image %}
+
+          <!-- <img src="/assets/image/members/{{ person.image }}" width="271" border="0" /> -->
+          <img class="card-img-top member-img" src="/assets/image/members/{{ person.image }}">
+          {% endif %}
+          <div class="card-body">
+            <p>
+              <strong>{{ person.name }}</strong>
+            </p>
+            <p>{{ person.position }}</p>
+            <p>{{ person.role }}</p>
+            <ul class="member-social">
+              <!--  -->
+              {% if person.website %}
+              <li>
+                <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
+                </a>
+              </li>
+              {% endif %}
+              <!--  -->
+              {% if person.linkedin %}
+
+              <li>
+                <a href="https://www.linkedin.com/in/{{ person.linkedin }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
+                </a>
+              </li>
+              {% endif %}
+
+              <!--  -->
+              {% if person.twitter %}
+
+              <li>
+                <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
+                </a>
+              </li>
+              {% endif %}
+
+              <!--  -->
+              {% if person.github %}
+
+              <li>
+                <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
+                </a>
+              </li>
+              {% endif %}
+
+              <!--  -->
+              {% if person.email %}
+
+              <li>
+                <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                  <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
+                </a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+          <div class="a-modal-toggle-{{ forloop.index }} modal-toggle">+</div>
+
+          <!-- sbi_lp_industry_cube_cover -->
+        </div>
+
+
+      </div>
+      <div class="ao-modal-{{ forloop.index }} modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+          <div class="modal-body">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="/assets/image/members/{{ person.image }}" style="width: 200px; height: 200px;" />
+                  <div class="member-info">
+                    <p>
+                      <strong>{{ person.name }}</strong>
+                    </p>
+                    <p>{{ person.position }}</p>
+                    <p>{{ person.role }}</p>
+                    <ul class="member-social">
+                      <!--  -->
+                      {% if person.website %}
+                      <li>
+                        <a href="{{ person.website }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/website_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+                      <!--  -->
+                      {% if person.linkedin %}
+
+                      <li>
+                        <a href="https://www.linkedin.com/in/{{
+                                                  person.linkedin
+                                                }}"
+                          class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/LinkedIn_logo_initials.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+
+                      <!--  -->
+                      {% if person.twitter %}
+
+                      <li>
+                        <a href="https://twitter.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/twitter_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+
+                      <!--  -->
+                      {% if person.github %}
+
+                      <li>
+                        <a href="https://github.com/{{ person.twitter }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/github_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+
+                      <!--  -->
+                      {% if person.email %}
+
+                      <li>
+                        <a href="mailto:{{ person.email }}" class="footer_logo_3" style="text-align: center;">
+                          <img src="/assets/image/icon/email_logo.png" style="height: 28px;" />
+                        </a>
+                      </li>
+                      {% endif %}
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="modal-close modal-toggle a-modal-toggle-{{
+                                            forloop.index
+                                          }}"></div>
+
+                  <div class="column left member-details">
+                    {{ person.description | markdownify }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        $(".a-modal-toggle-{{forloop.index}}").on("click", function (e) {
+          e.preventDefault();
+          $(".ao-modal-{{forloop.index}}").toggleClass("is-visible");
+        });
+      </script>
+
+      {% endfor %}
+    </div>
+
+  </div>
 </div>
