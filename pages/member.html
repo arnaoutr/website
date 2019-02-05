@@ -7,13 +7,13 @@ permalink: /members/
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="pl-2"> <strong>Principal Investigator</strong></h1>
+        <h1 class="pl-2 title"> <strong>Principal Investigator</strong></h1>
 
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       {% for person in site.data.pi %}
-      <div class="col-sm-3 col-12 p-2">
+      <div class="col-sm-3 col-10 p-2">
         <div class="card member"> 
           {% if person.image %}
           
@@ -180,14 +180,14 @@ permalink: /members/
 <!-- aaaaaaaaaaaaaaaaaa -->
 <div class="pb-3 bg-light">
   <div class="container">
-    <div class="row">
+    <div class="row ">
       <div class="col-xs-12">
-        <h1 class="pl-2"> <strong>Members</strong></h1>
+        <h1 class="pl-2 title"> <strong>Members</strong></h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       {% for person in site.data.members %}
-      <div class="col-sm-3 col-12 p-2">
+      <div class="col-sm-3 col-10 p-2">
         <div class="card member">
           {% if person.image %}
 
@@ -357,12 +357,12 @@ permalink: /members/
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="pl-2"> <strong>Collaborators</strong></h1>
+        <h1 class="pl-2 title"> <strong>Collaborators</strong></h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       {% for person in site.data.collaborators_backup %}
-      <div class="col-sm-3 col-12 p-2">
+      <div class="col-sm-3 col-10 p-2">
         <div class="card member">
           {% if person.image %}
 
@@ -532,12 +532,12 @@ permalink: /members/
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1 class="pl-2"> <strong>Alumni</strong></h1>
+        <h1 class="pl-2 title"> <strong>Alumni</strong></h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       {% for person in site.data.alumni %}
-      <div class="col-sm-3 col-12 p-2">
+      <div class="col-sm-3 col-10 p-2">
         <div class="card member">
           {% if person.image %}
 
