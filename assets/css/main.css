@@ -389,6 +389,16 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
   .l-8 {
     width: 50%;
   }
+  .join-btn {
+    background: none;
+    color: #fff!important;
+    border: none;
+  }
+  .join-btn:hover {
+    background: none;
+    color: #fff!important;
+    border: none;
+  }
 }
 .description {
   text-align: center;
