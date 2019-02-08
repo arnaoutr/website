@@ -17,7 +17,7 @@ layout: default
                 {% for news in site.posts %}
                 <div class="carousel-item {% if forloop.first == true %} active {% endif %}"> 
                   <!-- <img class="d-block img-fluid w-100" src="/assets/image/news/{{ news.img }}"> -->
-                  <div class="carousel-caption" style="background-image: url(/assets/image/news/{{ news.img }});">
+                  <div class="carousel-caption carousel-img" style="background-image: url(/assets/image/news/{{ news.img }});">
                     <a href="{{ news.url }}" class="home-news">{{ news.title }} <br />
                       {% if news.title2%} {{ news.title2 }} {% endif%}</a>
                     <!-- <h5 class="m-0">Carousel</h5>  -->
