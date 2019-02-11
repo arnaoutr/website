@@ -113,6 +113,8 @@
 /* member */
 .member {
   text-align: center;
+  max-width: 271px;
+  margin: 0 auto;
 }
 .member p {
   margin-bottom: .3rem;
