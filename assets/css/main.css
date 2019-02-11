@@ -352,7 +352,20 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
   transition: all .2s;
   border-bottom: solid 1px;
 }
- @media only screen and (max-width: 800px) and (min-width: 700px) {   
+ @media only screen and (max-width: 1002px) and (min-width: 800px) {   
+  .join-btn {
+   margin-right: 5px!important;
+   color: #fff!important;
+   border: none;
+   padding: 8px 5px!important;
+ }
+ .nav-item a {
+    color: #fff!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
+}
+ @media only screen and (max-width: 799px) and (min-width: 700px) {   
    .home-news {
    font-size: 1.1rem;
    padding: 0 70px;
