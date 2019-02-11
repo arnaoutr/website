@@ -96,6 +96,8 @@
 }
 .publication {
   transition: all .5s;
+  max-width: 250px;
+  margin: 0 auto;
 }
 .publication:hover {
   transform: scale(1.025);
