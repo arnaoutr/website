@@ -427,7 +427,7 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
   text-align: center;
 }
 .pub-img {
-  height: 271px;
+  /* height: 271px; */
 }
 @media only screen and (max-width: 700px) {   
     #twitter-widget-0{
