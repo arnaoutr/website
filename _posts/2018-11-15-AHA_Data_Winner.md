@@ -1,6 +1,5 @@
 ---
-title: "Dr. Arnaout Wins American Heart Association"
-title2: "Precision Medicine Competition"
+title: "Dr. Arnaout Wins American Heart Association Precision Medicine Competition"
 date: 2018-11-15
 img: "newsbox_heart.png"
 redirect_to:
