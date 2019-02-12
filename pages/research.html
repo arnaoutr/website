@@ -37,60 +37,17 @@ permalink: /research/
       </div>
     </div>
     <div class="row">
+      {% for organizations in site.data.affiliated_organizations %}
       <div class="col-lg-4 col-md-6 p-3">
-        <a href="https://precision.heart.org" class="box-link">
+        <a href="{{ organizations.website }}" class="box-link">
           <div class="card ">
             <div class="card-body box shadow" style="">
-              <p class="my-3 text-center">The AHA Precision Medicine Institute</p>
+              <p class="my-3 text-center">{{ organizations.title }}</p>
             </div>
           </div>
         </a>
       </div>
-      <div class="col-lg-4 col-md-6 p-3">
-        <a href="https://www.czbiohub.org" class="box-link">
-          <div class="card ">
-            <div class="card-body box shadow" style="">
-              <p class="my-3 text-center">The Chan Zuckerberg Biohub</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 p-3">
-        <a href="https://www.nhlbi.nih.gov/" class="box-link">
-          <div class="card">
-            <div class="card-body box shadow" style="">
-              <p class="my-3 text-center">NIH National Heart, Lung and Blood Institutes</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 p-3">
-        <a href="https://ctsi.ucsf.edu/catalyst" class="box-link">
-          <div class="card">
-            <div class="card-body box shadow" style="">
-              <p class="my-3 text-center">UCSF Catalyst Program</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 p-3">
-        <a href="https://benchtobassinet.com/About/AboutPCGC.aspx" class="box-link">
-          <div class="card">
-            <div class="card-body box shadow" style="">
-              <p class="my-3 text-center">Pediatric Cardiac Genomics Consortium</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4 col-md-6 p-3">
-        <a href="http://www.sarnofffoundation.org/" class="box-link">
-          <div class="card">
-            <div class="card-body box shadow" style="">
-              <p class="my-3 text-center">Sarnoff Cardiovascular Research Foundation</p>
-            </div>
-          </div>
-        </a>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </div>
