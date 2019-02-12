@@ -4,7 +4,7 @@
   journal: "Nature Medicine"
   year: "2019"
   date: "2019 Jan 7"
-  image: /assets/image/pub/arnaout_natmed_2019.png
+  image: arnaout_natmed_2019.png
   url: "https://doi.org/10.1038/s41591-018-0318-x"
 
 - citation: "Arnaout R. Deep-learning models improve on community-level diagnosis for common congenital heart disease lesions. ArXiv e-prints. 2018;1809.06993."
@@ -13,7 +13,7 @@
   journal: "arXiv"
   year: "2018"
   date: "2018 Sep 19"
-  image: /assets/image/pub/arnaout_arxiv_2018.png
+  image: arnaout_arxiv_2018.png
   url: "https://arxiv.org/abs/1809.06993"
 
 - citation: "Guerra A, Germano RVF, Stone O, Arnaout R, Guenther S, Ahuja S, Uribe V, Vanhollebeke B, Stainier DYR, Reischauer S. Distinct myocardial lineages break atrial symmetry during cardiogenesis in zebrafish. eLife. 2018 May 15;2018;7:e32833."
@@ -22,7 +22,7 @@
   journal: "eLife"
   year: "2018"
   date: "2018 May 15"
-  image: /assets/image/pub/guerra_elife_2018.png
+  image: guerra_elife_2018.png
   url: "https://elifesciences.org/articles/32833"
 
 - citation: "Arnaout R, Orr N, Gula LJ, Spears DA, Leong-Sit P, Li Q, Tarhuni W, Reischauer S, Chauhan VS, Borkovich M, Uppal S, Adler A, Coughlin SR, Stainier DY, Gollob MH. A mutation in the atrial-specific myosin light chain gene (MYL4) causes familial atrial fibrillation. Nat Commun. 2016 Apr 12;7:11303. doi: 10.1038/ncomms11303."
@@ -31,7 +31,7 @@
   journal: "Nat Commun."
   year: "2016"
   date: "2016 Apr 12"
-  image: /assets/image/pub/arnaout_natcomm_2016.png
+  image: arnaout_natcomm_2016.png
   url: "https://www.nature.com/articles/ncomms11303"
   pmid: "27066836"
   pmcid: "PMC4832069"
@@ -42,7 +42,7 @@
   journal: "npj Digital Medicine"
   year: "2018"
   date: "2018 Mar 21"
-  image: /assets/image/pub/madani_npjdm_2018.jpg
+  image: madani_npjdm_2018.jpg
   url: "https://www.nature.com/articles/s41746-017-0013-1"
 
 - citation: "Brown D, Samsa LA, Ito C, Ma H, Batres K, Arnaout R, Qian L, Liu J. Neuregulin-1 is essential for nerve plexus formation during cardiac maturation. J Cell Mol Med. 2017 Dec 19. doi: 10.1111/jcmm.13408. [Epub ahead of print]"
@@ -51,7 +51,7 @@
   journal: "J Cell Mol Med."
   year: "2017"
   date: "2017 Dec 19"
-  image: /assets/image/pub/brown_jcmm_2017.png
+  image: brown_jcmm_2017.png
   pmid: "29265764"
   pmcid: "PMC5824398"
 
@@ -61,7 +61,7 @@
   journal: "arXiv"
   year: "2017"
   date: "2017 Jun 17"
-  image: /assets/image/pub/madani_arxiv_2017_cropped.png
+  image: madani_arxiv_2017_cropped.png
   url: "https://arxiv.org/abs/1706.08658"
 
 - citation: "Gut P, Reischauer S, Stainier DYR, Arnaout R. LITTLE FISH, BIG DATA: ZEBRAFISH AS A MODEL FOR CARDIOVASCULAR AND METABOLIC DISEASE. Physiol Rev. 2017 Jul 1;97(3):889-938. doi: 10.1152/physrev.00038.2016. Review."
@@ -70,7 +70,7 @@
   authors: "Gut P, Reischauer S, Stainier DYR, **Arnaout R**."
   journal: "Physiol Rev."
   year: "2017"
-  image: /assets/image/pub/gut_physrev_2017.png
+  image: gut_physrev_2017.png
   pmid: "28468832"
   pmcid: "PMC5817164"
 
@@ -80,7 +80,7 @@
   authors: "**Arnaout R**, Reischauer S, Stainier DY."
   journal: "J Vis Exp."
   year: "2014"
-  image: /assets/image/pub/arnaout_jove_2014.png
+  image: arnaout_jove_2014.png
   pmid: "25548868"
   pmcid: "PMC4396955"
 
@@ -90,7 +90,7 @@
   authors: "Reischauer S, **Arnaout R**, Ramadass R, Stainier DY."
   journal: "Circ Res."
   year: "2014"
-  image: /assets/image/pub/compressed_reischauer_circres_2014.png
+  image: compressed_reischauer_circres_2014.png
   pmid: "25228389"
   pmcid: "PMC4371144"
 
@@ -100,7 +100,7 @@
   authors: "**Arnaout R**, Stainier DY."
   journal: "Curr Biol."
   year: "2011"
-  image: /assets/image/pub/arnaout_currbiol_2011.png
+  image: arnaout_currbiol_2011.png
   pmid: "22032191"
   doi: "10.1016/j.cub.2011.09.005"
   url: "https://www.cell.com/current-biology/fulltext/S0960-9822(11)01006-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982211010062%3Fshowall%3Dtrue"
@@ -111,7 +111,7 @@
   authors: "**Arnaout R**, Thorson A."
   journal: "Card Electrophysiol Clin."
   year: "2010"
-  image: "/assets/image/pub/transparent_background.png"
+  image: "transparent_background.png"
   pmid: "28770764"
   url: "https://www.cardiacep.theclinics.com/article/S1877-9182(10)00031-6/fulltext"
 
@@ -121,7 +121,7 @@
   authors: "Chi NC, Shaw RM, Jungblut B, Huisken J, Ferrer T, **Arnaout R**, Scott I, Beis D, Xiao T, Baier H, Jan LY, Tristani-Firouzi M, Stainier DY."
   journal: "PLoS Biol"
   year: "2008"
-  image: /assets/image/pub/chi_plosbiol_2008.png
+  image: chi_plosbiol_2008.png
   pmid: "18479184"
   pmcid: "PMC2430899"
 
@@ -131,6 +131,6 @@
   authors: "**Arnaout R**, Ferrer T, Huisken J, Spitzer K, Stainier DY, Tristani-Firouzi M, Chi NC."
   journal: "Proc Natl Acad Sci USA"
   year: "2007"
-  image: /assets/image/pub/compressed_arnaout_pnas_2007.jpg
+  image: compressed_arnaout_pnas_2007.jpg
   pmid: "17592134"
   pmcid: "PMC2040896"
