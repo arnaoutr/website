@@ -24,6 +24,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
+collections:
+  join_us:
+    output: true
+    permalink: /:collection/:name
 # Build settings
 
 plugins:
