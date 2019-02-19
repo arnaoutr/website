@@ -1,74 +1,120 @@
 ---
-layout: splash
-author_profile: false
-title: ""
-#header:
-#  image: /assets/image/color_doppler_cropped.jpg
+layout: default
 ---
-<style>
-/*@media (min-width: 769px) {
-    .jumbotron{
-    margin-left:28%;
-    }
-}
-    
-@media (max-width: 768px) {
-    .w3-sidebar {
-        display: none;
-    }
-    .jumbotron{
-        margin-left: 0%;
-        float: left;
-    }
-}*/
-
-/*h1{
-  font-family: 'PT Sans', sans-serif;
-}
-
-img{
-  width: 100%;
-}
-
-#news a{
-  color: black;
-style="padding-bottom:50px; height:300px; width:100%;"
-}*/
-</style>
-
-<head>
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-</head>
-
-
-<div class="jumbotron">
-  <center><h1 style="font-size:230%">Welcome to the Arnaout Lab!</h1></center>
-  <br>
-  <center><img src="{{ site.baseurl }}/assets/image/heart_graphic_white.png" alt=""></center>
+<div class="py-3 text-center" style="">
+  <div class="container">
+    <div class="row">
+      <div class="div col-12">
+        <img src="/assets/image/heart_graphic_white.png" width="100%" alt="">
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center car">
+      <div class="col-sm-8 col-sm-offset-2 d-flex flex-column">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="carousel slide" data-ride="carousel" id="carousel">
+              <div class="carousel-inner">
+                {% for news in site.posts %}
+                <div class="carousel-item {% if forloop.first == true %} active {% endif %}"> 
+                  <!-- <img class="d-block img-fluid w-100" src="/assets/image/news/{{ news.img }}"> -->
+                  <div class="carousel-caption carousel-img" style="background-image: url(/assets/image/news/{{ news.img }});">
+                    <a href="{{ news.url }}" class="home-news">{{ news.title }} <br />
+                      {% if news.title2%} {{ news.title2 }} {% endif%}</a>
+                    <!-- <h5 class="m-0">Carousel</h5>  -->
+                  </div>
+                </div>
+                {% endfor %}
+              </div> <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel" role="button"
+                data-slide="next"> <span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<!-- <div class="jumbotron">
-  <center><img src="{{ site.baseurl }}/assets/image/heart_graphic_white.png" alt=""></center>
-  <br>
-  <center><h1 style="font-size:230%">Welcome to the Arnaout Lab!</h1></center>
+<div class="py-3 home-logo bg-light">
+  <div class="container-fluid no-gutters">
+    <div class="row no-gutters align-items-center">
+      <div class="col"> 
+       <a href="https://www.ucsf.edu/">
+         <img class="img-fluid  l-1 d-block" src="/assets/image/logos/1.png">
+       </a> 
+      </div>
+      <div class="col"> 
+        <a href="https://precision.heart.org/">
+          <img class="img-fluid l-2 d-block" src="/assets/image/logos/3.png">
+        </a>
+      </div>
+      <div class="col"> 
+        <a href="https://www.czbiohub.org/">
+          <img class="img-fluid l-3 d-block" src="/assets/image/logos/5.png">
+        </a>
+      </div>
+      <div class="col"> 
+        <a href="https://www.bidmc.org/">
+          <img class="img-fluid l-4 d-block" src="/assets/image/logos/7.png">
+        </a>
+      </div>
+      <div class="col"> 
+        <a href="https://www.stanford.edu/">
+          <img class="img-fluid l-5 d-block" src="/assets/image/logos/9.png">
+        </a>
+      </div>
+    </div>
+    <div class="row no-gutters align-items-center">
+      <div class="col"> 
+        <a href="http://bakarinstitute.ucsf.edu/">
+          <img class="img-fluid  l-6 d-block" src="/assets/image/logos/2.png">
+        </a>
+      </div>
+      <div class="col"> 
+        <a href="https://www.nhlbi.nih.gov/">
+          <img class="img-fluid l-7 d-block" src="/assets/image/logos/4.png">
+        </a>
+      </div>
+      <div class="col"> 
+        <a href="https://benchtobassinet.com/?page_id=17">
+          <img class="img-fluid l-8 d-block" src="/assets/image/logos/6.png">
+        </a>
+      </div>
+      <div class="col"> 
+        <a href="https://www.sarnofffoundation.org/">
+          <img class="img-fluid l-9 d-block" src="/assets/image/logos/8.png">
+        </a>
+      </div>
+      <div class="col"> 
+        <a href="https://www.berkeley.edu/">
+          <img class="img-fluid l-10 d-block" src="/assets/image/logos/10.png">
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
- -->
-<br>
-<br>
-<div id="news" style="float:left;">
-<h1> Recent News </h1>
-<hr>
-
-<!--<ul style="font-size:90%; list-style: none; padding-left:0; color:black;">-->   
-
-<ul style="font-size:90%; padding-left:20px; color:black;">   
-
-{% for p in site.posts %}
-    <li>
-     <strong><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></strong>
-     {{ p.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+<div class="text-center bg-primary text-white pt-4 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="mb-3 title">Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel insights
+          and therapies.</h1>
+        <p class="description">This can occur by drilling down—understanding the genetic and cellular mechanism of a particular disease—or
+          going broad, using computational means to analyze precision phenotypes at scale. Dr. Arnaout is currently
+          developing computational methods to bring precision phenotyping to medical imaging. Her background as a
+          physician-scientist informs the future scope of this work as a technology that can transform non-invasive
+          imaging into a big-data tool for both research and clinical use. She also uses animal and in vitro models to
+          study cardiovascular gene function and to model human cardiovascular disease. </p>
+      </div>
+    </div>
+  </div>
 </div>
-
+<div class="">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="p-0 col-12 h-25">
+        <img class="d-block img-fluid w200" src="/assets/image/cnnfilter_top_crop.png">
+      </div>
+    </div>
+  </div>
+</div>

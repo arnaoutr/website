@@ -1,0 +1,23 @@
+ <nav class="navbar navbar-expand-md navbar-dark bg-primary p-2" style="">
+    <div class="container"> <a class="navbar-brand" href="/">
+        <b> Arnaout Lab @ UCSF</b>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar16"
+        aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse " id="navbar16" style="">
+        <ul class="navbar-nav ml-auto bg-primary text-white">
+          {% for link in site.data.menu %} {% unless forloop.last == true %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ link.url }}">{{ link.text }}</a>
+          </li>
+          {% endunless %} {% if forloop.last == true %}
+          <li class="nav-item">
+        <a href="{{ link.url }}" class="nav-link join-btn">{{ link.text }}</a>
+
+          </li>
+          {% endif %} {% endfor %}
+        </ul> 
+      </div>
+    </div>
+  </nav>

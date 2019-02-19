@@ -1,0 +1,53 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<div class="">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="p-0 col-12"> <img class="img-fluid d-block" src="/assets/image/heart_graphic_white.png">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="py-3 research-box text-center bg-primary text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="mb-3 heading title">Research</h1>
+        <p  class="description"> <strong>Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel insights and
+            therapies.</strong> This can occur by drilling down—understanding the genetic and cellular mechanism of a
+          particular disease—or going broad, using computational means to analyze precision phenotypes at scale. Dr.
+          Arnaout is currently developing computational methods to bring precision phenotyping to medical imaging. Her
+          background as a physician-scientist informs the future scope of this work as a technology that can transform
+          non-invasive imaging into a big-data tool for both research and clinical use. She also uses animal and in
+          vitro models to study cardiovascular gene function and to model human cardiovascular disease.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="text-center col-md-12">
+        <h1 class=" headingg title"><strong>Affiliated organizations</strong></h1>
+      </div>
+    </div>
+    <div class="row">
+      {% for organizations in site.data.affiliated_organizations %}
+      <div class="col-lg-4 col-md-6 p-3">
+        <a href="{{ organizations.website }}" class="box-link">
+          <div class="card ">
+            <div class="card-body box shadow" style="">
+              <p class="my-3 text-center">{{ organizations.title }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

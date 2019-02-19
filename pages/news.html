@@ -1,0 +1,48 @@
+---
+layout: default
+title: "News"
+permalink: /news/
+---
+<div class="py-3 bg-light">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-8">
+        <div class="row">
+            {% for news in site.posts %}
+          <div class="col-12 py-2">
+            <a href="{{ news.url }}" class="news-link">
+              <div class="card">
+                <div class="card-body shadow news box">
+                  <h5 class="card-title"><b>{{news.title}} {{news.title2}}</b></h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-4 py-2"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/arnaoutlab"
+          data-widget-id="profile:arnaoutlab">Tweets by @arnaoutlab</a>
+        <div id="example1"></div>
+        <script>
+          window.twttr = (function (d, s, id) {
+            var t, js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            return window.twttr || (t = {
+              _e: [],
+              ready: function (f) {
+                t._e.push(f)
+              }
+            });
+          }(document, "script", "twitter-wjs"));
+        </script>
+        <script src="/assets/js/main.js"></script>
+      </div>
+    </div>
+  </div>
+</div>

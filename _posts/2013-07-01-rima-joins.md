@@ -1,8 +1,9 @@
 ---
-title: <a href='https://cardiology.ucsf.edu/facstaff/spotlight/arnaout.html'>Rima Arnaout joins the Cardiology faculty at UCSF</a>
+title: Rima Arnaout joins the Cardiology faculty at UCSF
 date: 2013-07-01
-redirect: https://cardiology.ucsf.edu/facstaff/spotlight/arnaout.html
+img: "newsbox_mmode1.png"
+redirect_to:
+  - https://cardiology.ucsf.edu/facstaff/spotlight/arnaout.html
 ---
 
 [comment]: <> (Read the full article [here](https://cardiology.ucsf.edu/facstaff/spotlight/arnaout.html).)
-

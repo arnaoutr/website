@@ -1,0 +1,24 @@
+# upload all logo in assets
+- img: "ucsf_logo_navy.png"
+  url: "https://www.ucsf.edu/"
+
+- img: "aha_pmi_logo.png"
+  url: "https://precision.heart.org/"
+
+- img: "czb_logo_transparent.png"
+  url: "https://www.czbiohub.org/"
+
+- img: "stanford.logo.png"
+  url: "https://www.stanford.edu/"
+
+- img: "nhlbi_logo_transparent_background.png"
+  url: "https://www.nhlbi.nih.gov/"
+
+- img: "pcgc_logo.png"
+  url: "https://benchtobassinet.com/?page_id=17"
+
+- img: "sarnoff_logo.png"
+  url: "https://www.sarnofffoundation.org/"
+
+- img: "berkeley_logo.png"
+  url: "https://www.berkeley.edu/"

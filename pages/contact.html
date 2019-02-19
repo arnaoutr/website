@@ -1,0 +1,50 @@
+---
+layout: default
+title: "Contact Us"
+permalink: /contact/
+---
+<div class="">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="p-0 col-12"> <img class="img-fluid d-block" src="/assets/image/heart_graphic_white.png">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-3 text-center bg-primary text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="mb-3 heading title">Contact Us</h1>
+        <p class="description">Rima Arnaout, Assistant Professor<br>Division of Cardiology, Department of Medicine<br>Bakar Institute for
+          Computational Health Sciences<br>Graduate Program in Biological and Medical Informatics&nbsp;<br>University
+          of California, San Francisco&nbsp;<br>email: rima.arnaout@ucsf.edu&nbsp;<br>505 Parnassus Avenue&nbsp;<br>San
+          Francisco, CA 94143 &nbsp;&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="text-center col-md-12">
+        <a href="#" id="join-us"></a>
+        <h1 class=" title"><strong>Join Us</strong></h1>
+      </div>
+    </div>
+    <div class="row">
+      {% for job in site.join_us %}
+      <div class="col-lg-4 col-md-6 p-2">
+        <a href="{{job.url}}" class="news-link">
+          <div class="card">
+            <div class="card-body shadow news box">
+              <h5 class="card-title"><b>{{job.title}}</b></h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+      
+    </div>
+  </div>
+</div>
