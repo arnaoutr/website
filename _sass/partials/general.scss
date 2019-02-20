@@ -13,9 +13,18 @@
     border-color: $btn-back-color;
     color: $btn-color;
 }
+.list-inline-item a {
+  color: #fff;
+  opacity: .8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
   #twitter-widget-0{
     height: 1875px!important;
   }
+
 .twitterfeed {
   display: block;
   margin: 0;
