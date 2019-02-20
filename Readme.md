@@ -22,3 +22,6 @@ To add additional pages to the website for these job postings, e.g. when someone
 
 To change the favicon
   Replace 'favicon.ico' with new updated favicon icon in home directory of the site.
+
+To change color
+  update color.yml data file and change as per your requirement. 
