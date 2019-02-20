@@ -2,6 +2,17 @@
   html {
     scroll-behavior: smooth;
   }
+.bg-primary {
+  background: $primary;
+}
+.bg-light {
+  background: $secondary;
+}
+.btn-secondary {
+    background-color: $btn-back-color;
+    border-color: $btn-back-color;
+    color: $btn-color;
+}
   #twitter-widget-0{
     height: 1875px!important;
   }

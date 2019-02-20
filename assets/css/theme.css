@@ -1740,9 +1740,6 @@ fieldset:disabled a.btn {
       box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(43, 65, 100, 0.5); }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #068488;
-  border-color: #068488;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-secondary:hover {
     color: #fff;
@@ -4575,9 +4572,6 @@ a.close.disabled {
 .align-text-top {
   vertical-align: text-top !important; }
 
-.bg-primary {
-  background-color: #052049 !important; }
-
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -4622,9 +4616,6 @@ a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #bd2130 !important; }
-
-.bg-light {
-  background-color: #F1EFEF !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
