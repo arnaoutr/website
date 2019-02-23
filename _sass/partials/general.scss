@@ -4,9 +4,11 @@
   }
 .bg-primary {
   background: $primary;
+  color: $primary-text-color!important;
 }
 .bg-light {
   background: $secondary;
+  color: $secondary-text-color!important;
 }
 .btn-secondary {
     background-color: $btn-back-color;
@@ -361,7 +363,7 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
  }
  .home-news {
    padding: 0 100px;
-   color: #fff!important;
+   color: $news-box-text-color!important;
    font-size: 1.5rem;
  }
  .home-news:hover {
@@ -383,13 +385,13 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
  }
 .nav-item a 
   {
-  color: #fff!important;
+  color: $nav-link-color!important;
   margin-left: 10px!important;
   margin-right: 10px!important;
 }
  .join-btn {
-   color: #fff!important;
-   border: solid 1px #fff;
+   color: $join-us-btn-color!important;
+   border: solid 1px $join-us-btn-color;
    border-radius: 50px;
    padding: 10px 30px!important;
    -webkit-transition: all .3s;
@@ -397,8 +399,8 @@ clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%,
    transition: all .3s;
  }
   .join-btn:hover {
-    color: #000!important;
-    background: #fff;
+    color: $join-us-btn-hover-color!important;
+    background: $join-us-btn-bg;
     border: solid 1px #fff!important;
   }
 .nav-link:hover {
