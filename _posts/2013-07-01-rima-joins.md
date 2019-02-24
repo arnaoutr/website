@@ -6,4 +6,4 @@ redirect_to:
   - https://cardiology.ucsf.edu/facstaff/spotlight/arnaout.html
 ---
 
-[comment]: <> (Read the full article [here](https://ucsfhealthcardiology.ucsf.edu/facstaff/spotlight/arnaout).)
+[comment]: <> (Read the full article [here](https://cardiology.ucsf.edu/facstaff/spotlight/arnaout.html).)
