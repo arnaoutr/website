@@ -1,6 +1,6 @@
 primary-color: "#052049"
 primary-text-color: '#fff'
-secondary-color: "# EFF1F7"
+secondary-color: "#F1EFEF"
 secondary-text-color: '#000'
 read-more-btn-background: "#068488"
 read-more-text-btn-color: "#fff"
@@ -9,3 +9,5 @@ join-us-btn-text-color: '#fff'
 join-us-btn-hover-text-color: '#000'
 join-us-btn-bg-color: '#fff'
 news-box-text-color: '#fff'
+
+color.yml is the real sheet

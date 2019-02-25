@@ -1,5 +1,5 @@
 ---
-title: "Toward a clearer picture of health -- Nature Medicine"
+title: "Toward a clearer picture of health — Nature Medicine"
 date: 2019-01-07
 img: "newsbox_mmode1.png"
 redirect_to:

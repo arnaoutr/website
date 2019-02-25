@@ -1,5 +1,5 @@
 ---
-title: "How is New Technology like AI Impacting Clinical Care? -- ECHO Magazine"
+title: "How is New Technology like AI Impacting Clinical Care? — ECHO Magazine"
 img: "newsbox_cells.png"
 date: 2018-11-12
 redirect_to:
