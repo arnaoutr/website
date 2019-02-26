@@ -119,7 +119,7 @@
 }
 .box:hover {
   color: #000;
-  background-color: #cde5ef;
+  background-color: $box-hover-color;
 }
 .news.box {
   /* justify-content: start; */
