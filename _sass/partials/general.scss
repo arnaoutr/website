@@ -400,6 +400,10 @@ html {
 .home-news:hover {
   text-decoration: none;
 }
+.news-box {
+  max-height: 1885px;
+  overflow: auto;
+}
 .carousel-caption {
   min-height: 200px;
   /* background: #000; */
