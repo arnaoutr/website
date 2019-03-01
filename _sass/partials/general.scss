@@ -2,6 +2,10 @@
 html {
   scroll-behavior: smooth;
 }
+.no-padding {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
 .bg-primary {
   background: $primary;
   color: $primary-text-color !important;
