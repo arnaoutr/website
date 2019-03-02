@@ -394,7 +394,7 @@ html {
   text-decoration: none;
 }
 .car {
-  margin-top: -60px;
+  margin-top: -170px;
 }
 .carousel-inner {
   // border-radius: 10px;
@@ -415,7 +415,7 @@ html {
   overflow: auto;
 }
 .carousel-caption {
-  min-height: 200px;
+  min-height: 250px;
   /* background: #000; */
   position: unset;
   display: -webkit-box;
@@ -482,11 +482,17 @@ html {
     margin-right: 0 !important;
     font-size: 14px;
   }
+  .home-img {
+    height: 500px;
+  }
 }
 @media only screen and (max-width: 767px) and (min-width: 700px) {
   .home-news {
     font-size: 1.1rem;
     padding: 0 70px;
+  }
+  .home-img {
+    height: 400px;
   }
 
   .nav-item a {
@@ -505,7 +511,7 @@ html {
     transition: all 0.3s;
   }
   .carousel-caption {
-    min-height: 150px;
+    min-height: 160px;
   }
   .home-logo {
     padding: 2.5rem 0 !important ;
@@ -553,8 +559,11 @@ html {
   #twitter-widget-0 {
     height: 600px !important;
   }
+  .home-img {
+    height: auto;
+  }
   .carousel-caption {
-    min-height: 150px;
+    min-height: 160px;
   }
   .modal-close {
     position: fixed;
