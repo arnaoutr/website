@@ -362,34 +362,31 @@ html {
   background-size: cover;
 }
 /* Home Page Logo */
-.home-logo .img-fluid {
-  min-width: 250px;
-  max-width: 251px;
-  height: 125px;
-  margin: 0 auto;
+.img-fluid {
+  width: 100%;
 }
-// .l-1 {
-//   height: 125px;
-// }
-// .l-2,
-// .l-3 {
-//   height: 115px;
-// }
-// .l-4 {
-//   height: 130px;
-// }
-// .l-5 {
-//   margin: 0 auto;
-//   width: 80%;
-//   height: 150px;
-// }
-// .l-6,
-// .l-7,
-// .l-8,
-// .l-9,
-// .l-10 {
-//   height: 100px;
-// }
+.l-1 {
+  height: 125px;
+}
+.l-2,
+.l-3 {
+  height: 115px;
+}
+.l-4 {
+  height: 130px;
+}
+.l-5 {
+  margin: 0 auto;
+  width: 80%;
+  height: 150px;
+}
+.l-6,
+.l-7,
+.l-8,
+.l-9,
+.l-10 {
+  height: 100px;
+}
 .news-link {
   color: #000;
 }
@@ -517,31 +514,31 @@ html {
   .home-logo {
     padding: 2.5rem 0 !important ;
   }
-  // .l-1 {
-  //   height: 90px;
-  // }
-  // .l-2,
-  // .l-3 {
-  //   height: 85px;
-  // }
-  // .l-4 {
-  //   height: 110px;
-  // }
-  // .l-5 {
-  //   margin: 0 auto;
-  //   width: 80%;
-  //   height: 120px;
-  // }
-  // .l-6,
-  // .l-7,
-  // .l-8,
-  // .l-9,
-  // .l-10 {
-  //   height: 70px;
-  // }
-  // .l-8 {
-  //   width: 50%;
-  // }
+  .l-1 {
+    height: 90px;
+  }
+  .l-2,
+  .l-3 {
+    height: 85px;
+  }
+  .l-4 {
+    height: 110px;
+  }
+  .l-5 {
+    margin: 0 auto;
+    width: 80%;
+    height: 120px;
+  }
+  .l-6,
+  .l-7,
+  .l-8,
+  .l-9,
+  .l-10 {
+    height: 70px;
+  }
+  .l-8 {
+    width: 50%;
+  }
   .join-btn {
     background: none;
     color: #fff !important;
@@ -607,28 +604,28 @@ html {
   .home-logo {
     padding: 1.5rem 0 !important ;
   }
-  // .l-1 {
-  //   height: 50px;
-  // }
-  // .l-2,
-  // .l-3 {
-  //   height: 40px;
-  // }
-  // .l-4 {
-  //   height: 50px;
-  // }
-  // .l-5 {
-  //   margin: 0 auto;
-  //   width: 80%;
-  //   height: 55px;
-  // }
-  // .l-6,
-  // .l-7,
-  // .l-8,
-  // .l-9,
-  // .l-10 {
-  //   height: 35px;
-  // }
+  .l-1 {
+    height: 50px;
+  }
+  .l-2,
+  .l-3 {
+    height: 40px;
+  }
+  .l-4 {
+    height: 50px;
+  }
+  .l-5 {
+    margin: 0 auto;
+    width: 80%;
+    height: 55px;
+  }
+  .l-6,
+  .l-7,
+  .l-8,
+  .l-9,
+  .l-10 {
+    height: 35px;
+  }
   .join-btn {
     border: none;
     padding-left: 0 !important;
