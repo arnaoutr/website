@@ -3,10 +3,9 @@ title: "Project Manager for Data Science"
 layout: jobs
 ---
 
-<p align="center">
-# **Project Manager Position in Arnaout Laboratory at UCSF**
-</p>
-<br>
+# **<p align="center">
+Project Manager Position in Arnaout Laboratory at UCSF
+</p>**
 <br>
 
 We are hiring a project manager for data science with early-to-mid career skills and experience.<br>
