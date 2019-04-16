@@ -4,8 +4,8 @@ layout: jobs
 ---
 
 # **<p align="center">
-Data Scientist Position in Arnaout Laboratory at UCSF
-</p>**
+Data Scientist Position in Arnaout Laboratory at UCSF**
+</p>
 <br>
 
 We are hiring a data scientist with mid-career skills and experience. Applications will be accepted on a rolling basis.<br>
