@@ -18,7 +18,7 @@ We are hiring a data scientist with mid-career skills and experience. Applicatio
 **Requirements:** <br>
 •	A Masters, PhD or equivalent degree and/or experience in computer science, data science/analytics, or related field<br>
 •	strong interpersonal, organizational, record-keeping, written and oral communication skills<br>
-•	working with patient data in a HIPPA-compliant and morally and ethically responsible manner<br>
+•	working with patient data in a HIPAA-compliant and morally and ethically responsible manner<br>
 •	working closely with an interdisciplinary team including both medical and data science professionals<br>
 •	working independently to complete assigned responsibilities<br>
 •	strong motivation to apply pioneering breakthroughs to the practical, personalized everyday care of patients<br>
