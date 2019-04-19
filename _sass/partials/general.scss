@@ -438,7 +438,7 @@ html {
 }
 .join-btn {
   color: $join-us-btn-color !important;
-  border: solid 1px $join-us-btn-color;
+  border: solid 1px $join-us-btn-border-color;
   border-radius: 50px;
   padding: 10px 30px !important;
   -webkit-transition: all 0.3s;
@@ -448,7 +448,7 @@ html {
 .join-btn:hover {
   color: $join-us-btn-hover-color !important;
   background: $join-us-btn-bg;
-  border: solid 1px #fff !important;
+  border: solid 1px $join-us-btn-border-hover-color !important;
 }
 .nav-link:hover {
   border-bottom: solid 1px;
