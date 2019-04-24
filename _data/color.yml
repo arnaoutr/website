@@ -8,7 +8,7 @@ menu-text-color: "#fff"
 join-us-btn-text-color: '#fff'
 join-us-btn-hover-text-color: '#fff'
 join-us-btn-bg-color: '#eb093c'
-join-us-btn-border-color: '#fff'
+join-us-btn-border-color: '#eb093c'
 join-us-btn-border-hover-color: '#eb093c'
 news-box-text-color: '#fff'
 box-hover-color: '#cde5ef'
