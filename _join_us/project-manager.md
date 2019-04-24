@@ -29,7 +29,7 @@ We are hiring a project manager for data science with early-to-mid career skills
 <br>
 **In addition to the above, the successful applicant will:** <br>
 •	be proficient basic python/pandas<br>
-•	have a working knowledge of basic machine learning concepts (including neural networks)
+•	have a working knowledge of basic machine learning concepts (including neural networks)<br>
 •	have a working knowledge of biology and human physiology, and/or a desire to learn relevant concepts <br>
 
 
