@@ -456,6 +456,9 @@ html {
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
+.join-btn.active {
+  border-bottom: solid 1px $join-us-btn-border-color!important;
+}
 .nav-link.active {
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
