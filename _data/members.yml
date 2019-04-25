@@ -2,53 +2,65 @@
   image: erin_chinn.jpg
   position: Data Science Researcher
   role: Lab Member
-  email: erin.chinn@ucsf.edu
+  email: erin.chinn (at) ucsf.edu
   github: "emchinn"
   linkedin: "erinchinn"
   description: "Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master's Degree in Analytics from the University of San Francisco."
 
-- name: Lara Curran, MBBS BSc
-  image: lara_curran.jpg
-  position: Visiting Research Scholar
+- name: Anil Kemisetti, MS
+  image: anil_kemisetti.png
+  position: Data Science and Engineering Researcher
   role: Lab Member
-  email: lara.groom@ucsf.edu
-  description: "Dr. Curran is trained in internal medicine and is a cardiology fellow at University College London. She is a visiting researcher from the UK."
+  email: anil.kemisetti (at) ucsf.edu
+  # github: ""
+  # linkedin: ""
+  description: "Anil is completing a Master's Degree in Analytics from the University of San Francisco. Prior to that he worked on enterprise-scale engineering applications and data analysis for large software companies."
 
 - name: Yili Zhao, PhD RDCS
   image: yili_zhao.jpg
   position: Research Sonographer
   role: Lab Member
-  email: yili.zhao@ucsf.edu
+  email: yili.zhao (at) ucsf.edu
   description: "Yili practices clinical fetal and pediatric ultrasonography, as well as participates in fetal cardiology research."
 
 - name: Jon Renslo, BS
   image: jon_renslo.jpg
   position: Research Affiliate
   role: Lab Member
-  email: jon.renslo@ucsf.edu
+  email: jon.renslo (at) ucsf.edu
   description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
 
-# - name: Ana Santos Lima, MD
-#   image: jon_renslo.jpg
-#   position: Research Affiliate
-#   email: jon.renslo@ucsf.edu
-#   description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
-
-- name: Claudia Portillo, BS
-  image: claudia_portillo.jpg
-  position: Research Affiliate
+- name: Sami Abuzaid, MD
+  image: sami_abuzaid.png
+  position: Advanced Cardiovascular Imaging Fellow
   role: Lab Member
-  email: claudia.portillo@ucsf.edu
-  description: "Claudia graduated from Vassar College with a Bachelor's degree in Biochemistry and is currently in the UC Berkeley post-Baccalaureate program. Claudia's interests include bench research and community health care. She is applying to medical school in the fall."
-# - name: Walter Rasmussen, RDMS, RDCS
-#   image: jon_renslo.jpg
+  email: ahmed.abuzaid (at) ucsf.edu
+  description: "Sami is a cardiologist who is completing subspecialty training in cardiovascular imaging at UCSF."
+
+# - name: Ana Paula Santos Lima, MD
+#   image: 
+#   position: Associate Specialist
+#   role: Lab Member
+#   email: anapaula.santoslima (at) ucsf.edu
+#   description: "Ana Paula is a radiologist specializing in cardiovascular imaging. She completed her medical and subspecialty training in Brasil."
+
+# - name: Catherine (Rina) Donovan, RDCS
+#   image: 
 #   position: Research Affiliate
-#   email: jon.renslo@ucsf.edu
-#   description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
+#   role: Lab Member
+#   description: "Rina has decades of experience in adult cardiovascular ultrasound and has worked in both clinical and research settings."
+
+- name: Lara Curran, MBBS BSc
+  image: lara_curran.jpg
+  position: Visiting Research Scholar
+  role: Lab Member
+  email: lara.groom (at) ucsf.edu
+  description: "Lara is trained in internal medicine and is a cardiology fellow at University College London. She is a visiting researcher from the UK."
 
 # - name: Martha Tesfalul, MD
 #   image: martha_tesfalul.jpg
 #   position: Clinical Fellow
-#   email: martha.tesfalul@ucsf.edu
+#   role: Lab Member
+#   email: martha.tesfalul (at) ucsf.edu
 #   description: "Dr. Tesfalul is a maternal-fetal medicine fellow at UCSF."
 
