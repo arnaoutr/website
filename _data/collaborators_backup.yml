@@ -15,6 +15,7 @@
 - name: Julia Adler-Milstein, PhD
   # image: julia_adler_milstein.jpg
   position: Associate Professor
+  role: Collaborator
   email: julia.adler-milstein (at) ucsf.edu
   website: "https://medicine.ucsf.edu/cliir"
   # twitter: j_r_a_m
@@ -22,6 +23,7 @@
 
 - name: Karen Ordovas, MD
   position: Professor of Radiology
+  role: Collaborator
   website: "https://profiles.ucsf.edu/karen.ordovas"
   email: karen.ordovas (at) ucsf.edu
   description: "Dr. Ordovas is Director of Cardiac Imaging and Co-Chair of the Cardiovascular Imaging Research Imaging Interest Group (CIRIG) in the Department of Radiology and Biomedical Imaging at UCSF. She specializes in Cardiac and Pulmonary Imaging, in particular cardiovascular CT and MRI."
@@ -29,6 +31,7 @@
 - name: Rakesh Mishra, MD
   # image: rakesh_mishra.jpg
   position: Professor of Medicine
+  role: Collaborator
   email: rakesh.mishra (at) ucsf.edu
   website: "https://profiles.ucsf.edu/rakesh.mishra"
   description: "Dr. Mishra's research focuses on the identification of serum and imaging biomarkers of cardiac disease and cardiac physiology."
