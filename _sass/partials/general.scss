@@ -502,6 +502,7 @@ html {
   }
 
   .nav-item a {
+    width: fit-content;
     color: #fff !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -510,11 +511,16 @@ html {
     margin-right: 10px !important;
     color: $join-us-btn-color !important;
     border: solid 1px $join-us-btn-border-color;
-    border-radius: 20px;
+    border-radius: 0;
     padding: 8px 10px !important;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+
+    &:hover {
+      border: none!important;
+      border-bottom: solid 1px $join-us-btn-border-hover-color !important;
+    }
   }
   .carousel-caption {
     min-height: 160px;
@@ -583,10 +589,21 @@ html {
   .modal-wrapper {
     top: 2em;
   }
+  .join-btn {
+    border: none!important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0;
+
+    &.active {
+      border-radius: 0;
+    }
+  }
   .join-btn:hover {
     background: none;
     color: $join-us-btn-color !important;
-    border: none;
+    border: none!important;
+    border-bottom: solid 1px $join-us-btn-border-hover-color !important;
   }
   .title {
     font-size: 1.8rem;
@@ -634,10 +651,5 @@ html {
   // .l-10 {
   //   height: 35px;
   // }
-  .join-btn {
-    border: none;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin: 0;
-  }
+
 }
