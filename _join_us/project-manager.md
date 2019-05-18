@@ -12,7 +12,8 @@ We are hiring a project manager for data science with early-to-mid career skills
 
 **POSITION.** The successful candidate will work closely with the Principal Investigator and team to coordinate data science research projects; organize and maintain computational and clinical operating procedures; and coordinate communications for the laboratory. The project manager position offers an opportunity to manage medical data science projects across the entire life cycle, from data mining PHI and interacting with clinicians to organizing data processing and analysis tasks, communicating with clinical and technical collaborators, and integrating findings into the clinical context. Salary and benefits are set according to experience and to UCSF salary scales.<br>
 
-**CONTACT.** Inquiries should be emailed directly to Dr. Arnaout and should include a CV and a clear but brief letter of interest.<br>
+**CONTACT.** Inquiries should be emailed directly to Dr. Arnaout and should include a CV and a clear but brief letter of interest. You can also apply at <http://tiny.ucsf.edu/arnaoutlabpm> <br>
+
 
 
 <br>
