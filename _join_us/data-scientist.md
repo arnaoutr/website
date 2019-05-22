@@ -12,7 +12,7 @@ We are hiring a data scientist with mid-career skills and experience. Applicatio
 
 **POSITION.** The data scientist position offers an opportunity to participate in cutting-edge research with transformational impact to clinical and research medicine across a wide array of diseases, working with decades of high-quality medical data alongside clinical domain experts. The position also provides opportunities to publish, present at research conferences, and for professional advancement. Salary and benefits are set according to experience and to UCSF salary scales.<br>
 
-**CONTACT.** Inquiries should be emailed directly to Dr. Arnaout and should include a CV and a clear but brief letter of interest.<br>
+**CONTACT.** Inquiries should be emailed directly to Dr. Arnaout and should include a CV and a clear but brief letter of interest. You can also apply at <http://tiny.ucsf.edu/arnaoutlabds><br>
 
 <br>
 **Requirements:** <br>
