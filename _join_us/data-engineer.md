@@ -12,7 +12,7 @@ We are hiring a data engineer with mid-career skills and experience. Application
 
 **POSITION.** The data engineer position offers an opportunity to participate in cutting-edge research with transformational impact to clinical and research medicine across a wide array of diseases, working with decades of high-quality medical data alongside clinical domain experts. The position also provides opportunities to publish, present at research conferences, and for professional advancement. Salary and benefits are set according to experience and to UCSF salary scales.<br>
 
-**CONTACT.** Inquiries should be emailed directly to Dr. Arnaout (rima.arnaout (at) ucsf.edu) and should include a CV and a clear but brief letter of interest.<br>
+**CONTACT.** Applications should include a CV and a clear but brief letter of interest sent via the following link: <http://tiny.ucsf.edu/arnaoutlabdataeng>.<br>
 
 <br>
 **Requirements:** <br>
