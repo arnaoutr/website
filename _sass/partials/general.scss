@@ -501,6 +501,7 @@ html {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  background: $join-us-btn-rest-bg;
 }
 
 .join-btn:hover {
@@ -586,6 +587,7 @@ html {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    background: none;
 
     &:hover {
       border: none !important;
@@ -627,7 +629,7 @@ html {
   //   width: 50%;
   // }
   .join-btn {
-    background: none;
+    background: none !important;
     color: $join-us-btn-color !important;
     border: none;
   }
@@ -673,6 +675,7 @@ html {
 
   .join-btn {
     border: none !important;
+    background: none !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin: 0;
