@@ -17,18 +17,21 @@ title: 'Home'
             <div class="carousel slide" data-ride="carousel" id="carousel">
               <div class="carousel-inner">
                 {% for news in site.posts %}
-                <div class="carousel-item {% if forloop.first == true %} active {% endif %}"> 
+                <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
                   <!-- <img class="d-block img-fluid w-100" src="/assets/image/news/{{ news.img }}"> -->
-                  <div class="carousel-caption carousel-img" style="background-image: url(/assets/image/news/{{ news.img }});">
+                  <div class="carousel-caption carousel-img"
+                    style="background-image: url(/assets/image/news/{{ news.img }});">
                     <a href="{{ news.url }}" class="home-news">{{ news.title }} <br />
                       {% if news.title2%} {{ news.title2 }} {% endif%}</a>
                     <!-- <h5 class="m-0">Carousel</h5>  -->
                   </div>
                 </div>
                 {% endfor %}
-              </div> <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel" role="button"
-                data-slide="next"> <span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span>
+              </div> <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev"> <span
+                  class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carousel"
+                role="button" data-slide="next"> <span class="carousel-control-next-icon"></span> <span
+                  class="sr-only">Next</span>
               </a>
             </div>
           </div>
@@ -40,54 +43,66 @@ title: 'Home'
 <div class="py-3 home-logo bg-light">
   <div class="container-fluid no-gutters">
     <div class="row no-gutters align-items-center">
-      <div class="logo-item"> 
-       <a href="https://www.ucsf.edu/">
-         <img class="img-fluid  l-1 d-block" src="/assets/image/logos/ucsf_logo_sized.png">
-       </a> 
+      <div class="logo-item">
+        <a href="https://www.ucsf.edu/">
+          <img class="img-fluid  l-1 d-block" src="/assets/image/logos/ucsf_logo_sized.png">
+        </a>
       </div>
-      <div class="logo-item"> 
+      <div class="logo-item">
         <a href="https://precision.heart.org/">
           <img class="img-fluid l-2 d-block" src="/assets/image/logos/aha_logo_sized.png">
         </a>
       </div>
-      <div class="logo-item"> 
+      <div class="logo-item">
         <a href="https://www.czbiohub.org/">
           <img class="img-fluid l-3 d-block" src="/assets/image/logos/biohub_logo_sized.png">
         </a>
       </div>
-      <div class="logo-item"> 
+      <div class="logo-item">
         <a href="https://www.bidmc.org/">
           <img class="img-fluid l-4 d-block" src="/assets/image/logos/bidmc_logo_sized.png">
         </a>
       </div>
-      <div class="logo-item"> 
-        <a href="https://www.stanford.edu/">
-          <img class="img-fluid l-5 d-block" src="/assets/image/logos/stanford_logo_sized.png">
-        </a>
-      </div>
     </div>
     <div class="row no-gutters align-items-center">
-      <div class="logo-item"> 
+      <div class="logo-item">
         <a href="http://bakarinstitute.ucsf.edu/">
           <img class="img-fluid  l-6 d-block" src="/assets/image/logos/Bakar_logo_sized.png">
         </a>
       </div>
-      <div class="logo-item"> 
+      <div class="logo-item">
         <a href="https://www.nhlbi.nih.gov/">
           <img class="img-fluid l-7 d-block" src="/assets/image/logos/nhlbi_logo_sized.png">
         </a>
       </div>
-      <div class="logo-item"> 
+      <div class="logo-item">
         <a href="https://benchtobassinet.com/?page_id=17">
           <img class="img-fluid l-8 d-block" src="/assets/image/logos/pcgc_logo_sized.png">
         </a>
       </div>
-      <div class="logo-item"> 
+      <div class="logo-item">
         <a href="https://www.sarnofffoundation.org/">
           <img class="img-fluid l-9 d-block" src="/assets/image/logos/sarnoff_logo_sized.png">
         </a>
       </div>
-      <div class="logo-item"> 
+    </div>
+    <div class="row no-gutters align-items-center">
+      <div class="logo-item">
+        <a href="https://intelligentimaging.ucsf.edu/">
+          <img class="img-fluid l-5 d-block" src="/assets/image/logos/ci2_logo_sized.png">
+        </a>
+      </div>
+      <div class="logo-item">
+        <a href="https://cdmrp.army.mil/">
+          <img class="img-fluid l-5 d-block" src="/assets/image/logos/dod_logo2_sized.png">
+        </a>
+      </div>
+      <div class="logo-item">
+        <a href="https://www.stanford.edu/">
+          <img class="img-fluid l-5 d-block" src="/assets/image/logos/stanford_logo_sized.png">
+        </a>
+      </div>
+      <div class="logo-item">
         <a href="https://www.berkeley.edu/">
           <img class="img-fluid l-10 d-block" src="/assets/image/logos/berkeley_logo_sized.png">
         </a>
@@ -99,9 +114,11 @@ title: 'Home'
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="mb-3 title">Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel insights
+        <h1 class="mb-3 title">Improving the resolution and accuracy of cardiovascular phenotypes will lead to novel
+          insights
           and therapies.</h1>
-        <p class="description">This can occur by drilling down—understanding the genetic and cellular mechanism of a particular disease—or
+        <p class="description">This can occur by drilling down—understanding the genetic and cellular mechanism of a
+          particular disease—or
           going broad, using computational means to analyze precision phenotypes at scale. Dr. Arnaout is currently
           developing computational methods to bring precision phenotyping to medical imaging. Her background as a
           physician-scientist informs the future scope of this work as a technology that can transform non-invasive
