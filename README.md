@@ -51,6 +51,8 @@ after that set 5 column in each and every raw in index.html file
 ## For update Affiliated Organizations and Join Us boxes font size
 Go to the color.yml file I have added option for update font sizeWe're HirinI'hv added  g button rest fill color
 
- variable for that
 ## For We're Hiring button rest fill color
 I'hv added  join-us-btn-rest-bg-color variable for that
+
+## For update contact info and name in contact page
+Go to pages/contact.html and update it
