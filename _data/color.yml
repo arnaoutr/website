@@ -9,7 +9,7 @@ menu-text-color: '#fff'
 join-us-btn-text-color: '#fff'
 join-us-btn-hover-text-color: '#fff'
 join-us-btn-bg-color: '#eb093c'
-join-us-btn-rest-bg-color: 'none'
+join-us-btn-rest-bg-color: '#eb093c'
 join-us-btn-border-color: '#eb093c'
 join-us-btn-border-hover-color: '#eb093c'
 

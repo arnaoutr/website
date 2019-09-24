@@ -46,7 +46,7 @@ But if you want to 5 column in a raw then you need to update css also and for th
 GO to \_sass/partials/general.scss file and find .logo-item (in my cse it located in line no 410)
 
 and update the width 24.5% to 18%
-after that set 5 column in each and every raw in index.html file
+after that set 5 column in each and every row in index.html file
 
 ## For update Affiliated Organizations and Join Us boxes font size
 Go to the color.yml file I have added option for update font sizeWe're HirinI'hv added  g button rest fill color
