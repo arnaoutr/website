@@ -23,19 +23,12 @@
   email: yili.zhao (at) ucsf.edu
   description: "Yili practices clinical fetal and pediatric ultrasonography, as well as participates in fetal cardiology research."
 
-- name: Jon Renslo, BS
-  image: jon_renslo.jpg
-  position: Research Affiliate
+- name: Michael Henne, MPH
+  image: michael_henne.jpg
+  position: Project Manager
   role: Lab Member
-  email: jon.renslo (at) ucsf.edu
-  description: "Jon graduated with a Bachelor's degree in Mechanical Engineering from Stanford University. He is now in the post-Baccalaureate program at UC Berkeley, after which he hopes to become a physician."
-
-- name: Sami Abuzaid, MD
-  image: sami_abuzaid.png
-  position: Advanced Cardiovascular Imaging Fellow
-  role: Lab Member
-  email: ahmed.abuzaid (at) ucsf.edu
-  description: "Sami is a cardiologist who is completing subspecialty training in cardiovascular imaging at UCSF."
+  email: michael.henne (at) ucsf.edu
+  description: "Michael holds a Master of Public Health from San Francisco State University and a project management professional certification from the Project Management Institute. Prior to joining the lab, he managed machine learning and digital health research in the UCSF Department of Orthopaedic Surgery. He is currently completing his data science certification through IBM."
 
 # - name: Ana Paula Santos Lima, MD
 #   image: anapaula_santoslima.png
