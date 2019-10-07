@@ -43,6 +43,13 @@
 #   role: Lab Member
 #   description: "Rina has extensive experience in adult cardiovascular ultrasound and has worked in both clinical and research settings."
 
+- name: Rina Donovan, RDCS
+  image: rina_donovan.png
+  position: Research Ultrasound Technician
+  role: Lab Member
+  email: catherine.donovan (at) ucsf.edu
+  description: "Rina is a senior ultrasound tech with over 20 years experience in clinical and research Echocardiography. She has served as a Non Invasive Lab Director and graduated CCSF's Cardiovascular Tech Program."
+
 - name: Lara Curran, MBBS BSc
   image: lara_curran.jpg
   position: Visiting Research Scholar
