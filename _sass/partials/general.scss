@@ -122,7 +122,6 @@ html {
 .box-link {
   color: #000;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -133,18 +132,20 @@ html {
 
 .box {
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   min-height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -webkit-align-items: center;
+          align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 
 .box:hover {
@@ -160,7 +161,6 @@ html {
 
 .publication {
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   max-width: 250px;
   margin: 0 auto;
@@ -253,7 +253,6 @@ html {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s;
-  -o-transition: visibility 0s linear 0.3s, opacity 0.3s;
   transition: visibility 0s linear 0.3s, opacity 0.3s;
 }
 
@@ -261,7 +260,6 @@ html {
   opacity: 1;
   visibility: visible;
   -webkit-transition-delay: 0s;
-  -o-transition-delay: 0s;
   transition-delay: 0s;
 }
 
@@ -273,13 +271,11 @@ html {
   width: 32em;
   margin-left: -16em;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
   box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
 }
 
 .modal-transition {
   -webkit-transition: all 0.3s 0.12s;
-  -o-transition: all 0.3s 0.12s;
   transition: all 0.3s 0.12s;
   -webkit-transform: translateY(-10%);
   -ms-transform: translateY(-10%);
@@ -302,7 +298,6 @@ html {
 .modal-header {
   position: relative;
   background-color: #fff;
-  -webkit-box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
   box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
   border-bottom: 1px solid #e8e8e8;
 }
@@ -477,13 +472,16 @@ html {
   position: unset;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  -webkit-align-items: center;
+          align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 
 .nav-item a {
@@ -499,7 +497,6 @@ html {
   padding: 10px 30px !important;
   box-sizing: border-box;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   background: $join-us-btn-rest-bg;
 }
@@ -513,7 +510,6 @@ html {
 .nav-link:hover {
   border-bottom: solid 1px;
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
@@ -523,7 +519,6 @@ html {
 
 .nav-link.active {
   -webkit-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
   border-bottom: solid 1px;
 }
@@ -571,6 +566,8 @@ html {
   }
 
   .nav-item a {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     color: #fff !important;
     margin-left: 0 !important;
@@ -585,7 +582,6 @@ html {
     padding: 8px 10px !important;
     padding-left: 0 !important;
     -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
     transition: all 0.3s;
     background: none;
 
@@ -603,31 +599,6 @@ html {
     padding: 2.5rem 0 !important;
   }
 
-  // .l-1 {
-  //   height: 90px;
-  // }
-  // .l-2,
-  // .l-3 {
-  //   height: 85px;
-  // }
-  // .l-4 {
-  //   height: 110px;
-  // }
-  // .l-5 {
-  //   margin: 0 auto;
-  //   width: 80%;
-  //   height: 120px;
-  // }
-  // .l-6,
-  // .l-7,
-  // .l-8,
-  // .l-9,
-  // .l-10 {
-  //   height: 70px;
-  // }
-  // .l-8 {
-  //   width: 50%;
-  // }
   .join-btn {
     background: none !important;
     color: $join-us-btn-color !important;
@@ -705,9 +676,6 @@ html {
     width: 150px !important;
     height: 150px !important;
   }
-
-  .publication {}
-
   .nav-item {
     width: -webkit-fit-content !important;
     width: -moz-fit-content !important;
@@ -722,30 +690,6 @@ html {
   .home-logo {
     padding: 1.5rem 0 !important;
   }
-
-  // .l-1 {
-  //   height: 50px;
-  // }
-  // .l-2,
-  // .l-3 {
-  //   height: 40px;
-  // }
-  // .l-4 {
-  //   height: 50px;
-  // }
-  // .l-5 {
-  //   margin: 0 auto;
-  //   width: 80%;
-  //   height: 55px;
-  // }
-  // .l-6,
-  // .l-7,
-  // .l-8,
-  // .l-9,
-  // .l-10 {
-  //   height: 35px;
-  // }
-
 }
 .organizations_font_size {
   font-size: $organizations_font_size;
