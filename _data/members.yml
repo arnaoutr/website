@@ -1,3 +1,10 @@
+- name: Michael Henne, MPH
+  image: michael_henne.jpg
+  position: Project Manager
+  role: Lab Member
+  email: michael.henne (at) ucsf.edu
+  description: "Michael holds a Master of Public Health from San Francisco State University and a project management professional certification from the Project Management Institute. Prior to joining the lab, he managed machine learning and digital health research in the UCSF Department of Orthopaedic Surgery. He is currently completing his data science certification through IBM."
+
 - name: Erin Chinn, MS
   image: erin_chinn.jpg
   position: Data Science Researcher
@@ -7,14 +14,32 @@
   linkedin: "erinchinn"
   description: "Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master's Degree in Analytics from the University of San Francisco."
 
-- name: Anil Kemisetti, MS
-  image: anil_kemisetti.png
-  position: Data Science and Engineering Researcher
-  role: Lab Member
-  email: anil.kemisetti (at) ucsf.edu
+#- name: Danielle Lopes Ferreira Astuto, PhD
+#  image: 
+#  position: Data Science Researcher
+#  role: Lab Member
+#  email: danielle.lopesferreiraastuto (at) ucsf.edu
+#  github: 
+#  linkedin: 
+#  description: 
+
+#- name: Forest Finnigan, MS
+#  image: 
+#  position: Data Science Researcher
+#  role: Lab Member
+#  email: Forest Finnigan (at) ucsf.edu
+#  github: 
+#  linkedin: 
+#  description: 
+
+# - name: Anil Kemisetti, MS
+#  image: anil_kemisetti.png
+#  position: Data Science and Engineering Researcher
+#  role: Lab Member
+#  email: anil.kemisetti (at) ucsf.edu
   # github: ""
   # linkedin: ""
-  description: "Anil is completing a Master's Degree in Analytics from the University of San Francisco. Prior to that he worked on enterprise-scale engineering applications and data analysis for large software companies."
+#  description: "Anil is completing a Master's Degree in Analytics from the University of San Francisco. Prior to that he worked on enterprise-scale engineering applications and data analysis for large software companies."
 
 - name: Yili Zhao, PhD RDCS
   image: yili_zhao.jpg
@@ -23,12 +48,6 @@
   email: yili.zhao (at) ucsf.edu
   description: "Yili practices clinical fetal and pediatric ultrasonography, as well as participates in fetal cardiology research."
 
-- name: Michael Henne, MPH
-  image: michael_henne.jpg
-  position: Project Manager
-  role: Lab Member
-  email: michael.henne (at) ucsf.edu
-  description: "Michael holds a Master of Public Health from San Francisco State University and a project management professional certification from the Project Management Institute. Prior to joining the lab, he managed machine learning and digital health research in the UCSF Department of Orthopaedic Surgery. He is currently completing his data science certification through IBM."
 
 # - name: Ana Paula Santos Lima, MD
 #   image: anapaula_santoslima.png
