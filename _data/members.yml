@@ -14,20 +14,20 @@
   linkedin: "erinchinn"
   description: "Erin received dual undergraduate degrees from UC Davis in Biology and Mechanical Engineering. She worked as a process engineer in the Bay Area before receiving a Master's Degree in Analytics from the University of San Francisco."
 
-#- name: Danielle Lopes Ferreira Astuto, PhD
-#  image: 
-#  position: Data Science Researcher
-#  role: Lab Member
-#  email: danielle.lopesferreiraastuto (at) ucsf.edu
-#  github: 
-#  linkedin: 
-#  description: 
+- name: Danielle Lopes Ferreira Astuto, PhD
+  image: danielle_lopes.jpg
+  position: Data Science Researcher
+  role: Lab Member
+  email: danielle.lopesferreiraastuto (at) ucsf.edu
+  github: 
+  linkedin: 
+  description: "Before joining UCSF, Danielle worked as a visiting Ph.D. researcher at the Internetwork-Research Group (i-NRG) at the University of California in Santa Cruz's Computer Engineering Department. She has a Ph.D. in Computer Engineering from the Federal University of the State of Rio de Janeiro - Brazil, and an MSc from COPPE at the Federal University of Rio de Janeiro (UFRJ) - Brazil. Her research interests include neural networks, computer vision and deep learning models to image classification and segmentation."
 
 - name: Forest Finnigan, MS
   image: Forest_Finnigan.jpg
   position: Data Science Researcher
   role: Lab Member
-  email: Forest Finnigan (at) ucsf.edu
+  email: forest.finnigan (at) ucsf.edu
   #github: 
   #linkedin: 
   description: "Forest received a Master's degree from University of California, Berkeley, focusing on AI.  Before that he also received an undergraduate degree from UC Berkeley in Electrical Engineering and Computer Science."
