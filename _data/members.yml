@@ -23,14 +23,14 @@
 #  linkedin: 
 #  description: 
 
-#- name: Forest Finnigan, MS
-#  image: 
-#  position: Data Science Researcher
-#  role: Lab Member
-#  email: Forest Finnigan (at) ucsf.edu
-#  github: 
-#  linkedin: 
-#  description: 
+- name: Forest Finnigan, MS
+  image: Forest_Finnigan.jpg
+  position: Data Science Researcher
+  role: Lab Member
+  email: Forest Finnigan (at) ucsf.edu
+  #github: 
+  #linkedin: 
+  description: "Forest received a Master's degree from University of California, Berkeley, focusing on AI.  Before that he also received an undergraduate degree from UC Berkeley in Electrical Engineering and Computer Science."
 
 # - name: Anil Kemisetti, MS
 #  image: anil_kemisetti.png
