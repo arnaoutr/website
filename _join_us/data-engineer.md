@@ -23,6 +23,7 @@ We are hiring a data engineer with mid-career skills and experience. Application
 •	strong interpersonal, organizational, record-keeping, written & oral communication skills<br>
 •	working with patient data in a HIPAA-compliant and morally and ethically responsible manner<br>
 •	working independently to complete assigned responsibilities<br>
+•	excellent analytical and critical thinking skills with respect to exploratory data analysis, pipeline design, and troubleshooting<br>
 •	ability to work with an interdisciplinary team of both medical and data science professionals<br>
 •	strong motivation to apply pioneering breakthroughs to the practical, personalized patient care<br>
 •	fluency with Python (ideally using Pandas, Keras, Tensorflow/Theano, etc) and related programming languages, as well as data visualizations (ideally using d3.js, R, Matlab, pylab, seaborn, etc).<br>
